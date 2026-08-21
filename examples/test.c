@@ -4,7 +4,7 @@
 
 #include "pinyin_ime.h"
 
-static void show(pinyin_ime* ime, const char* what)
+static void show(pinyin_ime_t* ime, const char* what)
 {
 	printf("[%s] 剩余分词: '%s'  结果: '%s'  候选(%d):",
 	       what,
@@ -12,17 +12,16 @@ static void show(pinyin_ime* ime, const char* what)
 	       pinyin_ime_get_result(ime) ? pinyin_ime_get_result(ime) : "",
 	       pinyin_ime_get_candidate_count(ime));
 	int n = pinyin_ime_get_candidate_count(ime);
-	int show_n = n > 10 ? 10 : n;
-	for (int i = 0; i < show_n; i++)
+	for (int i = 0; i < n; i++)
 		printf(" %d.%s", i, pinyin_ime_get_candidate(ime, i));
-	printf("%s\n", n > 10 ? " ..." : "");
+	printf("\n");
 }
 
 int main(int argc, char** argv)
 {
 	const char* pinyin = argc > 1 ? argv[1] : "sjie";
 
-	pinyin_ime* ime = pinyin_ime_init("pinyin.txt", "dictionary.data");
+	pinyin_ime_t* ime = pinyin_ime_init("pinyin.txt", "dictionary.data");
 	if (!ime)
 	{
 		fprintf(stderr, "初始化失败\n");
@@ -40,7 +39,9 @@ int main(int argc, char** argv)
 	int step = 0;
 	while (!pinyin_ime_is_finished(ime) && pinyin_ime_get_candidate_count(ime) > 0)
 	{
-		int idx = argc > 2 ? atoi(argv[2]) : 0;
+		int idx;
+		printf("请选择: ");
+	    scanf("%d", &idx);
 		if (pinyin_ime_select(ime, idx) != PINYIN_IME_OK)
 		{
 			fprintf(stderr, "选择候选失败\n");

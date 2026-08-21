@@ -1,3 +1,4 @@
+a  6  啊 0  阿 0  吖 0  嗄 0  腌 0  锕 0  
 a'a'a  1  啊啊啊 2  
 a'ai  1  阿爱 0  
 a'ai'wang  1  阿埃旺 0  
@@ -1228,6 +1229,7 @@ a'zu'la  1  阿祖拉 0
 a'zu'lai  1  阿祖莱 0  
 a'zu'luo  1  阿祖罗 0  
 a'zu'mi  1  阿祖弥 0  
+ai  23  埃 0  挨 0  哎 0  唉 0  哀 0  皑 0  癌 0  蔼 0  矮 0  艾 0  碍 0  爱 0  隘 0  诶 0  捱 0  嗳 0  嗌 0  嫒 0  瑷 0  暧 0  砹 0  锿 0  霭 0  
 ai'a'hua'zhou  1  爱阿华州 2  
 ai'ai  7  哀哀 3  皑皑 12  爱爱 2  艾艾 4  蔼蔼 1  碍碍 1  矮矮 0  
 ai'ai'ai  1  爱爱爱 0  
@@ -2280,6 +2282,7 @@ ai'zou  1  挨揍 11
 ai'zu  1  爱祖 0  
 ai'zu'guo  1  爱祖国 0  
 ai'zu'hua  1  癌组化 0  
+an  18  鞍 0  氨 0  安 0  俺 0  按 0  暗 0  岸 0  胺 0  案 0  谙 0  埯 0  揞 0  犴 0  庵 0  桉 0  铵 0  鹌 0  黯 0  
 an'ai'bo  1  安埃泊 0  
 an'ai'po  1  安埃泊 0  
 an'an  4  暗暗 92  俺案 0  黯暗 0  安安 4  
@@ -3215,6 +3218,7 @@ an'zong  1  案宗 2
 an'zu  2  按组 1  安族 0  
 an'zu'la  1  安祖拉 0  
 an'zuo  4  安坐 9  鞍座 10  铵作 0  按作 0  
+ang  3  肮 0  昂 0  盎 0  
 ang'bu  1  昂布 2  
 ang'bu'jing  1  肮不净 0  
 ang'bu'lun  1  昂布伦 1  
@@ -3289,6 +3293,7 @@ ang'ze  1  昂泽 0
 ang'zhao  1  昂着 7  
 ang'zhu'tou  1  昂著头 0  
 ang'zhuo  1  昂着 7  
+ao  23  凹 0  敖 0  熬 0  翱 0  袄 0  傲 0  奥 0  懊 0  澳 0  坳 0  拗 0  嗷 0  岙 0  廒 0  遨 0  媪 0  骜 0  獒 0  聱 0  鏊 0  鳌 0  鏖 0  螯 0  
 ao'an  1  傲岸 0  
 ao'an'dao  1  奥安到 0  
 ao'ao  3  嗷嗷 0  奥奥 0  凹凹 0  
@@ -4005,6 +4010,7 @@ ao'zi'kan  1  奥兹坎 0
 ao'zu  1  奥祖 3  
 ao'zu'cun  1  奥祖村 0  
 ao'zu'wei  1  奥组委 108  
+ba  26  芭 0  捌 0  扒 0  叭 0  吧 0  笆 0  八 0  疤 0  巴 0  拔 0  跋 0  靶 0  把 0  耙 0  坝 0  霸 0  罢 0  爸 0  茇 0  菝 0  岜 0  灞 0  钯 0  粑 0  鲅 0  魃 0  
 ba'a'lei  1  巴阿雷 4  
 ba'a'lei'wang  1  巴阿雷望 0  
 ba'a'liang'guo  1  巴阿两国 0  
@@ -4929,6 +4935,7 @@ ba'zong'ze  1  八宗则 0
 ba'zu  3  巴族 0  巴祖 0  拔足 0  
 ba'zu'ka  1  巴祖卡 0  
 ba'zuo  1  八座 4  
+bai  10  白 0  伯 0  柏 0  百 0  摆 0  佰 0  败 0  拜 0  稗 0  捭 0  
 bai'ai'ai  1  白皑皑 1  
 bai'ai'xiang  1  白矮象 0  
 bai'ai'xing  1  白矮星 13  
@@ -6045,6 +6052,7 @@ bai'zu  3  白族 9  百足 0  伯祖 0
 bai'zu'mu  1  伯祖母 0  
 bai'zui  1  白嘴 3  
 bai'zuo  1  白做 3  
+ban  21  斑 0  班 0  搬 0  扳 0  般 0  颁 0  板 0  版 0  扮 0  拌 0  伴 0  瓣 0  半 0  办 0  绊 0  阪 0  坂 0  钣 0  瘢 0  癍 0  舨 0  
 ban'ai  2  般爱 0  版埃 0  
 ban'an  1  办案 38  
 ban'ba  1  瘢疤 0  
@@ -6758,6 +6766,7 @@ ban'zui  2  拌嘴 4  半醉 1
 ban'zuo  6  搬座 0  扮作 6  板座 0  扮做 1  半坐 0  半作 0  
 ban'zuo'hu'dun  1  板作护盾 0  
 ban'zuo'you  1  半左右 7  
+bang  14  邦 0  帮 0  梆 0  榜 0  膀 0  绑 0  棒 0  磅 0  蚌 0  镑 0  傍 0  谤 0  蒡 0  浜 0  
 bang'an  1  傍岸 0  
 bang'an'di  1  帮安迪 0  
 bang'ban  1  帮办 6  
@@ -6955,6 +6964,7 @@ bang'zi  4  梆子 4  膀子 8  棒子 27  帮子 9
 bang'zi'mian  1  棒子面 1  
 bang'zi'mian'zhou  1  棒子面粥 0  
 bang'zuo  1  帮作 0  
+bao  26  苞 0  胞 0  包 0  褒 0  剥 0  薄 0  雹 0  保 0  堡 0  饱 0  宝 0  抱 0  报 0  暴 0  曝 0  豹 0  鲍 0  爆 0  葆 0  孢 0  煲 0  鸨 0  褓 0  趵 0  龅 0  刨 0  
 bao'ai  1  薄霭 0  
 bao'an  3  保安 845  报案 48  宝安 5  
 bao'an'dui  1  保安队 4  
@@ -8242,6 +8252,7 @@ bao'zu'po  1  包租婆 0
 bao'zuo  4  宝座 210  宝坐 0  抱作 0  刨作 0  
 bao'zuo'bu  1  保作部 0  
 bao'zuo'ren  1  保佐人 3  
+bei  27  杯 0  碑 0  悲 0  卑 0  北 1  辈 0  背 0  贝 0  钡 0  倍 0  狈 0  备 0  惫 0  焙 0  被 0  孛 0  陂 0  邶 0  蓓 0  悖 0  碚 0  鹎 0  褙 0  鐾 0  鞴 0  呗 0  臂 0  
 bei'a  1  贝阿 1  
 bei'ai  2  悲哀 402  北爱 5  
 bei'ai'er  1  贝艾尔 0  
@@ -9361,6 +9372,7 @@ bei'zu  4  备足 1  贝祖 0  北卒 0  杯足 0
 bei'zuo  4  北座 0  备作 0  被作 0  杯座 0  
 bei'zuo'si  1  贝佐斯 2  
 bei'zuo'si'jiao  1  贝佐斯较 0  
+ben  7  奔 0  苯 0  本 0  笨 0  畚 0  坌 0  锛 0  
 ben'a'ji  1  本阿奇 0  
 ben'a'qi  1  本阿奇 0  
 ben'an  4  本案 160  苯胺 41  本安 0  笨胺 0  
@@ -9837,6 +9849,7 @@ ben'zun  1  本尊 1
 ben'zuo  3  苯佐 1  苯唑 0  本作 4  
 ben'zuo'hui  1  本作会 0  
 ben'zuo'kuai  1  本作会 0  
+beng  9  崩 0  绷 0  甭 0  泵 0  蹦 0  迸 0  嘣 0  甏 0  蚌 0  
 beng'an  1  崩岸 1  
 beng'beng  1  蹦蹦 0  
 beng'beng'tiao  1  蹦蹦跳 2  
@@ -9932,6 +9945,7 @@ beng'zhu  2  泵注 0  绷住 0
 beng'zhuang  1  甭装 0  
 beng'zhuo  1  绷着 1  
 beng'zhuo'lian  1  绷着脸 9  
+bi  56  逼 0  鼻 0  比 0  鄙 0  笔 1  彼 0  碧 0  蓖 0  蔽 0  毕 0  毙 0  毖 0  币 0  庇 0  痹 0  闭 0  敝 0  弊 0  必 0  辟 0  壁 0  臂 0  避 0  陛 0  匕 0  贲 0  俾 0  芘 0  荜 0  荸 0  萆 0  薜 0  吡 0  哔 0  狴 0  庳 0  愎 0  滗 0  濞 0  弼 0  妣 0  婢 0  嬖 0  璧 0  畀 0  铋 0  秕 0  裨 0  筚 0  箅 0  篦 0  舭 0  襞 0  跸 0  髀 0  秘 0  
 bi'a'bu  1  比阿布 0  
 bi'a'qi  1  比阿齐 0  
 bi'a'shi  1  毕阿士 0  
@@ -11138,6 +11152,7 @@ bi'zun  1  必尊 1
 bi'zuo  8  比作 134  必作 34  必做 13  比做 37  笔座 2  吡唑 6  辟作 2  必坐 0  
 bi'zuo'shen  1  必作神 1  
 bi'zuo'wang  1  必作王 1  
+bian  26  鞭 0  边 0  编 0  贬 0  扁 0  便 0  变 0  卞 0  辨 0  辩 0  辫 0  遍 0  匾 0  弁 0  苄 0  忭 0  汴 0  缏 0  煸 0  砭 0  碥 0  窆 0  褊 0  蝙 0  笾 0  鳊 0  
 bian'ai  1  变矮 1  
 bian'an  2  变暗 29  边岸 1  
 bian'bai  3  变白 60  辩白 15  辨白 1  
@@ -11864,6 +11879,7 @@ bian'zuan  1  编纂 183
 bian'zuan'zhe  1  编纂者 3  
 bian'zui  1  扁嘴 0  
 bian'zuo  5  变作 19  便作 2  编作 3  便座 0  编做 0  
+biao  17  标 0  彪 0  膘 0  表 0  婊 0  骠 0  杓 0  飑 0  飙 0  飚 0  镖 0  镖 0  镳 0  瘭 0  裱 0  鳔 0  髟 0  
 biao'an  2  表暗 0  标案 0  
 biao'ba  5  表把 0  标靶 5  表八 1  表拔 2  标霸 3  
 biao'bai  1  表白 83  
@@ -12320,6 +12336,7 @@ biao'zhuo  1  标着 10
 biao'zi  4  婊子 108  表姊 3  杓子 3  表字 0  
 biao'zou  2  表走 24  标走 0  
 biao'zuo  2  表作 3  表座 0  
+bie  5  鳖 0  憋 0  别 0  瘪 0  蹩 0  
 bie'ao  1  别熬 1  
 bie'bai'chu  1  别摆出 0  
 bie'ban  1  别办 0  
@@ -12630,6 +12647,7 @@ bie'zu  3  别族 2  别祖 0  憋足 0
 bie'zui  1  别嘴 0  
 bie'zuo  1  别作 2  
 bie'zuo'sheng  1  别作声 3  
+bin  15  彬 0  斌 0  濒 0  滨 0  宾 0  摈 0  傧 0  豳 0  缤 0  玢 0  殡 0  膑 0  镔 0  髌 0  鬓 0  
 bin'an  1  滨岸 1  
 bin'ao  1  滨奥 0  
 bin'ba  1  宾巴 0  
@@ -12763,6 +12781,7 @@ bin'zhou'shi  1  滨州市 3
 bin'zhu  1  宾主 0  
 bin'zhu'shuang'fang  1  宾主双方 1  
 bin'zu  1  滨组 0  
+bing  13  兵 0  冰 0  柄 0  丙 0  秉 0  饼 0  炳 0  病 0  并 0  禀 0  邴 0  摒 0  槟 0  
 bing'ai  1  兵爱 0  
 bing'an  3  病案 30  并案 0  丙胺 2  
 bing'an'suan  1  丙氨酸 8  
@@ -13373,6 +13392,7 @@ bing'zu  3  并组 0  丙组 5  病卒 0
 bing'zu'ben  1  并足本 0  
 bing'zuo  3  并作 57  饼作 0  冰做 3  
 bing'zuo'yi  1  并佐以 0  
+bo  35  卜 0  柏 0  玻 0  菠 0  播 0  拨 0  钵 0  波 0  博 0  勃 0  搏 0  铂 0  箔 0  伯 0  帛 0  舶 0  脖 0  膊 0  渤 0  泊 0  驳 0  亳 0  啵 0  饽 0  檗 0  擘 0  礴 0  钹 0  鹁 0  簸 0  踣 0  掰 0  跛 0  剥 0  薄 0  
 bo'a  1  博阿 1  
 bo'a'si  1  波阿斯 18  
 bo'a'teng  1  博阿滕 1  
@@ -14471,6 +14491,7 @@ bo'zu'sai'ren  1  波族塞人 0
 bo'zu'se'ren  1  波族塞人 0  
 bo'zu'yu  1  波族语 0  
 bo'zuo  2  拨作 5  博佐 1  
+bu  17  捕 0  卜 0  哺 0  补 0  埠 0  不 0  布 0  步 0  簿 0  部 0  怖 0  卟 0  瓿 0  晡 0  钚 0  钸 0  醭 0  
 bu'a'lai  1  布阿莱 0  
 bu'ai  3  不爱 85  补爱 0  不碍 0  
 bu'ai'du  1  不爱读 0  
@@ -16955,6 +16976,7 @@ bu'zuo'sheng  2  不作声 23  不做声 4
 bu'zuo'shi  1  不作事 0  
 bu'zuo'shou  1  不作寿 0  
 bu'zuo'xing  1  不作兴 0  
+ca  3  擦 0  嚓 0  礤 0  
 ca'bei  1  擦背 1  
 ca'bian  1  擦边 2  
 ca'bian'qiu  1  擦边球 13  
@@ -17010,6 +17032,7 @@ ca'yin  1  擦音 0
 ca'you  1  擦油 1  
 ca'zhi'mo'fen  1  擦脂抹粉 0  
 ca'zi  1  擦子 0  
+cai  11  猜 0  裁 0  材 0  才 0  财 0  睬 0  踩 0  采 0  彩 0  菜 0  蔡 0  
 cai'ai  1  猜爱 0  
 cai'ai'mei  1  蔡爱眉 0  
 cai'ba  1  采拔 0  
@@ -17662,6 +17685,7 @@ cai'zi'you  2  菜籽油 13  菜子油 1
 cai'zi'yu  1  采自于 0  
 cai'zou  1  采走 0  
 cai'zuo  2  采作 1  材作 0  
+can  12  餐 0  参 0  蚕 0  残 0  惭 0  惨 0  灿 0  孱 0  骖 0  璨 0  粲 0  黪 0  
 can'an  2  惨案 33  惨暗 0  
 can'ao  1  残奥 18  
 can'ao'cha  1  残奥茶 0  
@@ -18073,6 +18097,7 @@ can'zhuan  1  残砖 2
 can'zhuang  1  惨状 15  
 can'zhuo  2  餐桌 224  参酌 1  
 can'zhuo'shang  1  餐桌上 119  
+cang  6  苍 0  舱 0  仓 0  沧 0  藏 0  伧 0  
 cang'ai  1  苍艾 0  
 cang'ao  1  藏獒 9  
 cang'bai  1  苍白 314  
@@ -18267,6 +18292,7 @@ cang'zu  3  藏族 161  仓卒 2  仓租 0
 cang'zu'ren  1  藏族人 12  
 cang'zu'tong'bao  1  藏族同胞 1  
 cang'zuo  1  舱座 0  
+cao  9  操 0  糙 0  槽 0  曹 0  草 0  嘈 0  漕 0  螬 0  艚 0  
 cao'an  3  草案 5908  草庵 0  草胺 0  
 cao'ban  3  操办 13  操班 0  草半 0  
 cao'bao  1  草包 7  
@@ -18600,6 +18626,7 @@ cao'zuo'xing  1  操作性 33
 cao'zuo'yuan  1  操作员 124  
 cao'zuo'zhe  1  操作者 59  
 cao'zuo'zheng  1  操作证 0  
+ce  6  厕 0  策 0  侧 0  册 0  测 0  恻 0  
 ce'ba  1  测坝 0  
 ce'bai  1  侧柏 5  
 ce'bai'ye  1  侧柏叶 0  
@@ -18933,6 +18960,7 @@ ce'zi  1  册子 34
 ce'zu  1  侧阻 0  
 ce'zu'yu  1  厕足于 0  
 ce'zuo  2  册作 0  厕座 0  
+cen  3  参 0  岑 0  涔 0  
 cen'ai'ci  1  岑爱慈 0  
 cen'bai  1  参拜 35  
 cen'ban  1  参半 46  
@@ -19146,6 +19174,7 @@ cen'zhi'xiong  1  岑志雄 0
 cen'zhong'liang'yuan  1  参众两院 23  
 cen'zhu  1  参注 0  
 cen'zhuo  1  参酌 1  
+ceng  3  层 0  蹭 0  噌 0  
 ceng'an  1  层暗 0  
 ceng'ban  1  层板 19  
 ceng'bao  1  层薄 1  
@@ -19276,6 +19305,7 @@ ceng'zhuang  1  层状 64
 ceng'zhuang'jie'zhi  1  层状介质 1  
 ceng'zi  1  层自 0  
 ceng'zu  1  层组 0  
+cha  22  插 0  叉 0  茬 0  茶 0  查 0  碴 0  搽 0  察 0  岔 0  差 0  诧 0  馇 0  汊 0  姹 0  杈 0  楂 0  槎 0  檫 0  锸 0  镲 0  衩 0  猹 0  
 cha'ai  1  插艾 0  
 cha'an  3  差安 0  查案 5  差庵 0  
 cha'an'ti'ke  1  查安逖克 0  
@@ -19748,6 +19778,7 @@ cha'zu  3  插足 9  茶组 0  查组 0
 cha'zu'yu  1  插足于 1  
 cha'zui  1  插嘴 68  
 cha'zuo  2  插座 141  茶座 12  
+chai  7  拆 0  差 0  柴 0  豺 0  侪 0  钗 0  虿 0  
 chai'an  2  差安 0  差庵 0  
 chai'ban  1  拆版 1  
 chai'ban'shi  1  拆版时 0  
@@ -19996,6 +20027,7 @@ chai'zhuo  1  差着 0
 chai'zi  3  差子 0  拆字 1  柴兹 0  
 chai'zu  1  拆组 0  
 chai'zuo  1  拆作 0  
+chan  27  搀 0  掺 0  蝉 0  馋 0  谗 0  缠 0  单 0  铲 0  产 0  阐 0  颤 0  冁 0  谄 0  蒇 0  舛 0  廛 0  忏 0  潺 0  澶 0  羼 0  婵 0  骣 0  觇 0  禅 0  镡 0  蟾 0  躔 0  
 chan'an  3  单胺 3  产氨 0  馋案 0  
 chan'ba  1  单把 1  
 chan'bai  2  单摆 9  单拜 0  
@@ -20699,6 +20731,7 @@ chan'zu'tiao  1  单足跳 1
 chan'zui  1  馋嘴 1  
 chan'zuo  3  单坐 1  单作 2  单座 7  
 chan'zuo'shi  1  单座式 1  
+chang  26  昌 0  猖 0  场 0  尝 0  常 0  长 0  偿 0  肠 0  厂 0  敞 0  畅 0  唱 0  倡 0  伥 0  鬯 0  苌 0  菖 0  徜 0  怅 0  惝 0  阊 0  娼 0  嫦 0  昶 0  氅 0  鲳 0  
 chang'a'bu'lin  1  长阿布林 0  
 chang'ai  4  肠癌 12  常爱 1  长爱 0  长癌 0  
 chang'ai'lin  2  长艾琳 1  长艾林 0  
@@ -21544,6 +21577,7 @@ chang'zu'sai  1  肠阻塞 3
 chang'zu'se  1  肠阻塞 3  
 chang'zui  2  长嘴 3  长醉 0  
 chang'zuo  5  常作 10  常做 4  常坐 2  唱作 0  长作 3  
+chao  13  超 0  抄 0  钞 0  朝 0  嘲 0  潮 0  巢 0  吵 0  炒 0  怊 0  晁 0  焯 0  耖 0  
 chao'ai  1  超爱 5  
 chao'ai'zhe  1  超爱者 0  
 chao'an  1  潮安 1  
@@ -22102,6 +22136,7 @@ chao'zi'ran  1  超自然 103
 chao'zong  1  朝宗 1  
 chao'zui  1  吵嘴 29  
 chao'zuo  1  炒作 75  
+che  8  车 0  扯 0  撤 0  掣 0  彻 0  澈 0  坼 0  砗 0  
 che'an  1  撤案 2  
 che'ba  1  车把 22  
 che'ban  3  掣板 0  车板 1  车半 0  
@@ -22440,6 +22475,7 @@ che'zi  5  车子 657  撤资 34  车资 11  彻资 0  掣子 0
 che'zou  1  撤走 81  
 che'zu  2  车族 2  车组 5  
 che'zuo  2  车座 20  车作 1  
+chen  19  郴 0  臣 0  辰 0  尘 0  晨 0  忱 0  沉 0  陈 0  趁 0  衬 0  谌 0  谶 0  抻 0  嗔 0  宸 0  琛 0  榇 0  碜 0  龀 0  
 chen'ai  1  尘埃 258  
 chen'ai'la'ding  1  尘埃落定 34  
 chen'ai'lao'ding  1  尘埃落定 34  
@@ -23138,6 +23174,7 @@ chen'zu'ze  1  陈祖泽 0
 chen'zui  2  沉醉 36  陈醉 0  
 chen'zui'yu  1  沉醉于 25  
 chen'zui'zai  1  沉醉在 21  
+cheng  26  撑 0  称 0  城 0  橙 0  成 0  呈 0  乘 0  程 0  惩 0  澄 0  诚 0  承 0  逞 0  骋 0  秤 0  丞 0  埕 0  枨 0  柽 0  塍 0  瞠 0  铖 0  铛 0  裎 0  蛏 0  酲 0  
 cheng'ai  1  成癌 0  
 cheng'ai'lin  1  乘爱琳 0  
 cheng'ai'xin  1  称埃辛 0  
@@ -24136,6 +24173,7 @@ cheng'zu'ren  1  承租人 177
 cheng'zu'zhe  1  承租者 0  
 cheng'zun  1  称尊 0  
 cheng'zuo  5  乘坐 625  称作 269  称做 55  乘座 2  城做 2  
+chi  39  墀 0  吃 0  痴 0  持 0  匙 0  池 0  迟 0  弛 0  驰 0  耻 0  齿 0  侈 0  尺 0  赤 0  翅 0  斥 0  炽 0  傺 0  坻 0  茌 0  叱 0  哧 0  啻 0  嗤 0  彳 0  饬 0  媸 0  敕 0  眵 0  鸱 0  瘛 0  褫 0  蚩 0  螭 0  笞 0  篪 0  豉 0  踟 0  魑 0  
 chi'an  1  池岸 0  
 chi'ba  1  尺八 0  
 chi'bai  2  炽白 0  吃白 0  
@@ -24663,6 +24701,7 @@ chi'zong'bi  1  迟总比 0
 chi'zu  2  赤足 12  吃足 1  
 chi'zun  1  赤尊 0  
 chi'zuo  3  池做 0  池作 0  池座 0  
+chong  12  充 0  冲 0  虫 0  崇 0  宠 0  茺 0  怄 0  忡 0  憧 0  铳 0  舂 0  艟 0  
 chong'ai  1  宠爱 81  
 chong'ai'you'jia  1  宠爱有加 3  
 chong'an  1  崇安 1  
@@ -25015,6 +25054,7 @@ chong'zou  1  冲走 76
 chong'zu  2  充足 904  虫族 13  
 chong'zu'lv  1  充足率 30  
 chong'zuo  1  充作 43  
+chou  17  抽 0  酬 0  畴 0  踌 0  稠 0  愁 0  筹 0  仇 0  绸 0  瞅 0  丑 0  臭 0  俦 0  帱 0  惆 0  瘳 0  雠 0  
 chou'ba  2  丑疤 0  抽巴 1  
 chou'ba'guai  1  丑八怪 15  
 chou'ba'po  1  丑八婆 0  
@@ -25333,6 +25373,7 @@ chou'zi'ming  1  仇子明 0
 chou'zi'ru  1  丑字入 0  
 chou'zou  1  抽走 18  
 chou'zu  2  筹组 15  筹足 5  
+chu  29  褚 0  初 0  出 0  橱 0  厨 0  躇 0  锄 0  雏 0  滁 0  除 0  楚 0  础 0  储 0  矗 0  搐 0  触 0  处 0  亍 0  刍 0  怵 0  憷 0  绌 0  杵 0  楮 0  樗 0  蜍 0  蹰 0  黜 0  畜 0  
 chu'ai  1  矗蔼 0  
 chu'ai'er  1  出埃尔 0  
 chu'ai'ji'ji  1  出埃及记 17  
@@ -26376,6 +26417,7 @@ chu'zu'ren  1  出租人 111
 chu'zu'wu  1  出租屋 0  
 chu'zui  2  除罪 8  畜罪 1  
 chu'zuo  2  除作 2  处作 3  
+chuai  4  揣 0  搋 0  嘬 0  踹 0  
 chuai'ce  1  揣测 51  
 chuai'ci  1  揣次 0  
 chuai'du  1  揣度 5  
@@ -26387,6 +26429,7 @@ chuai'xiang  1  揣想 2
 chuai'zhao  1  揣着 13  
 chuai'zhi  1  揣知 0  
 chuai'zhuo  1  揣着 13  
+chuan  12  川 0  穿 0  椽 0  传 0  船 0  喘 0  串 0  遄 0  巛 0  氚 0  钏 0  舡 0  
 chuan'an  1  喘安 0  
 chuan'an'jian  1  船岸间 0  
 chuan'bai  1  穿白 9  
@@ -26962,6 +27005,7 @@ chuan'zong'jie'dai  1  传宗接代 12
 chuan'zou  1  传走 0  
 chuan'zu  3  船租 0  串组 1  船组 0  
 chuan'zuo  1  传作 0  
+chuang  7  疮 0  窗 0  幢 0  床 0  闯 0  创 0  怆 0  
 chuang'an  3  窗安 0  窗案 0  床鞍 0  
 chuang'ba  1  疮疤 0  
 chuang'ban  3  创办 256  床板 8  窗板 5  
@@ -27207,6 +27251,7 @@ chuang'zuo'shi  1  创作室 0
 chuang'zuo'shi'jian  1  创作实践 6  
 chuang'zuo'zhe  1  创作者 47  
 chuang'zuo'zi'you  1  创作自由 1  
+chui  8  吹 0  炊 0  捶 0  锤 0  垂 0  陲 0  棰 0  槌 0  
 chui'ai  1  垂爱 3  
 chui'ban  1  垂板 0  
 chui'bang  1  槌棒 0  
@@ -27448,6 +27493,7 @@ chui'zi'qiao  1  锤子敲 1
 chui'zou  1  吹奏 47  
 chui'zou'le'qi  1  吹奏乐器 0  
 chui'zou'zhe  1  吹奏者 1  
+chun  10  春 0  椿 0  醇 0  唇 0  淳 0  纯 0  蠢 0  莼 0  鹑 0  蝽 0  
 chun'ai  2  纯爱 1  唇癌 0  
 chun'an  2  淳安 0  醇胺 0  
 chun'bai  1  纯白 21  
@@ -27749,6 +27795,7 @@ chun'zhuang  1  春装 4
 chun'zi  2  春子 1  纯子 1  
 chun'zu  1  唇足 0  
 chun'zuo  1  纯作 0  
+chuo  6  戳 0  绰 0  辍 0  踔 0  龊 0  啜 0  
 chuo'chuan  1  戳穿 21  
 chuo'chuo  1  戳戳 1  
 chuo'chuo'kan  1  戳戳看 0  
@@ -27776,6 +27823,7 @@ chuo'xue'sheng  1  辍学生 3
 chuo'yin  2  啜饮 38  戳印 1  
 chuo'yue  2  绰越 2  绰约 2  
 chuo'zi  1  戳子 1  
+ci  19  疵 0  茨 0  磁 0  雌 0  辞 0  慈 0  瓷 0  词 0  此 0  刺 0  赐 0  次 0  呲 0  祠 0  鹚 0  糍 0  茈 0  差 0  伺 0  
 ci'ai  2  慈爱 291  此爱 1  
 ci'an  4  此案 218  此岸 7  差安 0  差庵 0  
 ci'an'yuan  1  慈安苑 2  
@@ -27887,7 +27935,8 @@ ci'deng  2  此等 85  瓷凳 0
 ci'deng'sheng  1  差等生 0  
 ci'di  5  此地 290  次第 3  差地 0  次地 4  此底 0  
 ci'di'wu'yin'san'bai'liang  1  此地无银三百两 0  
-ci'dian  9  差点 309  词典 341  此点 32  辞典 39  疵点 6  瓷殿 0  差垫 0  磁电 2  此店 0  
+ci'dian  9  差点 309  词典 342  此点 32  辞典 39  疵点 6  瓷殿 0  差垫 0  磁电 2  此店 0  
+ci'dian'bi  1  词典笔 393940  
 ci'dian'er  1  差点儿 32  
 ci'dian'ji  1  磁电机 1  
 ci'dian'shi  1  磁电式 2  
@@ -28452,6 +28501,7 @@ ci'zui  1  此罪 5
 ci'zun  1  此尊 0  
 ci'zuo  4  词作 15  此作 1  此座 1  雌座 0  
 ci'zuo'zhe  1  词作者 0  
+cong  12  聪 0  葱 0  囱 0  匆 0  从 0  丛 0  苁 0  淙 0  骢 0  琮 0  璁 0  枞 0  
 cong'a'er  1  从阿尔 1  
 cong'ai  1  丛矮 0  
 cong'ai'bing  1  丛矮病 0  
@@ -29139,6 +29189,7 @@ cong'zui  1  从罪 2
 cong'zuo  1  从作 3  
 cong'zuo'dao'you  1  从左到右 12  
 cong'zuo'wang'you  1  从左往右 1  
+cou  4  凑 0  楱 0  辏 0  腠 0  
 cou'bu'qi  1  凑不起 1  
 cou'cheng  1  凑成 9  
 cou'chu  1  凑出 1  
@@ -29169,6 +29220,7 @@ cou'yun  1  凑韵 0
 cou'zai'yi'qi  1  凑在一起 16  
 cou'zheng  1  凑整 2  
 cou'zu  1  凑足 9  
+cu  11  粗 0  醋 0  簇 0  促 0  蔟 0  徂 0  猝 0  殂 0  酢 0  蹙 0  蹴 0  
 cu'ai  1  促癌 1  
 cu'an'fen  2  醋安芬 0  醋氨酚 7  
 cu'bai  2  簇白 0  粗白 0  
@@ -29434,6 +29486,7 @@ cu'zhong  3  粗重 7  簇中 3  猝中 0
 cu'zhong'xiao  1  粗中效 0  
 cu'zhuang  2  粗壮 60  簇状 2  
 cu'zhuo  1  粗拙 2  
+cuan  8  攒 0  蹿 0  篡 0  窜 0  汆 0  撺 0  爨 0  镩 0  
 cuan'chu  2  窜出 10  蹿出 0  
 cuan'dang'duo'quan  1  篡党夺权 0  
 cuan'dao  2  撺到 0  蹿到 1  
@@ -29465,6 +29518,7 @@ cuan'xing  1  攒省 0
 cuan'zhao  1  攒着 0  
 cuan'zhuo  1  攒着 0  
 cuan'zu  1  攒足 1  
+cui  15  摧 0  崔 0  催 0  脆 0  瘁 0  粹 0  淬 0  翠 0  萃 0  啐 0  悴 0  璀 0  榱 0  毳 0  隹 0  
 cui'bai  4  翠柏 2  翠白 0  催败 0  脆败 0  
 cui'bai'ke'dao  1  翠伯克岛 0  
 cui'ban  1  催办 0  
@@ -29714,6 +29768,7 @@ cui'zhu  3  翠竹 0  催著 0  催助 0
 cui'zhuo  2  摧着 0  催着 0  
 cui'zhuo'ma  1  崔卓玛 0  
 cui'zi  1  催子 0  
+cun  5  村 0  存 0  寸 0  忖 0  皴 0  
 cun'an  1  存案 5  
 cun'ba  1  村巴 1  
 cun'ban  1  村办 4  
@@ -29971,6 +30026,7 @@ cun'zhun  1  存准 0
 cun'zhuo  1  存着 11  
 cun'zi  1  村子 340  
 cun'zu  1  村组 1  
+cuo  14  磋 0  撮 0  搓 0  措 0  挫 0  错 0  厝 0  嵯 0  脞 0  锉 0  矬 0  痤 0  鹾 0  蹉 0  
 cuo'ai  1  错爱 5  
 cuo'an  1  错案 6  
 cuo'bai  1  挫败 237  
@@ -30141,6 +30197,7 @@ cuo'zhi'dei'dang  1  措置得当 0
 cuo'zi  4  错字 8  措资 0  锉子 0  矬子 1  
 cuo'zong  1  错综 5  
 cuo'zong'fu'za  1  错综复杂 151  
+da  16  搭 0  达 0  答 0  瘩 0  打 0  大 0  耷 0  哒 0  嗒 0  怛 0  妲 1  沓 0  褡 0  笪 0  靼 0  鞑 0  
 da'ai  5  大碍 16  大爱 15  答爱 0  达埃 0  打爱 1  
 da'ai'da  1  褡艾达 0  
 da'ai'er  1  大艾尔 0  
@@ -30500,7 +30557,8 @@ da'die'yan'jing  1  大跌眼镜 18
 da'ding  9  打定 11  大钉 0  大定 1  打丁 1  大锭 0  大顶 1  打顶 1  达丁 0  达顶 0  
 da'ding'shu  1  打钉术 0  
 da'ding'zhu'yi  1  打定主意 32  
-da'dong  7  大洞 42  打洞 11  打动 258  大东 0  大董 1  大动 2  大冻 0  
+da'dong  7  大洞 42  打洞 11  打动 258  大东 1  大董 1  大动 2  大冻 0  
+da'dong'bei  1  大东北 393940  
 da'dong'gan'ge  1  大动干戈 10  
 da'dong'gan'huo  1  大动肝火 10  
 da'dong'hai  1  大东海 0  
@@ -32149,6 +32207,7 @@ da'zui'zhang  1  打嘴仗 0
 da'zuo  3  大作 54  大佐 1  打坐 29  
 da'zuo'lun  1  达唑仑 5  
 da'zuo'wen'zhang  2  大做文章 8  大作文章 7  
+dai  23  呆 0  歹 0  傣 0  戴 0  带 0  殆 0  代 0  贷 0  袋 0  待 0  逮 0  怠 0  埭 0  甙 0  甙 0  呔 0  岱 0  迨 0  骀 0  绐 0  玳 0  黛 0  大 0  
 dai'ai  2  大碍 16  大爱 15  
 dai'ai'er  1  大艾尔 0  
 dai'ai'fan  1  带艾凡 0  
@@ -32475,7 +32534,7 @@ dai'die  2  大跌 98  大碟 0
 dai'die'yan'jing  1  大跌眼镜 18  
 dai'ding  9  待定 36  大钉 0  呆定 1  代订 0  大定 1  大锭 0  大顶 1  戴顶 5  带顶 0  
 dai'ding'mao'zi  1  戴顶帽子 2  
-dai'dong  8  带动 322  大洞 42  大东 0  大董 1  大动 2  待冻 0  带洞 0  大冻 0  
+dai'dong  8  带动 322  大洞 42  大东 1  大董 1  大动 2  待冻 0  带洞 0  大冻 0  
 dai'dong'gan'ge  1  大动干戈 10  
 dai'dong'gan'huo  1  大动肝火 10  
 dai'dong'hai  1  大东海 0  
@@ -34069,6 +34128,7 @@ dai'zui'gao'yang  1  代罪羔羊 6
 dai'zui'li'gong  1  戴罪立功 0  
 dai'zuo  5  大作 54  大佐 1  呆坐 14  代做 0  带座 0  
 dai'zuo'wen'zhang  2  大做文章 8  大作文章 7  
+dan  27  耽 0  担 0  丹 0  单 0  郸 0  掸 0  胆 0  旦 0  氮 0  但 0  惮 0  淡 0  诞 0  弹 0  蛋 0  儋 0  萏 0  啖 0  澹 0  殚 0  赕 0  眈 0  瘅 0  聃 0  箪 0  疸 0  卩 0  
 dan'ai  2  但埃 5  耽爱 2  
 dan'ai'chi  1  淡爱弛 0  
 dan'ai'di  1  但埃迪 0  
@@ -35101,6 +35161,7 @@ dan'zu'tiao  1  单足跳 1
 dan'zui  2  担罪 4  但罪 0  
 dan'zuo  5  单坐 1  单作 2  但作 13  单座 7  丹作 0  
 dan'zuo'shi  1  单座式 1  
+dang  11  当 0  挡 0  党 0  荡 0  档 0  谠 0  凼 0  菪 0  宕 0  砀 0  裆 0  
 dang'a'bu'si  1  当阿不思 0  
 dang'a'fu  1  当阿夫 0  
 dang'a'ga'men'nong  1  当阿伽门农 0  
@@ -35888,6 +35949,7 @@ dang'zuan'yu  1  当钻遇 0
 dang'zui  1  当嘴 0  
 dang'zun  1  当尊 0  
 dang'zuo  2  当作 1316  当做 288  
+dao  17  刀 0  捣 0  蹈 0  倒 0  岛 0  祷 0  导 0  到 0  稻 0  悼 0  道 0  盗 0  叨 0  忉 0  氘 0  焘 0  纛 0  
 dao'an  4  到岸 18  到案 1  盗案 0  道安 0  
 dao'an'jia  1  到岸价 45  
 dao'an'zhuo  1  到安灼 1  
@@ -36461,6 +36523,7 @@ dao'zou  1  盗走 15
 dao'zu  3  刀组 0  刀俎 0  倒足 0  
 dao'zu'yu'rou  1  刀俎鱼肉 0  
 dao'zuo  5  刀座 1  倒座 0  稻作 5  到作 1  岛作 0  
+de  6  德 0  得 1  的 2  地 2  锝 0  嘚 0  
 de'a'ji  1  德阿吉 0  
 de'a'lu'da  1  德阿鲁达 1  
 de'a'sang'bu  1  德阿桑布 0  
@@ -37057,6 +37120,7 @@ de'zui'ren  1  得罪人 16
 de'zun  1  得尊 0  
 de'zuo  1  得作 2  
 de'zuo'ji'ai  1  德佐吉埃 0  
+dei  2  得 1  嘚 0  
 dei'bao  3  得保 2  得宝 1  得堡 0  
 dei'bei  1  得备 0  
 dei'bi  2  得闭 0  得必 0  
@@ -37299,6 +37363,7 @@ dei'zui  1  得罪 169
 dei'zui'ren  1  得罪人 16  
 dei'zun  1  得尊 0  
 dei'zuo  1  得作 2  
+deng  13  蹬 0  灯 0  登 0  等 0  瞪 0  凳 0  邓 0  噔 0  嶝 0  戥 0  磴 0  镫 0  簦 0  
 deng'a'gui  1  邓阿贵 0  
 deng'an  4  登岸 15  灯暗 2  等案 0  登案 0  
 deng'an'jiu  1  等安鸠 0  
@@ -37756,6 +37821,7 @@ deng'zi'jie  1  邓子杰 2
 deng'zong  1  登宗 0  
 deng'zu  3  等族 0  邓族 2  灯组 0  
 deng'zuo  3  等作 21  灯座 13  登作 0  
+di  38  提 0  堤 0  低 0  滴 0  迪 0  敌 0  笛 0  狄 0  涤 0  翟 0  嫡 0  抵 0  底 0  地 2  蒂 0  第 0  帝 0  弟 0  递 0  缔 0  氐 0  籴 0  诋 0  谛 0  邸 0  荻 0  嘀 0  娣 0  柢 0  棣 0  觌 0  砥 0  碲 0  睇 0  镝 0  羝 0  骶 0  绨 0  
 di'a  1  狄阿 0  
 di'a'ma  1  提阿玛 1  
 di'ai  6  地爱 165  低矮 62  提矮 6  蒂埃 34  迪埃 0  底癌 0  
@@ -40406,7 +40472,9 @@ di'zuo  5  底座 130  地作 27  低座 9  抵作 1  低作 0
 di'zuo'dun'dao  1  地佐敦道 0  
 di'zuo'xie  1  地作些 1  
 di'zuo'yan  1  低作堰 0  
+dia  1  嗲 0  
 dia'nan  1  嗲囡 0  
+dian  24  颠 0  掂 0  滇 0  碘 0  点 0  典 0  靛 0  垫 0  电 0  佃 0  甸 0  店 0  惦 0  奠 0  淀 0  殿 0  阽 0  坫 0  巅 0  玷 0  钿 0  癜 0  癫 0  簟 0  
 dian'ao'shu  1  点奥术 0  
 dian'ao'xi  1  店奥西 0  
 dian'ba  3  点八 3  电把 0  电霸 0  
@@ -41483,6 +41551,7 @@ dian'zu'zhi  1  电阻值 12
 dian'zuan  1  电钻 24  
 dian'zuo  3  点作 3  垫座 4  殿作 0  
 dian'zuo'shou  1  点作收 0  
+diao  12  碉 0  叼 0  雕 0  凋 0  刁 0  掉 0  吊 0  钓 0  调 0  铞 0  貂 0  鲷 0  
 diao'ai  1  调矮 1  
 diao'an  1  调暗 11  
 diao'bai  2  凋败 0  掉败 1  
@@ -41925,6 +41994,7 @@ diao'zuan  1  刁钻 11
 diao'zuan'ke'bao  1  刁钻刻薄 0  
 diao'zuan'ke'bo  1  刁钻刻薄 0  
 diao'zuo  1  调作 0  
+die  18  跌 0  爹 0  碟 0  蝶 0  迭 0  谍 0  叠 0  垤 0  堞 0  揲 0  喋 0  嗲 0  瓞 0  耋 0  蹀 0  鲽 0  踮 0  佚 0  
 die'an  1  蝶鞍 7  
 die'ban  2  叠板 1  蝶板 3  
 die'bao  1  谍报 16  
@@ -42059,6 +42129,7 @@ die'zhuo  1  踮着 24
 die'zi  2  碟子 114  叠字 0  
 die'zu  1  跌足 0  
 die'zuo  1  叠作 0  
+ding  19  丁 0  盯 0  叮 0  钉 0  顶 0  鼎 0  锭 0  定 0  订 0  仃 0  啶 0  玎 0  腚 0  碇 0  町 0  铤 0  疔 0  耵 0  酊 0  
 ding'a'yi  1  丁阿姨 0  
 ding'an  4  定案 42  定安 0  丁安 0  丁胺 0  
 ding'an'ka'na'mei'su  1  丁胺卡那霉素 0  
@@ -42552,6 +42623,7 @@ ding'zu'zhi'shi  1  鼎足之势 0
 ding'zui  3  顶嘴 22  定罪 346  顶罪 0  
 ding'zuo  5  定做 65  订做 46  订座 10  订作 4  定作 3  
 ding'zuo'fang  1  定作方 1  
+diu  2  丢 0  铥 0  
 diu'an  1  丢鞍 0  
 diu'bao  1  丢包 4  
 diu'bu  1  丢步 0  
@@ -42610,6 +42682,7 @@ diu'zai'nao'hou  1  丢在脑后 5
 diu'zao  1  丢糟 0  
 diu'zhi  1  丢掷 2  
 diu'zu'bao'che  1  丢卒保车 0  
+dong  19  东 0  冬 0  董 0  懂 0  动 0  栋 0  侗 0  恫 0  冻 0  洞 0  垌 0  咚 0  岽 0  峒 0  氡 0  胨 0  胴 0  硐 0  鸫 0  
 dong'a'xian  1  东阿县 0  
 dong'ai  1  懂爱 0  
 dong'an  2  东岸 38  东安 5  
@@ -43415,6 +43488,7 @@ dong'zuo'su'duo  1  动作速度 4
 dong'zuo'xing  1  动作性 0  
 dong'zuo'xun'su  1  动作迅速 6  
 dong'zuo'you'xi  1  动作游戏 12  
+dou  12  兜 0  抖 0  斗 0  陡 0  豆 0  逗 0  痘 0  都 0  蔸 0  窦 0  篼 0  蚪 0  
 dou'ba  1  豆疤 0  
 dou'bai  1  斗败 4  
 dou'bai'lin  1  都柏林 90  
@@ -43705,6 +43779,7 @@ dou'zhuo'zou  1  兜着走 0
 dou'zi  4  豆子 124  斗子 0  兜子 0  痘子 1  
 dou'zou'juan  1  斗走鹃 0  
 dou'zui  1  斗嘴 10  
+du  24  都 0  督 0  毒 0  犊 0  独 0  读 0  堵 0  睹 0  赌 0  杜 0  镀 0  肚 0  度 0  渡 0  妒 0  芏 0  嘟 0  渎 0  椟 0  牍 0  蠹 0  笃 0  髑 0  黩 0  
 du'a'er'te  1  杜阿尔特 2  
 du'a'la  1  杜阿拉 2  
 du'ai  2  杜埃 5  笃爱 0  
@@ -44498,6 +44573,7 @@ du'zu  1  毒卒 0
 du'zui  1  堵嘴 2  
 du'zun  1  独尊 6  
 du'zuo  4  读作 22  独坐 19  杜做 0  度作 1  
+duan  9  端 0  短 0  锻 0  段 0  断 0  缎 0  椴 0  煅 0  簖 0  
 duan'an  2  断案 3  短按 0  
 duan'ban  2  短板 9  端板 6  
 duan'ban'zhi  1  短版制 0  
@@ -44903,6 +44979,7 @@ duan'zou  1  断奏 7
 duan'zu  3  短租 2  短足 0  端阻 0  
 duan'zu'mu  1  端足目 0  
 duan'zuo  2  端坐 25  段作 5  
+dui  7  堆 0  兑 0  队 0  对 0  怼 0  憝 0  碓 0  
 dui'ai  1  对埃 6  
 dui'an  5  对岸 104  对案 17  对安 2  对铵 0  对胺 2  
 dui'an'chang  1  对氨厂 0  
@@ -46000,6 +46077,7 @@ dui'zu'bang  1  对祖邦 0
 dui'zui  2  对罪 6  对醉 0  
 dui'zuo  3  对作 0  对座 2  堆作 0  
 dui'zuo'li'ke  1  对佐利克 0  
+dun  16  墩 0  吨 0  蹲 0  敦 0  顿 0  囤 0  钝 0  盾 0  遁 0  沌 0  炖 0  砘 0  礅 0  盹 0  趸 0  镦 0  
 dun'ba'si  1  顿巴斯 7  
 dun'bang  1  顿帮 0  
 dun'bao  2  盾堡 0  顿堡 0  
@@ -46163,6 +46241,7 @@ dun'zou  1  遁走 0
 dun'zu  1  顿足 0  
 dun'zuo  1  蹲坐 5  
 dun'zuo'zai  1  蹲坐在 3  
+duo  21  掇 0  哆 0  多 0  夺 0  度 0  垛 0  躲 0  朵 0  跺 0  舵 0  剁 0  惰 0  堕 0  咄 0  哚 0  沲 0  缍 0  铎 0  裰 0  踱 0  柁 0  
 duo'ai  1  多爱 9  
 duo'ai'tang  1  多爱糖 0  
 duo'an  3  多胺 3  多安 5  哆胺 0  
@@ -47084,6 +47163,7 @@ duo'zun  1  多尊 0
 duo'zuo  3  多座 27  多作 10  度作 1  
 duo'zuo'shi'shi  1  多做实事 0  
 duo'zuo'xie  1  多作些 1  
+e  31  阿 0  蛾 0  峨 0  鹅 0  俄 0  额 0  讹 0  娥 0  恶 0  厄 0  扼 0  遏 0  鄂 0  饿 0  噩 0  谔 0  垩 0  苊 0  莪 0  萼 0  呃 0  愕 0  屙 0  婀 0  轭 0  腭 0  锇 0  锷 0  鹗 0  颚 0  鳄 0  
 e'ai  1  阿爱 0  
 e'ai'wang  1  阿埃旺 0  
 e'ba  5  阿巴 31  恶霸 22  阿爸 6  阿坝 6  俄巴 0  
@@ -48584,6 +48664,8 @@ e'zuo  1  恶作 0
 e'zuo'ju  1  恶作剧 215  
 e'zuo'ju'zhe  1  恶作剧者 2  
 e'zuo'wan  1  恶唑烷 0  
+ei  1  欸 0  
+en  4  恩 0  蒽 0  摁 0  嗯 0  
 en'ai  1  恩爱 33  
 en'ai'fu'qi  1  恩爱夫妻 3  
 en'ai'qing'shen  1  恩爱情深 0  
@@ -48746,6 +48828,7 @@ en'zi  1  恩孜 2
 en'zu  1  恩祖 0  
 en'zuo  1  恩佐 4  
 en'zuo'ting  1  恩佐停 0  
+er  14  而 0  儿 0  耳 0  尔 0  饵 0  洱 0  二 0  贰 0  佴 0  迩 0  珥 0  铒 0  鸸 0  鲕 0  
 er'ai  2  尔爱 1  而埃 2  
 er'ai'er  1  而埃尔 0  
 er'ai'ling  1  而爱玲 0  
@@ -49927,6 +50010,7 @@ er'zu  5  二组 15  二族 1  尔族 0  而足 0  尔组 0
 er'zui  2  二罪 0  而醉 0  
 er'zuo  4  而作 107  耳座 0  二座 3  二坐 0  
 er'zuo'ge  1  而佐格 0  
+fa  10  发 0  罚 0  筏 0  伐 0  乏 0  阀 0  法 0  珐 0  垡 0  砝 0  
 fa'ai  1  发癌 0  
 fa'ai'sheng  1  发哀声 1  
 fa'an  2  法案 1265  发暗 1  
@@ -50984,6 +51068,7 @@ fa'zou  1  发走 0
 fa'zu  4  发足 1  发族 0  法组 0  法祖 0  
 fa'zuo  6  发作 503  阀座 101  发做 0  法做 1  法作 0  罚作 0  
 fa'zuo'shui  1  法作水 1  
+fan  24  蕃 0  藩 0  帆 0  番 0  翻 0  樊 0  矾 0  钒 0  繁 0  凡 0  烦 0  反 0  返 0  范 0  贩 0  犯 0  饭 0  泛 0  蘩 0  幡 0  梵 0  燔 0  畈 0  蹯 0  
 fan'ai  2  泛爱 0  烦碍 0  
 fan'ai'shen  1  范艾申 0  
 fan'ai'sheng  1  凡爱生 0  
@@ -51897,6 +51982,7 @@ fan'zuo  2  凡作 2  帆座 0
 fan'zuo'bi  1  反作弊 0  
 fan'zuo'yong  1  反作用 63  
 fan'zuo'yong'li  1  反作用力 19  
+fang  17  坊 0  芳 0  方 0  肪 0  房 0  防 0  妨 0  仿 0  访 0  纺 0  放 0  邡 0  彷 0  枋 0  钫 0  舫 0  鲂 0  
 fang'ai  5  妨碍 1174  防癌 18  防碍 13  防艾 2  放爱 4  
 fang'ai'jiao'tong  1  妨碍交通 2  
 fang'an  3  方案 18645  芳胺 1  方安 0  
@@ -52835,6 +52921,7 @@ fang'zu'ming  1  房祖名 2
 fang'zu'zhi  1  芳族纸 0  
 fang'zuan  1  方钻 0  
 fang'zuo  3  纺作 0  仿做 0  房作 0  
+fei  28  菲 0  非 0  啡 0  飞 0  肥 0  匪 0  诽 0  吠 0  肺 0  废 0  沸 0  费 0  狒 0  悱 0  淝 0  妃 0  绯 0  榧 0  腓 0  斐 0  镄 0  痱 0  蜚 0  篚 0  翡 0  霏 0  鲱 0  扉 0  
 fei'ai  4  肺癌 322  费埃 1  非爱 0  非癌 0  
 fei'ai'bu'ke  1  非爱不可 0  
 fei'ai'er  1  费艾尔 0  
@@ -53980,6 +54067,7 @@ fei'zu'li'huo'jie  1  菲祖利和杰 0
 fei'zui  1  非醉 0  
 fei'zui'hua  1  非罪化 0  
 fei'zuo  3  非作 2  菲作 0  费作 1  
+fen  20  芬 0  酚 0  吩 0  氛 0  分 0  纷 0  坟 0  焚 0  汾 0  粉 0  奋 0  份 0  忿 0  愤 0  粪 0  偾 0  瀵 0  棼 0  鲼 0  鼢 0  
 fen'an  2  酚胺 0  分案 7  
 fen'bai  1  粉白 0  
 fen'bai'dai'hei  1  粉白黛黑 0  
@@ -54752,6 +54840,7 @@ fen'zu'huo'dong  1  分组活动 0
 fen'zu'ma  1  分组码 11  
 fen'zu'tao'lun  1  分组讨论 17  
 fen'zuo  3  分作 5  粉作 0  分座 0  
+feng  21  丰 0  封 0  枫 0  蜂 0  峰 0  锋 0  风 0  疯 0  烽 0  逢 0  冯 0  缝 0  讽 0  奉 0  凤 0  俸 0  酆 0  葑 0  唪 0  沣 0  砜 0  
 feng'ai  1  奉爱 0  
 feng'ba  2  丰巴 0  锋霸 0  
 feng'ba'lang  1  风把浪 0  
@@ -55528,6 +55617,7 @@ feng'zong  1  风踪 0
 feng'zu  4  封阻 0  风阻 7  丰足 2  风族 0  
 feng'zuan  1  风钻 5  
 feng'zui'jiang  1  凤嘴江 0  
+fo  1  佛 0  
 fo'ang  1  佛昂 0  
 fo'bai'rui  1  佛伯瑞 0  
 fo'bai'si  1  佛伯斯 0  
@@ -55698,6 +55788,7 @@ fo'zhou  1  佛州 25
 fo'zhu  2  佛珠 2  佛住 1  
 fo'zi'ling  1  佛子岭 0  
 fo'zu  1  佛祖 18  
+fou  2  否 0  缶 0  
 fou'ci  1  否此 0  
 fou'ding  1  否定 700  
 fou'ding'ci  1  否定词 15  
@@ -55730,6 +55821,7 @@ fou'zheng  1  否证 0
 fou'zhuan  1  否转 0  
 fou'zhuo  1  否着 0  
 fou'zi'suo  1  否自琐 0  
+fu  82  夫 0  敷 0  肤 0  孵 0  扶 0  拂 0  辐 0  幅 0  氟 0  符 0  伏 0  俘 0  服 0  浮 0  涪 0  福 0  袱 0  弗 0  甫 0  抚 0  辅 0  俯 0  釜 0  斧 0  脯 0  腑 0  府 0  腐 0  赴 0  副 0  覆 0  赋 0  复 0  傅 0  付 0  阜 0  父 0  腹 0  负 0  富 0  讣 0  附 0  妇 0  缚 0  咐 0  匐 0  凫 0  郛 0  芙 0  苻 0  茯 0  莩 0  菔 0  拊 0  呋 0  幞 0  怫 0  滏 0  艴 0  孚 0  驸 0  绂 0  绋 0  桴 0  赙 0  祓 0  砩 0  黻 0  黼 0  罘 0  稃 0  馥 0  蚨 0  蜉 0  蝠 0  蝮 0  麸 0  跗 0  鲋 0  鳆 0  趺 0  芾 0  
 fu'a  1  父阿 9  
 fu'ai  3  父爱 22  腹癌 1  抚爱 9  
 fu'an  10  伏案 12  伏安 37  富安 2  附案 0  抚岸 0  腹案 2  福安 1  复安 0  脯氨 0  服胺 0  
@@ -57478,6 +57570,7 @@ fu'zuo  6  辅佐 20  赋作 1  夫座 1  福祚 0  父作 0  趺坐 0
 fu'zuo'wang  1  父作王 0  
 fu'zuo'yi  1  傅作义 0  
 fu'zuo'yong  2  副作用 375  负作用 4  
+ga  8  噶 0  嘎 0  尬 0  尕 0  尜 0  旮 0  钆 0  伽 0  
 ga'ba  1  嘎巴 4  
 ga'beng'cui  1  嘎嘣脆 0  
 ga'cha  1  嘎查 0  
@@ -57525,6 +57618,7 @@ ga'xia  1  噶厦 0
 ga'zhen  1  噶镇 0  
 ga'zhi  1  嘎吱 45  
 ga'zi  1  噶兹 0  
+gai  11  该 0  改 0  概 0  钙 0  盖 0  溉 0  丐 0  陔 0  垓 0  戤 0  赅 0  
 gai'ai'nuo  1  盖埃诺 0  
 gai'an  2  该案 94  改案 1  
 gai'an'lao'yuan  1  该安老院 1  
@@ -58059,6 +58153,7 @@ gai'zou  1  改走 3
 gai'zu  4  改组 441  该组 91  该族 0  该足 0  
 gai'zui  1  该罪 0  
 gai'zuo  6  改做 1  改作 18  该作 3  盖佐 0  改坐 0  该座 0  
+gan  23  干 0  甘 0  杆 0  柑 0  竿 0  肝 0  赶 0  感 0  秆 0  敢 0  赣 0  坩 0  苷 0  尴 0  擀 0  泔 0  淦 0  澉 0  橄 0  旰 0  矸 0  疳 0  酐 0  
 gan'a  1  甘阿 0  
 gan'ai  1  肝癌 176  
 gan'ai'gan'hen  1  敢爱敢恨 1  
@@ -58774,6 +58869,7 @@ gan'zu  2  感组 0  杆组 0
 gan'zuo  3  杆作 0  干作 0  甘做 1  
 gan'zuo'gan'dang  1  敢作敢当 0  
 gan'zuo'gan'wei  2  敢作敢为 12  敢做敢为 0  
+gang  12  冈 0  刚 0  钢 0  缸 0  肛 0  纲 0  岗 0  港 0  杠 0  戆 0  罡 0  筻 0  
 gang'an  1  港岸 0  
 gang'ang  1  冈昂 0  
 gang'ao  1  港澳 75  
@@ -59198,6 +59294,7 @@ gang'zi  6  杠子 3  港资 12  冈子 0  钢字 1  缸子 1  岗子 0
 gang'zong'yang  1  钢总氧 0  
 gang'zu  1  刚租 0  
 gang'zuo  2  钢做 0  刚作 1  
+gao  20  篙 0  皋 0  高 0  膏 0  羔 0  糕 0  搞 0  镐 0  稿 0  告 0  睾 0  诰 0  郜 0  藁 0  缟 0  槔 0  槁 0  槁 0  杲 0  锆 0  
 gao'ai  1  高矮 6  
 gao'ai'bu'yi  1  高矮不一 0  
 gao'an  1  高安 2  
@@ -60312,6 +60409,7 @@ gao'zu  5  高阻 6  高祖 2  高族 0  高组 0  高足 1
 gao'zu'fu  1  高祖父 0  
 gao'zui  1  告罪 0  
 gao'zuo  1  高座 19  
+ge  33  哥 0  歌 0  搁 0  戈 0  鸽 0  胳 0  疙 0  割 0  革 0  葛 0  格 0  蛤 0  阁 0  隔 0  铬 0  个 0  各 0  鬲 0  仡 0  哿 0  圪 0  塥 0  嗝 0  纥 0  搿 0  膈 0  硌 0  镉 0  袼 0  颌 0  虼 0  舸 0  骼 0  
 ge'ai  1  割爱 2  
 ge'ai'er  1  戈埃尔 2  
 ge'an  5  个案 908  各案 0  格安 0  隔岸 1  格暗 0  
@@ -61660,6 +61758,7 @@ ge'zu'qun'zhong  1  各族群众 1
 ge'zu'ren'min  1  各族人民 170  
 ge'zuo  4  各坐 3  各座 3  戈坐 0  各作 2  
 ge'zuo'ben  1  各作本 1  
+gei  1  给 0  
 gei'an'di  1  给安迪 0  
 gei'bai'jin  1  给伯金 0  
 gei'bai'ke'xia  1  给伯克夏 0  
@@ -61748,6 +61847,7 @@ gei'yu'bang'zhu  1  给予帮助 28
 gei'yu'tong'qing  1  给予同情 2  
 gei'zhi'hao  1  给治好 1  
 gei'zhou'ji  1  给州级 0  
+gen  6  根 0  跟 0  亘 0  茛 0  哏 0  艮 0  
 gen'ai  1  根癌 0  
 gen'an  1  根岸 0  
 gen'ba  2  根拔 0  根把 0  
@@ -62062,6 +62162,7 @@ gen'zong'zhan  1  跟踪站 2
 gen'zong'zhui'ji  1  跟踪追击 1  
 gen'zuo  1  根做 0  
 gen'zuo'yi  1  跟佐依 0  
+geng  11  耕 0  更 0  庚 0  羹 0  埂 0  耿 0  梗 0  哽 0  赓 0  绠 0  鲠 0  
 geng'ai  2  更爱 12  更哀 0  
 geng'ai'shang  1  更爱上 0  
 geng'an  1  更暗 2  
@@ -62412,6 +62513,7 @@ geng'zuo  1  耕作 188
 geng'zuo'ceng  1  耕作层 2  
 geng'zuo'zhi'du  1  耕作制度 2  
 geng'zuo'zhi'duo  1  耕作制度 2  
+gong  19  工 0  攻 0  功 0  恭 0  龚 0  供 0  躬 0  公 0  宫 0  弓 0  巩 0  汞 0  拱 0  贡 0  共 0  珙 0  肱 0  蚣 0  觥 0  
 gong'a'pa  1  弓阿帕 0  
 gong'ai  1  功矮 0  
 gong'an  2  公安 114  公案 9  
@@ -63739,6 +63841,7 @@ gong'zuo'zhuo  1  工作桌 1
 gong'zuo'zi'shi  1  工作姿势 1  
 gong'zuo'zu  1  工作组 2421  
 gong'zuo'zuo'feng  1  工作作风 19  
+gou  20  钩 0  勾 0  沟 0  苟 0  狗 0  垢 0  构 0  购 0  够 0  诟 0  岣 0  遘 0  媾 0  缑 0  枸 0  觏 0  彀 0  笱 0  篝 0  鞲 0  
 gou'an  2  苟安 2  沟岸 0  
 gou'bai  1  构败 1  
 gou'bai'te  1  狗伯特 0  
@@ -64083,6 +64186,7 @@ gou'zu  1  沟组 5
 gou'zui'li  1  狗嘴里 10  
 gou'zui'tu'bu  1  狗嘴吐不 0  
 gou'zuo  1  构作 0  
+gu  41  辜 0  菇 0  咕 0  箍 0  估 0  沽 0  孤 0  姑 0  鼓 0  古 0  蛊 0  骨 0  谷 0  股 0  故 0  顾 0  固 0  雇 0  嘏 0  诂 0  菰 0  崮 0  汩 0  梏 0  轱 0  牯 0  牿 0  臌 0  毂 0  瞽 0  罟 0  钴 0  锢 0  鸪 0  鹄 0  痼 0  蛄 0  酤 0  觚 0  鲴 0  鹘 0  
 gu'a'na'sa'qi  1  古阿纳萨齐 0  
 gu'a'zi  1  古阿兹 1  
 gu'ai  1  骨癌 4  
@@ -65068,6 +65172,7 @@ gu'zuo'shen'bi  1  故作神秘 0
 gu'zuo'shen'mi  1  故作神秘 0  
 gu'zuo'you'er'yan'ta  1  顾左右而言他 0  
 gu'zuo'zi'tai  1  故作姿态 5  
+gua  11  刮 0  瓜 0  剐 0  寡 0  挂 0  褂 0  卦 0  诖 0  栝 0  胍 0  呱 0  
 gua'an'suan  1  瓜氨酸 1  
 gua'bai'duan  1  挂白缎 0  
 gua'ban  3  刮板 22  挂版 0  挂板 0  
@@ -65298,6 +65403,7 @@ gua'zi'ke  1  瓜子壳 0
 gua'zi'lian  1  瓜子脸 3  
 gua'zi'qiao  1  瓜子壳 0  
 gua'zou  1  刮走 6  
+guai  3  乖 0  拐 0  怪 0  
 guai'bai  1  怪柏 0  
 guai'bang  1  拐棒 0  
 guai'bao'bao  1  乖宝宝 1  
@@ -65412,6 +65518,7 @@ guai'zhang  2  拐杖 131  乖张 10
 guai'zi  1  拐子 0  
 guai'zou  1  拐走 12  
 guai'zui  1  怪罪 70  
+guan  18  棺 0  关 0  官 0  冠 0  观 0  管 0  馆 0  罐 0  惯 0  灌 0  贯 0  莞 0  掼 0  涫 0  盥 0  鹳 0  矜 0  鳏 0  
 guan'ai  3  关爱 202  关隘 3  管癌 2  
 guan'an'di  1  官安迪 0  
 guan'bai  1  官拜 0  
@@ -66233,6 +66340,7 @@ guan'zong  2  惯纵 0  管宗 1
 guan'zu  5  关组 1  惯组 0  灌足 0  管组 2  管足 1  
 guan'zui  2  灌醉 14  管嘴 1  
 guan'zuo  3  观做 0  管座 0  观作 1  
+guang  7  光 0  广 0  逛 0  咣 0  犷 0  桄 0  胱 0  
 guang'a  1  广阿 0  
 guang'ai  1  广爱 0  
 guang'an  3  光暗 10  广安 3  胱胺 0  
@@ -66916,6 +67024,7 @@ guang'zi  1  光子 241
 guang'zong'yao'zu  1  光宗耀祖 1  
 guang'zu  2  光阻 0  光祖 0  
 guang'zuo  2  光作 2  广做 1  
+gui  28  瑰 0  规 0  圭 0  硅 0  归 0  龟 0  闺 0  轨 0  鬼 0  诡 0  癸 0  桂 0  柜 0  跪 0  贵 0  刽 0  匦 0  刿 0  庋 0  宄 0  妫 0  桧 0  炅 0  晷 0  皈 0  簋 0  鲑 0  鳜 0  
 gui'an  1  归案 11  
 gui'ba'fa  1  龟八法 0  
 gui'ba'xi  1  鬼把戏 15  
@@ -67392,6 +67501,7 @@ gui'zui  1  归罪 5
 gui'zui'yu  1  归罪于 36  
 gui'zun  1  鲑鳟 1  
 gui'zuo  3  跪坐 2  柜作 0  硅唑 0  
+gun  7  辊 0  滚 0  棍 0  衮 0  绲 0  磙 0  鲧 0  
 gun'bang  1  棍棒 59  
 gun'bang'jiao'yu  1  棍棒教育 0  
 gun'bian  1  滚边 8  
@@ -67502,6 +67612,7 @@ gun'zhuan  1  滚转 18
 gun'zhuang  2  滚装 5  棍状 1  
 gun'zhuang'chuan  1  滚装船 1  
 gun'zi  4  滚子 50  棍子 174  辊子 10  磙子 1  
+guo  18  锅 0  郭 0  国 0  果 0  裹 0  过 0  馘 0  埚 0  呙 0  帼 0  崞 0  猓 0  椁 0  聒 0  蜾 0  蝈 0  掴 0  虢 0  
 guo'a'wei'tie  1  果阿维贴 0  
 guo'ai  2  国爱 1  过爱 5  
 guo'ai'er  1  过艾尔 1  
@@ -68736,6 +68847,7 @@ guo'zu'cheng  1  国足成 0
 guo'zu'ni  1  过阻尼 0  
 guo'zui  1  过罪 3  
 guo'zuo  1  国作 5  
+ha  2  哈 0  铪 0  
 ha'ba  1  哈巴 15  
 ha'ba'de  1  哈巴德 6  
 ha'ba'gou  2  哈巴狗 7  哈叭狗 0  
@@ -69138,6 +69250,7 @@ ha'zhong  1  哈中 0
 ha'zi  1  哈兹 3  
 ha'zu  1  哈族 0  
 ha'zu'si  1  哈祖斯 0  
+hai  9  骸 0  孩 0  海 0  氦 0  亥 0  害 0  骇 0  胲 0  醢 0  
 hai'an  2  海岸 1076  海安 1  
 hai'an'bian  1  海岸边 32  
 hai'an'dai  1  海岸带 20  
@@ -69755,6 +69868,7 @@ hai'zi'wang  1  孩子王 3
 hai'zong'yong  1  孩鬃用 0  
 hai'zui  1  海嘴 3  
 hai'zun  1  海鳟 1  
+han  30  酣 0  憨 0  邯 0  韩 0  含 0  涵 0  寒 0  函 0  喊 0  罕 0  翰 0  撼 0  捍 0  旱 0  憾 0  悍 0  焊 0  汗 0  汉 0  邗 0  菡 0  撖 0  阚 0  瀚 0  晗 0  焓 0  顸 0  颔 0  蚶 0  鼾 0  
 han'an  1  含胺 0  
 han'ba  3  焊把 0  焊疤 0  旱魃 1  
 han'bai  2  含百 0  含白 0  
@@ -70394,6 +70508,7 @@ han'zui  1  焊咀 0
 han'zui'yong  1  汉醉用 0  
 han'zuo  1  旱作 9  
 han'zuo'qu  1  旱作区 0  
+hang  8  夯 0  杭 0  航 0  行 0  沆 0  绗 0  巷 0  吭 0  
 hang'an  1  航安 0  
 hang'ba  1  行罢 1  
 hang'bai'ju  1  杭白菊 3  
@@ -70890,6 +71005,7 @@ hang'zou  2  行走 627  航走 0
 hang'zou'ji'gou  1  行走机构 3  
 hang'zuo  1  行作 0  
 hang'zuo'zhu  1  行左主 0  
+hao  19  壕 0  嚎 0  豪 0  毫 0  郝 0  好 0  耗 0  号 0  浩 0  蒿 0  薅 0  嗥 0  嚆 0  濠 0  灏 0  昊 0  皓 0  颢 0  蚝 0  
 hao'a  1  毫阿 0  
 hao'an  2  毫安 5  号案 1  
 hao'an'ke  1  好安可 1  
@@ -71542,6 +71658,7 @@ hao'zi'wei'zhi  1  好自为之 16
 hao'zu  2  豪族 0  好足 0  
 hao'zu'ma  1  好祖玛 0  
 hao'zuo  2  好作 12  好座 0  
+he  27  呵 0  喝 0  荷 0  菏 0  核 0  禾 0  和 0  何 0  合 0  盒 0  貉 0  阂 0  河 0  涸 0  赫 0  褐 0  鹤 0  贺 0  诃 0  劾 0  壑 0  嗬 0  阖 0  曷 0  盍 0  翮 0  蚵 0  
 he'ai  2  和蔼 117  荷艾 0  
 he'ai'ke'qin  1  和蔼可亲 100  
 he'ai'xing  1  褐矮星 1  
@@ -72923,6 +73040,7 @@ he'zuo'yu'kuai  1  合作愉快 11
 he'zuo'zhe  1  合作者 129  
 he'zuo'zhi  1  合作制 2  
 he'zuo'zhu'yi  1  合作主义 1  
+hei  3  嘿 0  黑 0  嗨 0  
 hei'an  2  黑暗 1909  黑安 0  
 hei'an'mian  1  黑暗面 28  
 hei'an'shi'dai  1  黑暗时代 17  
@@ -73356,6 +73474,7 @@ hei'zi'er'zhu  1  黑兹尔注 0
 hei'zong'tang  1  黑棕糖 0  
 hei'zu  1  黑足 0  
 hei'zui  1  黑嘴 0  
+hen  4  痕 0  很 0  狠 0  恨 0  
 hen'ai  1  很矮 7  
 hen'an  1  很暗 1  
 hen'ao  1  很傲 0  
@@ -73612,6 +73731,7 @@ hen'zhun  1  很准 15
 hen'zhuo'ji  1  很着急 30  
 hen'zou  1  狠揍 6  
 hen'zu  1  很足 9  
+heng  8  哼 0  亨 0  横 0  衡 0  恒 0  蘅 0  桁 0  珩 0  
 heng'an  1  恒安 0  
 heng'bai  2  横摆 4  亨伯 11  
 heng'ban  2  横斑 1  横板 1  
@@ -73920,6 +74040,7 @@ heng'zhuo  1  横着 16
 heng'zi  1  亨滋 0  
 heng'zu  1  恒阻 0  
 heng'zuo'biao  1  横坐标 4  
+hong  17  轰 0  哄 0  烘 0  虹 0  鸿 0  洪 0  宏 0  弘 0  红 0  黉 0  訇 0  讧 0  荭 0  蕻 0  薨 0  闳 0  泓 0  
 hong'an  3  红案 0  红安 2  红岸 0  
 hong'bai  1  红白 49  
 hong'bai'ji  1  红白机 1  
@@ -74489,6 +74610,7 @@ hong'zui  1  红嘴 5
 hong'zui'ou  1  红嘴鸥 0  
 hong'zun  1  虹鳟 2  
 hong'zun'yu  1  虹鳟鱼 1  
+hou  15  喉 0  侯 0  猴 0  吼 0  厚 0  候 0  后 0  堠 0  後 0  逅 0  瘊 0  篌 0  糇 0  鲎 0  骺 0  
 hou'ai  2  喉癌 20  厚爱 14  
 hou'an  1  后案 0  
 hou'ang  1  后昂 0  
@@ -74988,6 +75110,7 @@ hou'zui  1  后醉 0
 hou'zui'chun  1  厚嘴唇 1  
 hou'zuo  5  后座 101  后坐 17  后作 9  喉作 0  猴作 0  
 hou'zuo'li  2  后坐力 10  后座力 3  
+hu  42  呼 0  乎 0  忽 0  瑚 0  壶 0  葫 0  胡 0  蝴 0  狐 0  糊 0  湖 0  弧 0  虎 0  唬 0  护 0  互 0  沪 0  户 0  冱 0  唿 0  囫 0  岵 0  猢 0  怙 0  惚 0  浒 0  滹 0  琥 0  槲 0  轷 0  觳 0  烀 0  煳 0  戽 0  扈 0  祜 0  瓠 0  鹕 0  鹱 0  笏 0  醐 0  斛 0  
 hu'ai  1  互爱 18  
 hu'ai'xue  1  胡爱学 1  
 hu'an  3  湖岸 23  胡安 21  护岸 8  
@@ -75815,6 +75938,7 @@ hu'zun  1  互尊 2
 hu'zuo  1  互作 10  
 hu'zuo'fei'wei  1  胡作非为 22  
 hu'zuo'hu'you  1  忽左忽右 0  
+hua  13  花 0  哗 0  华 0  猾 0  滑 0  画 0  划 0  化 0  话 0  骅 0  桦 0  砉 0  铧 0  
 hua'an  2  华安 2  滑鞍 0  
 hua'ba'shi  1  花把势 0  
 hua'bai  3  花白 26  滑白 0  华白 0  
@@ -76720,6 +76844,7 @@ hua'zi'hua'si  1  华兹华斯 10
 hua'zou  1  滑走 1  
 hua'zu  2  华族 20  划组 0  
 hua'zuo  4  画作 132  化作 62  划作 4  化做 6  
+huai  6  槐 0  徊 0  怀 0  淮 0  坏 0  踝 0  
 huai'ai'lou  1  怀爱楼 0  
 huai'an  2  淮安 0  怀安 1  
 huai'an'shi  1  淮安市 4  
@@ -76904,6 +77029,7 @@ huai'zhuo'gui'tai  1  怀着鬼胎 0
 huai'zi  1  怀兹 0  
 huai'zi'gu  1  踝子骨 0  
 huai'zu  1  踝足 1  
+huan  29  欢 0  环 0  桓 0  还 0  缓 0  换 0  患 0  唤 0  痪 0  豢 0  焕 0  涣 0  宦 0  幻 0  郇 0  奂 0  萑 0  擐 0  圜 0  獾 0  洹 0  浣 0  漶 0  寰 0  逭 0  缳 0  锾 0  鲩 0  鬟 0  
 huan'ai  3  患癌 14  欢爱 0  患埃 0  
 huan'an'you  1  还安有 4  
 huan'ba  2  环靶 0  患巴 0  
@@ -77566,6 +77692,7 @@ huan'zong'mai'di'sheng  1  还宗麦迪生 0
 huan'zu  1  还足 0  
 huan'zui  1  欢醉 0  
 huan'zuo  3  还作 11  换作 13  唤作 4  
+huang  25  荒 0  慌 0  黄 0  磺 0  蝗 0  簧 0  皇 0  凰 0  惶 0  煌 0  晃 0  幌 0  恍 0  谎 0  隍 0  徨 0  湟 0  潢 0  遑 0  璜 0  肓 0  癀 0  蟥 0  篁 0  鳇 0  
 huang'ai  1  黄矮 0  
 huang'ai'ling  1  黄爱玲 0  
 huang'an  2  磺胺 20  黄案 0  
@@ -78273,6 +78400,7 @@ huang'zu'tang  1  黄祖棠 1
 huang'zui  1  黄嘴 1  
 huang'zuo  1  皇座 1  
 huang'zuo'yi'tuan  1  慌作一团 0  
+hui  38  灰 0  挥 0  辉 0  徽 0  恢 0  蛔 0  回 0  毁 0  悔 0  慧 0  卉 0  惠 0  晦 0  贿 0  秽 0  会 0  烩 0  汇 0  讳 0  诲 0  绘 0  诙 0  茴 0  荟 0  蕙 0  咴 0  哕 0  喙 0  隳 0  洄 0  浍 0  彗 0  缋 0  晖 0  恚 0  虺 0  蟪 0  麾 0  
 hui'ai  2  回爱 2  会爱 2  
 hui'ai'shang  1  会爱上 13  
 hui'ai'si  1  会爱死 1  
@@ -79182,6 +79310,7 @@ hui'zui'zhe  1  悔罪者 0
 hui'zuo  3  会作 15  绘作 0  回座 0  
 hui'zuo'ren  1  会做人 1  
 hui'zuo'xie  1  会作些 0  
+hun  11  荤 0  昏 0  婚 0  魂 0  浑 0  混 0  诨 0  馄 0  阍 0  溷 0  珲 0  
 hun'an  1  昏暗 153  
 hun'ban  2  混拌 1  混班 0  
 hun'bei'ti  1  混倍体 0  
@@ -79539,6 +79668,7 @@ hun'zhuo'duo  1  浑浊度 6
 hun'zi  1  浑自 0  
 hun'zui  2  昏醉 0  魂醉 0  
 hun'zuo  1  混作 1  
+huo  21  豁 0  活 0  和 0  伙 0  火 0  获 0  或 0  惑 0  霍 0  货 0  祸 0  劐 0  藿 0  攉 0  嚯 0  夥 0  钬 0  锪 0  镬 0  耠 0  蠖 0  
 huo'ai  4  和蔼 117  或癌 1  或碍 0  霍艾 0  
 huo'ai'di  1  获爱迪 0  
 huo'ai'ke'qin  1  和蔼可亲 100  
@@ -80876,6 +81006,7 @@ huo'zui  2  获罪 5  火嘴 0
 huo'zui'jia  2  获最佳 2  或醉架 0  
 huo'zun'zhuang  1  或樽装 0  
 huo'zuo  4  或作 209  或座 0  活做 2  活作 0  
+ji  103  击 0  圾 0  基 0  机 0  奇 0  畸 0  稽 0  积 0  箕 0  肌 0  饥 0  迹 0  激 0  讥 0  鸡 0  姬 0  绩 0  缉 0  吉 0  极 0  棘 0  辑 0  籍 0  集 0  及 0  急 0  疾 0  汲 0  即 0  嫉 0  级 0  挤 0  给 0  几 0  脊 0  己 0  蓟 0  技 0  冀 0  季 0  伎 0  祭 0  剂 0  悸 0  济 0  寄 0  寂 0  计 0  记 0  既 0  忌 0  际 0  妓 0  系 0  继 0  纪 0  亟 0  乩 0  剞 0  佶 0  墼 0  芨 0  芰 0  荠 0  蒺 0  蕺 0  掎 0  叽 0  咭 0  哜 0  唧 0  岌 0  嵴 0  洎 0  屐 0  骥 0  畿 0  玑 0  楫 0  殛 0  戟 0  戢 0  赍 0  觊 0  犄 0  齑 0  矶 0  羁 0  嵇 0  稷 0  瘠 0  虮 0  笈 0  笄 0  暨 0  跻 0  跽 0  霁 0  鲚 0  鲫 0  髻 0  麂 0  丌 0  
 ji'a'mao'li  1  继阿毛里 0  
 ji'a'ni  1  吉阿尼 6  
 ji'a'ni'he'an'di  1  吉阿尼和安迪 0  
@@ -83928,6 +84059,7 @@ ji'zuo'dun'gu  1  及佐敦谷 1
 ji'zuo'pai  1  极左派 0  
 ji'zuo'wo  1  基佐沃 0  
 ji'zuo'yi'tuan  1  挤作一团 6  
+jia  37  嘉 0  枷 0  夹 0  佳 0  家 0  加 0  茄 0  荚 0  颊 0  贾 0  甲 0  钾 0  假 0  稼 0  价 0  架 0  驾 0  嫁 0  郏 0  葭 0  岬 0  浃 0  迦 0  珈 0  戛 0  胛 0  恝 0  铗 0  镓 0  痂 0  瘕 0  蛱 0  笳 0  袈 0  跏 0  袷 0  伽 0  
 jia'a  1  贾阿 0  
 jia'ai  1  佳艾 0  
 jia'an  4  甲胺 2  家鞍 0  嘉安 0  假案 2  
@@ -85131,7 +85263,7 @@ jia'xia'qu  1  加下去 0
 jia'xian  9  甲酰 8  假线 3  夹线 1  架线 0  嘉咸 4  佳县 1  家县 0  夹陷 0  夹馅 0  
 jia'xian'an  1  甲酰胺 4  
 jia'xian'qi  1  夹线器 0  
-jia'xiang  9  家乡 677  假象 99  假想 99  家向 1  假相 3  加香 2  家像 2  假像 0  加箱 0  
+jia'xiang  9  家乡 678  假象 99  假想 99  家向 1  假相 3  加香 2  家像 2  假像 0  加箱 0  
 jia'xiang'di  1  假想敌 6  
 jia'xiang'fu'lao  1  家乡父老 1  
 jia'xiang'ren  1  家乡人 1  
@@ -85345,6 +85477,7 @@ jia'zu'zhi'duo  1  家族制度 2
 jia'zui  1  加罪 3  
 jia'zuo  5  佳作 37  家作 4  假座 2  假作 3  加做 0  
 jia'zuo'jiang  1  佳作奖 0  
+jian  69  歼 0  监 0  坚 0  尖 0  笺 0  间 0  煎 0  兼 0  肩 0  艰 0  奸 0  缄 0  茧 0  检 0  柬 0  碱 0  硷 0  拣 0  捡 0  简 0  俭 0  剪 0  减 0  荐 0  槛 0  鉴 0  践 0  贱 0  见 0  键 0  箭 0  件 0  健 0  舰 0  剑 0  饯 0  渐 0  溅 0  涧 0  建 0  僭 0  谏 0  谫 0  菅 0  蒹 0  搛 0  囝 0  湔 0  蹇 0  謇 0  缣 0  枧 0  楗 0  戋 0  戬 0  牮 0  毽 0  腱 0  睑 0  锏 0  鹣 0  裥 0  笕 0  翦 0  趼 0  踺 0  鲣 0  鞯 0  犍 0  
 jian'ai  3  简爱 11  兼爱 0  尖埃 0  
 jian'an  4  减按 5  建安 5  渐暗 2  检案 1  
 jian'an'guo'xiao  1  建安国小 1  
@@ -86629,6 +86762,7 @@ jian'zu'ji  1  减阻剂 3
 jian'zu'jian'xi  1  减租减息 0  
 jian'zui  2  减罪 4  尖嘴 6  
 jian'zuo  7  间作 22  建作 1  建座 2  兼作 8  简做 1  见作 0  煎作 0  
+jiang  23  僵 0  姜 0  将 0  浆 0  江 0  疆 0  蒋 0  桨 0  奖 0  讲 0  匠 0  酱 0  降 0  茳 0  洚 0  绛 0  缰 0  犟 0  礓 0  耩 0  糨 0  豇 0  强 0  
 jiang'a'cai  1  酱腌菜 2  
 jiang'ai  3  奖爱 1  讲爱 0  降矮 0  
 jiang'ai'lv  1  降矮率 0  
@@ -87484,6 +87618,7 @@ jiang'zu  3  将组 0  姜族 0  降阻 0
 jiang'zui  1  强嘴 0  
 jiang'zuo  7  讲座 619  强作 2  将作 17  奖座 6  匠作 1  江左 0  讲作 0  
 jiang'zuo'yu  1  奖座予 0  
+jiao  46  蕉 0  椒 0  礁 0  焦 0  胶 0  交 0  郊 0  浇 0  骄 0  娇 0  嚼 0  搅 0  铰 0  矫 0  侥 0  脚 0  狡 0  角 0  饺 0  缴 0  绞 0  剿 0  教 0  酵 0  轿 0  校 0  较 0  叫 0  窖 0  佼 0  僬 0  艽 0  茭 0  挢 0  噍 0  峤 0  徼 0  湫 0  姣 0  敫 0  皎 0  鹪 0  蛟 0  醮 0  跤 0  鲛 0  
 jiao'an  3  教案 15  叫安 4  较暗 6  
 jiao'an'hua'jie  1  角安华街 0  
 jiao'an'she'ji  1  教案设计 1  
@@ -88672,6 +88807,7 @@ jiao'zuo  6  叫做 1158  叫作 181  叫座 11  脚作 1  交作 0  焦作 0
 jiao'zuo'dun'gu  1  角佐敦谷 0  
 jiao'zuo'shi  1  焦作市 3  
 jiao'zuo'xie  1  教做些 0  
+jie  44  揭 0  接 0  皆 0  秸 0  街 0  阶 0  截 0  劫 0  节 0  桔 0  杰 0  捷 0  睫 0  竭 0  洁 0  结 0  解 0  姐 0  戒 0  藉 0  芥 0  界 0  借 0  介 0  疥 0  诫 0  届 0  讦 0  拮 0  喈 0  嗟 0  婕 0  孑 0  桀 0  牒 0  碣 0  疖 0  颉 0  蚧 0  羯 0  鲒 0  骱 0  偈 0  诘 0  
 jie'ai  2  节哀 3  接爱 0  
 jie'ai'di'an  1  街艾蒂安 0  
 jie'ai'lin  1  接艾琳 0  
@@ -89854,6 +89990,7 @@ jie'zu  4  街组 4  解组 1  捷足 1  节组 0
 jie'zu'xian'deng  1  捷足先登 18  
 jie'zui'shou  1  界最受 1  
 jie'zuo  3  杰作 189  解作 5  界作 0  
+jin  33  巾 0  筋 0  斤 0  金 0  今 0  津 0  襟 0  紧 0  锦 0  仅 0  谨 0  进 0  靳 0  晋 0  禁 0  近 0  烬 0  浸 0  尽 0  劲 0  卺 0  堇 0  噤 0  馑 0  廑 0  妗 0  缙 0  瑾 0  槿 0  赆 0  觐 0  衿 0  荩 0  
 jin'a'ri  1  今阿日 1  
 jin'a'yu  1  进阿育 0  
 jin'ai  1  紧挨 17  
@@ -91353,6 +91490,7 @@ jin'zu'yu  1  近族于 0
 jin'zui  2  进嘴 2  金嘴 0  
 jin'zun'yu  1  金尊鱼 1  
 jin'zuo  6  仅作 6  禁作 0  金座 0  近作 1  禁做 0  金作 1  
+jing  40  荆 0  兢 0  茎 0  睛 0  晶 0  鲸 0  京 0  惊 0  精 0  粳 0  经 0  井 0  警 0  景 0  颈 0  静 0  境 0  敬 0  镜 0  径 0  痉 0  靖 0  竟 0  竞 0  净 0  刭 0  儆 0  阱 0  菁 0  獍 0  憬 0  泾 0  迳 0  弪 0  婧 0  肼 0  胫 0  腈 0  旌 0  靓 0  
 jing'a'gua  1  经阿瓜 0  
 jing'a'ni  1  敬阿尼 0  
 jing'a'song  1  经阿松 0  
@@ -92588,6 +92726,7 @@ jing'zu  3  井组 2  荆族 0  京族 0
 jing'zuo  5  静坐 54  井座 0  京作 0  经作 0  晶座 0  
 jing'zuo'shi'wei  1  静坐示威 6  
 jing'zuo'yong  1  警佐用 0  
+jiong  4  炯 0  窘 0  迥 0  扃 0  
 jiong'cheng  1  炯城 0  
 jiong'chu  1  迥出 2  
 jiong'de  1  窘得 9  
@@ -92610,6 +92749,7 @@ jiong'tai'bi'lu  1  窘态毕露 0
 jiong'xiang  1  窘相 1  
 jiong'yi  3  迥异 55  炯异 0  窘异 0  
 jiong'yu  1  窘于 0  
+jiu  26  揪 0  究 0  纠 0  玖 0  韭 0  久 0  灸 0  九 0  酒 0  厩 0  救 0  旧 0  臼 0  舅 0  咎 0  就 0  疚 0  僦 0  啾 0  阄 0  柩 0  桕 0  鸠 0  鹫 0  赳 0  鬏 0  
 jiu'ai  2  救爱 0  旧爱 1  
 jiu'ai'e  1  救爱娥 0  
 jiu'ai'luo  1  救爱洛 0  
@@ -93357,6 +93497,7 @@ jiu'zui  2  酒醉 42  旧罪 0
 jiu'zui'yi'xin  1  旧罪贻新 0  
 jiu'zuo  6  久坐 35  就座 130  就作 22  九座 1  旧作 0  酒作 0  
 jiu'zuo'you  1  九左右 0  
+ju  51  鞠 0  拘 0  狙 0  疽 0  居 0  驹 0  菊 0  桔 0  局 0  咀 0  矩 0  举 0  沮 0  聚 0  拒 0  据 0  巨 0  具 0  距 0  踞 0  锯 0  俱 0  句 0  惧 0  炬 0  剧 0  倨 0  讵 0  苣 0  苴 0  莒 0  掬 0  遽 0  屦 0  琚 0  椐 0  榘 0  榉 0  橘 0  犋 0  飓 0  钜 0  锔 0  窭 0  裾 0  趄 0  醵 0  踽 0  龃 0  雎 0  鞫 0  
 ju'ai  3  举哀 8  举艾 0  拒爱 1  
 ju'ai'er  1  居埃尔 0  
 ju'ai'ma  1  拒艾玛 0  
@@ -94229,6 +94370,7 @@ ju'zui'niao  1  巨嘴鸟 3
 ju'zuo  4  巨作 9  剧作 27  拒做 0  锯座 0  
 ju'zuo'jia  1  剧作家 175  
 ju'zuo'zhe  1  剧作者 7  
+juan  16  捐 0  鹃 0  娟 0  倦 0  眷 0  卷 0  绢 0  鄄 0  狷 0  狷 0  涓 0  桊 0  蠲 0  锩 0  镌 0  隽 0  
 juan'ai  1  眷爱 4  
 juan'ba  1  卷八 0  
 juan'ban'ji  1  卷板机 2  
@@ -94417,6 +94559,7 @@ juan'zi'zhu'xue  1  捐资助学 2
 juan'zong  1  卷宗 24  
 juan'zu  2  卷组 2  眷租 0  
 juan'zuo  1  捐作 3  
+jue  29  撅 0  攫 0  抉 0  掘 0  倔 0  爵 0  嚼 0  角 0  觉 0  决 0  诀 0  绝 0  厥 0  劂 0  谲 0  矍 0  蕨 0  噘 0  噱 0  崛 0  獗 0  孓 0  珏 0  桷 0  橛 0  爝 0  镢 0  蹶 0  觖 0  
 jue'ai  2  绝爱 0  觉碍 0  
 jue'an  1  决案 1  
 jue'an'hua'jie  1  角安华街 0  
@@ -94848,6 +94991,7 @@ jue'zong  2  绝踪 0  角纵 0
 jue'zou  1  攫走 0  
 jue'zui  2  噘嘴 9  角嘴 0  
 jue'zuo'dun'gu  1  角佐敦谷 0  
+jun  15  均 0  菌 0  钧 0  军 0  君 0  峻 0  俊 0  竣 0  浚 0  郡 0  骏 0  捃 0  皲 0  筠 0  麇 0  
 jun'ba  1  峻拔 0  
 jun'ban  1  菌斑 12  
 jun'ban'zhi'shu  1  菌斑指数 0  
@@ -95208,6 +95352,7 @@ jun'zi'xie'ding  1  君子协定 5
 jun'zi'zhi'jiao'dan'ru'shui  1  君子之交淡如水 3  
 jun'zun  1  君尊 1  
 jun'zuo  1  均作 3  
+ka  7  喀 0  咖 0  卡 0  咯 0  佧 0  咔 0  胩 0  
 ka'a'hu  1  卡阿乎 0  
 ka'an  1  卡安 0  
 ka'ang  1  卡昂 0  
@@ -95982,6 +96127,7 @@ ka'zi'wen  1  卡兹文 0
 ka'zong'de  1  卡宗德 0  
 ka'zu  3  卡组 0  卡族 0  卡祖 1  
 ka'zuo  2  卡座 1  咔唑 1  
+kai  13  开 0  揩 0  楷 0  凯 0  慨 0  剀 0  垲 0  蒈 0  忾 0  恺 0  锎 0  锴 0  铠 0  
 kai'an  2  开案 0  凯安 0  
 kai'ba  2  凯巴 2  开拔 1  
 kai'bai'cai  1  凯伯才 0  
@@ -96647,6 +96793,7 @@ kai'zu'lai  1  开租来 0
 kai'zu'ma'li  1  开足马力 5  
 kai'zuan  1  开钻 3  
 kai'zui  2  开罪 7  开嘴 0  
+kan  11  刊 0  堪 0  勘 0  坎 0  砍 0  看 0  侃 0  莰 0  戡 0  龛 0  瞰 0  
 kan'ai'ma  1  看艾玛 0  
 kan'ai'mi  1  看爱米 0  
 kan'ao  1  看敖 0  
@@ -97065,6 +97212,7 @@ kan'zhuo'ban  1  看着办 16
 kan'zou'yan  1  看走眼 3  
 kan'zu'ke  1  看足科 0  
 kan'zuo  3  看作 1020  看做 146  堪作 2  
+kang  10  康 0  慷 0  糠 0  扛 0  抗 0  亢 0  炕 0  伉 0  闶 0  钪 0  
 kang'ai  2  抗癌 70  抗艾 0  
 kang'ai'ji  1  抗癌剂 0  
 kang'ai'ji'yin  1  抗癌基因 0  
@@ -97594,6 +97742,7 @@ kang'zhuang'xing  1  抗撞性 0
 kang'zhuo  3  扛着 53  抗着 0  炕桌 1  
 kang'zu  1  抗阻 1  
 kang'zuo  2  康唑 7  康做 0  
+kao  8  考 0  拷 0  烤 0  靠 0  尻 0  栲 0  犒 0  铐 0  
 kao'ai'dao  2  考艾岛 5  考爱岛 0  
 kao'ai'er  1  考埃尔 0  
 kao'an  1  靠岸 59  
@@ -97879,8 +98028,9 @@ kao'zi  1  靠子 0
 kao'zi'bi  1  考兹比 0  
 kao'zuo  1  靠左 10  
 kao'zuo'bian  1  靠左边 6  
+ke  34  坷 0  苛 0  柯 0  棵 0  磕 0  颗 0  科 0  壳 0  咳 0  可 0  渴 0  克 0  刻 0  客 0  课 0  嗑 0  岢 0  恪 0  溘 0  骒 0  骒 0  缂 0  珂 0  轲 0  氪 0  瞌 0  钶 0  锞 0  稞 0  疴 0  窠 0  颏 0  蝌 0  髁 0  
 ke'a'bo  1  可阿波 0  
-ke'ai  2  可爱 1472  可哀 0  
+ke'ai  2  可爱 1473  可哀 0  
 ke'ai'lan  1  科艾兰 0  
 ke'ai'lei  1  科艾雷 1  
 ke'ai'lue  1  科埃略 1  
@@ -99732,6 +99882,7 @@ ke'zuo'fu  1  克佐甫 1
 ke'zuo'jiao'shou  1  客座教授 15  
 ke'zuo'liang  1  可作量 0  
 ke'zuo'shi  2  可作时 1  可作实 0  
+ken  6  肯 0  啃 0  垦 0  恳 0  裉 0  龈 0  
 ken'ba'xiang  1  肯把象 0  
 ken'ban  1  龈瓣 0  
 ken'bang  1  肯帮 2  
@@ -99872,6 +100023,7 @@ ken'zhuo  1  啃着 6
 ken'zi  2  肯自 0  肯兹 1  
 ken'zi'he  1  肯兹河 0  
 ken'zuo  2  肯做 8  肯坐 0  
+keng  3  坑 0  吭 0  铿 0  
 keng'bi  2  坑壁 0  吭痹 0  
 keng'bian  1  坑边 5  
 keng'cao  1  坑槽 0  
@@ -99919,6 +100071,7 @@ keng'zhi  1  坑址 0
 keng'zhong  1  坑中 11  
 keng'zi  1  坑梓 0  
 keng'zuo  1  坑作 0  
+kong  7  空 0  恐 0  孔 0  控 0  倥 0  崆 0  箜 0  
 kong'an  1  控案 1  
 kong'ao  1  控凹 0  
 kong'bai  1  空白 419  
@@ -100528,6 +100681,7 @@ kong'zou  1  空走 0
 kong'zui  1  控罪 80  
 kong'zuo  2  空座 2  空坐 0  
 kong'zuo'wei  1  空座位 8  
+kou  9  抠 0  口 0  扣 0  寇 0  芤 0  蔻 0  叩 0  眍 0  筘 0  
 kou'ai  1  寇艾 0  
 kou'an  1  口岸 215  
 kou'ba  1  口巴 1  
@@ -100810,6 +100964,7 @@ kou'zhuo  1  口拙 0
 kou'zi  2  口子 45  扣子 87  
 kou'zi'yan  1  抠字眼 0  
 kou'zuo  2  口作 7  扣作 1  
+ku  12  枯 0  哭 0  窟 0  苦 0  酷 0  库 0  裤 0  刳 0  堀 0  喾 0  绔 0  骷 0  
 ku'ai  2  酷爱 81  苦艾 11  
 ku'an  2  库胺 0  库岸 4  
 ku'ao  1  苦熬 3  
@@ -101233,6 +101388,7 @@ ku'zi'nie'zuo'wa  1  库兹涅佐娃 1
 ku'zu  1  库祖 0  
 ku'zuo  1  枯坐 1  
 ku'zuo'zhou  1  苦作舟 3  
+kua  6  夸 0  垮 0  挎 0  跨 0  胯 0  侉 0  
 kua'an  1  夸安 0  
 kua'ba  1  垮坝 0  
 kua'ban  1  跨板 0  
@@ -101396,6 +101552,7 @@ kua'zu  1  跨足 0
 kua'zu'lu  2  夸祖鲁 5  夸祖卢 10  
 kua'zuo  2  夸作 0  跨坐 1  
 kua'zuo'shi  1  跨座式 3  
+kuai  9  块 0  筷 0  侩 0  快 0  蒯 0  郐 0  哙 0  脍 0  会 0  
 kuai'ai  1  会爱 2  
 kuai'ai'shang  1  会爱上 13  
 kuai'ai'si  1  会爱死 1  
@@ -102004,6 +102161,7 @@ kuai'zui  1  快嘴 0
 kuai'zuo  2  会作 15  快作 0  
 kuai'zuo'ren  1  会做人 1  
 kuai'zuo'xie  1  会作些 0  
+kuan  3  宽 0  款 0  髋 0  
 kuan'bai  1  宽白 0  
 kuan'bei  1  髋贝 0  
 kuan'bi  3  宽比 4  宽蔽 0  宽壁 0  
@@ -102183,6 +102341,7 @@ kuan'zhuan  1  款转 0
 kuan'zhun  1  款准 0  
 kuan'zi  2  款子 32  宽子 0  
 kuan'zuo  1  款作 0  
+kuang  16  匡 0  筐 0  狂 0  框 0  矿 0  眶 0  旷 0  况 0  诓 0  诳 0  邝 0  圹 0  夼 0  哐 0  纩 0  贶 0  
 kuang'ai  1  狂爱 3  
 kuang'ai'zhe  1  狂爱者 0  
 kuang'ai'zhong  1  狂爱中 0  
@@ -102459,6 +102618,7 @@ kuang'zhuang  1  况状 0
 kuang'zhuo  1  框着 0  
 kuang'zi  2  框子 11  筐子 38  
 kuang'zuo  1  框作 0  
+kui  28  亏 0  盔 0  岿 0  窥 0  葵 0  奎 0  魁 0  傀 0  馈 0  愧 0  溃 0  馗 0  匮 0  夔 0  隗 0  蒉 0  揆 0  喹 0  喟 0  悝 0  愦 0  逵 0  暌 0  睽 0  聩 0  蝰 0  篑 0  跬 0  
 kui'ao  1  窥奥 0  
 kui'ba  1  溃坝 6  
 kui'bai  1  溃败 29  
@@ -102636,6 +102796,7 @@ kui'zhi  2  窥知 1  亏值 0
 kui'zhuang  1  盔状 2  
 kui'zi  1  奎兹 2  
 kui'zuo'lin  1  喹唑啉 0  
+kun  11  坤 0  昆 0  捆 0  困 0  悃 0  阃 0  琨 0  锟 0  醌 0  鲲 0  髡 0  
 kun'bang  1  捆绑 173  
 kun'bang'dai  1  捆绑带 0  
 kun'bang'shi  1  捆绑式 4  
@@ -102776,6 +102937,7 @@ kun'zhou  1  昆州 0
 kun'zhu  3  捆住 36  困住 53  困著 0  
 kun'zhuo  2  捆着 11  困着 0  
 kun'zu  1  困阻 3  
+kuo  5  括 0  扩 0  廓 0  阔 0  蛞 0  
 kuo'ban  1  阔板 1  
 kuo'bei  1  扩背 0  
 kuo'bi  1  阔笔 0  
@@ -102945,6 +103107,7 @@ kuo'zhi'pan  1  扩支盘 0
 kuo'zhu  1  扩住 0  
 kuo'zhuang  1  扩桩 1  
 kuo'zu  1  阔族 0  
+la  13  垃 0  拉 0  喇 0  蜡 0  腊 0  辣 0  啦 0  旯 0  砬 0  瘌 0  剌 0  邋 0  落 0  
 la'ai'shang  1  拉爱上 0  
 la'an  2  落案 18  拉岸 0  
 la'ao  1  拉奥 9  
@@ -103661,6 +103824,7 @@ la'zu'mi'xing  1  拉祖米兴 0
 la'zu'yu  1  落足于 0  
 la'zuo  2  落座 15  拉唑 0  
 la'zuo'fu  1  拉佐夫 3  
+lai  12  莱 0  来 0  赖 0  崃 0  徕 0  涞 0  濑 0  赉 0  睐 0  铼 0  癞 0  籁 0  
 lai'ai  1  来埃 0  
 lai'an  2  赖安 7  莱安 0  
 lai'an'de  1  莱安德 0  
@@ -104130,6 +104294,7 @@ lai'zi  4  来自 8473  来兹 6  赖子 0  来子 0
 lai'zi'rao  1  来滋扰 0  
 lai'zong  1  来宗 0  
 lai'zuo  1  来作 19  
+lan  22  蓝 0  婪 0  栏 0  拦 0  篮 0  阑 0  兰 0  澜 0  谰 0  揽 0  览 0  懒 0  缆 0  烂 0  滥 0  岚 0  漤 0  榄 0  斓 0  罱 0  镧 0  褴 0  
 lan'an  1  蓝岸 0  
 lan'ba  1  蓝霸 0  
 lan'bai  3  兰伯 4  兰柏 0  蓝白 26  
@@ -104566,6 +104731,7 @@ lan'zu  1  拦阻 45
 lan'zui  1  烂醉 28  
 lan'zui'ru'ni  1  烂醉如泥 32  
 lan'zuo'nei  1  兰佐内 0  
+lang  14  琅 0  榔 0  狼 0  廊 0  郎 0  朗 0  浪 0  莨 0  蒗 0  啷 0  阆 0  锒 0  稂 0  螂 0  
 lang'bai  1  朗伯 7  
 lang'bao  1  狼堡 1  
 lang'bei  1  狼狈 38  
@@ -104762,6 +104928,7 @@ lang'zi'xian  1  朗兹县 0
 lang'zi'ye'xin  1  狼子野心 2  
 lang'zu  1  狼族 0  
 lang'zuo  1  廊作 0  
+lao  18  捞 0  劳 0  牢 0  老 0  佬 0  姥 0  酪 0  烙 0  涝 0  唠 0  崂 0  栳 0  铑 0  铹 0  痨 0  耢 0  醪 0  落 0  
 lao'a'mang  1  老阿芒 0  
 lao'a'po  1  老阿婆 1  
 lao'ai  4  老爱 14  老埃 0  老艾 2  劳埃 0  
@@ -105646,6 +105813,7 @@ lao'zu'xian  1  老祖先 2
 lao'zu'yu  1  落足于 0  
 lao'zu'zong  1  老祖宗 9  
 lao'zuo  2  劳作 128  落座 15  
+le  6  勒 0  乐 0  仂 0  叻 0  泐 0  鳓 0  
 le'an  2  勒安 0  乐安 2  
 le'an'ju  1  乐安居 1  
 le'ba  1  勒巴 1  
@@ -105873,6 +106041,7 @@ le'zhuan  1  勒转 0
 le'zi  1  乐子 58  
 le'zi'zhi  1  乐子之 0  
 le'zi'zi  1  乐滋滋 5  
+lei  20  雷 0  镭 0  蕾 0  磊 0  累 0  儡 0  垒 0  擂 0  肋 0  类 0  泪 0  羸 0  诔 0  捩 0  嘞 0  嫘 0  缧 0  檑 0  耒 0  酹 0  
 lei'a'er'dui  1  雷阿尔兑 0  
 lei'a'lun  1  雷阿伦 3  
 lei'ai  2  雷埃 8  类癌 3  
@@ -106406,6 +106575,7 @@ lei'zi  4  雷子 1  类子 1  雷兹 1  类字 0
 lei'zi'xing  1  类子型 0  
 lei'zu  1  类族 0  
 lei'zuo  3  雷做 0  类作 0  雷佐 0  
+leng  5  棱 0  楞 0  冷 0  塄 0  愣 0  
 leng'an  1  冷案 0  
 leng'ao  1  冷傲 0  
 leng'ba  1  冷拔 7  
@@ -106694,6 +106864,7 @@ leng'zhu'ti  1  棱柱体 5
 leng'zhui  1  棱锥 4  
 leng'zhuo  1  冷着 0  
 leng'zuo  1  冷作 1  
+li  75  厘 0  梨 0  犁 0  黎 0  篱 0  狸 0  离 0  漓 0  理 0  李 0  里 0  鲤 0  礼 0  莉 0  荔 0  吏 0  栗 0  丽 0  厉 0  励 0  砾 0  历 0  利 0  傈 0  例 0  俐 0  痢 0  立 0  粒 0  沥 0  隶 0  力 0  璃 0  哩 0  俪 0  俚 0  郦 0  坜 0  苈 0  莅 0  蓠 0  藜 0  呖 0  唳 0  喱 0  溧 0  澧 0  逦 0  娌 0  嫠 0  骊 0  缡 0  枥 0  栎 0  轹 0  戾 0  砺 0  詈 0  罹 0  锂 0  鹂 0  疠 0  疬 0  蛎 0  蜊 0  蠡 0  笠 0  篥 0  粝 0  醴 0  跞 0  雳 0  鲡 0  鳢 0  黧 0  
 li'a  1  利阿 2  
 li'a'da'ma  1  李阿达玛 0  
 li'a'si  1  利阿斯 1  
@@ -108582,6 +108753,7 @@ li'zuo  6  离座 2  里作 13  力作 14  例作 2  立作 1  例做 0
 li'zuo'ban  1  例左半 1  
 li'zuo'li  1  里佐利 0  
 li'zuo'xiong  2  李佐雄 0  李作雄 0  
+lia  1  俩 0  
 lia'ba  1  俩把 3  
 lia'da  1  俩打 1  
 lia'dui  1  俩对 2  
@@ -108598,6 +108770,7 @@ lia'yi  1  俩一 1
 lia'zhan  1  俩站 1  
 lia'zhe  1  俩者 0  
 lia'zhong  1  俩种 0  
+lian  26  联 0  莲 0  连 0  镰 0  廉 0  怜 0  涟 0  帘 0  敛 0  脸 0  链 0  恋 0  炼 0  练 0  蔹 0  奁 0  潋 0  濂 0  琏 0  楝 0  殓 0  臁 0  裢 0  裣 0  蠊 0  鲢 0  
 lian'a  1  联阿 4  
 lian'ai  3  恋爱 461  怜爱 24  连爱 0  
 lian'ai'guan  1  恋爱观 0  
@@ -109394,6 +109567,7 @@ lian'zu'fang  1  廉租房 14
 lian'zui  2  练嘴 11  连嘴 2  
 lian'zuo  5  连作 8  莲座 6  连坐 2  连座 3  脸作 0  
 lian'zuo'qi  1  莲座期 2  
+liang  16  粮 0  凉 0  梁 0  粱 0  良 0  两 0  辆 0  量 0  晾 0  亮 0  谅 0  墚 0  墚 0  椋 0  踉 0  魉 0  
 liang'ai'shi  1  梁爱诗 3  
 liang'an  2  两岸 397  两案 4  
 liang'an'guan'ji  1  两岸关系 64  
@@ -110317,6 +110491,7 @@ liang'zu'zu  1  两族族 0
 liang'zui  2  两罪 0  两嘴 0  
 liang'zun  1  两尊 6  
 liang'zuo  3  两座 173  粮作 0  两作 0  
+liao  21  撩 0  聊 0  僚 0  疗 0  燎 0  寥 0  辽 0  潦 0  了 0  撂 0  镣 0  廖 0  料 0  蓼 0  尥 0  嘹 0  獠 0  寮 0  缭 0  钌 0  鹩 0  
 liao'ai'mei  1  了暧昧 0  
 liao'bai'sen  1  廖柏森 0  
 liao'bai'wei  1  廖柏伟 0  
@@ -110562,6 +110737,7 @@ liao'zi  1  料子 67
 liao'zi'ming  1  廖子明 0  
 liao'zu  1  辽足 1  
 liao'zuo  2  僚佐 0  料作 0  
+lie  12  列 0  裂 0  烈 0  劣 0  猎 0  冽 0  埒 0  咧 0  洌 0  趔 0  躐 0  鬣 0  
 lie'ang  1  列昂 1  
 lie'ang'ni  1  列昂尼 2  
 lie'ang'ti'fu  1  列昂惕夫 0  
@@ -110853,6 +111029,7 @@ lie'zui'da'xiao  1  咧嘴大笑 3
 lie'zui'dai'xiao  1  咧嘴大笑 3  
 lie'zui'yi'xiao  1  咧嘴一笑 10  
 lie'zuo  2  列作 8  列佐 2  
+lin  24  琳 0  林 0  磷 0  霖 0  临 0  邻 0  鳞 0  淋 0  凛 0  赁 0  吝 0  蔺 0  啉 0  嶙 0  廪 0  懔 0  遴 0  檩 0  辚 0  膦 0  瞵 0  粼 0  躏 0  麟 0  
 lin'ai  2  鳞癌 11  临爱 0  
 lin'an  3  磷铵 5  临安 0  林安 0  
 lin'an'er  1  林安儿 0  
@@ -111472,6 +111649,7 @@ lin'zu  1  林阻 0
 lin'zu'hui  1  林祖辉 0  
 lin'zuo  1  邻座 5  
 lin'zuo'ming  1  林左鸣 0  
+ling  28  拎 0  玲 0  菱 0  零 0  龄 0  铃 0  伶 0  羚 0  凌 0  灵 0  陵 0  岭 0  领 0  另 0  令 0  酃 0  苓 0  呤 0  囹 0  泠 0  绫 0  柃 0  棂 0  瓴 0  聆 0  蛉 0  鲮 0  翎 0  
 ling'ai  3  令爱 10  令嫒 1  令埃 0  
 ling'an  4  聆案 7  令暗 1  令安 0  另案 0  
 ling'ao  1  岭澳 6  
@@ -112123,6 +112301,7 @@ ling'zui  1  零嘴 0
 ling'zun  1  令尊 25  
 ling'zuo  1  另作 22  
 ling'zuo'yuan  1  领座员 0  
+liu  22  溜 0  琉 0  榴 0  硫 0  馏 0  留 0  刘 0  瘤 0  流 0  柳 0  六 0  浏 0  遛 0  骝 0  绺 0  旒 0  熘 0  锍 0  镏 0  鹨 0  鎏 0  桎 0  
 liu'ai'ling  1  刘爱玲 0  
 liu'an  6  刘安 1  硫铵 0  六安 0  硫胺 1  柳暗 0  留案 0  
 liu'an'hua'ming  1  柳暗花明 4  
@@ -113236,6 +113415,7 @@ liu'zu'yan  1  刘祖言 0
 liu'zuo  5  六座 11  留作 3  留座 6  刘作 0  流做 0  
 liu'zuo'piao'ling  1  硫唑嘌呤 0  
 liu'zuo'zheng  1  留作政 0  
+long  17  龙 0  聋 0  咙 0  笼 0  窿 0  隆 0  垄 0  拢 0  陇 0  垅 0  茏 0  泷 0  珑 0  栊 0  胧 0  砻 0  癃 0  
 long'an'qu  1  龙安区 0  
 long'an'xian  1  隆安县 0  
 long'ba  2  隆巴 0  龙霸 0  
@@ -113580,6 +113760,7 @@ long'zi'long'sun  1  龙子龙孙 0
 long'zu  1  龙族 3  
 long'zui  1  龙嘴 0  
 long'zuo  1  垄作 4  
+lou  14  楼 0  娄 0  搂 0  篓 0  漏 0  陋 0  蒌 0  喽 0  嵝 0  镂 0  瘘 0  耧 0  蝼 0  髅 0  
 lou'ba  1  漏拔 0  
 lou'ba'te  1  娄巴特 2  
 lou'ban  2  楼板 25  楼版 0  
@@ -113757,6 +113938,7 @@ lou'zi  5  篓子 4  漏子 0  娄子 0  楼子 0  漏字 2
 lou'zu  1  漏阻 0  
 lou'zui  1  漏嘴 0  
 lou'zuo  2  楼作 0  楼座 6  
+lu  41  芦 0  卢 0  颅 0  庐 0  炉 0  掳 0  卤 0  虏 0  鲁 0  麓 0  碌 0  露 0  路 0  赂 0  鹿 0  潞 0  禄 0  录 0  陆 0  戮 0  垆 0  撸 0  噜 0  泸 0  渌 0  漉 0  逯 0  璐 0  栌 0  橹 0  轳 0  辂 0  辘 0  氇 0  胪 0  镥 0  鸬 0  鹭 0  簏 0  舻 0  鲈 0  
 lu'a'pei'hu  1  鲁阿佩胡 0  
 lu'ai  2  卢埃 0  卢爱 0  
 lu'ai'fu  1  卢埃夫 1  
@@ -114579,6 +114761,7 @@ lu'zong  1  陆总 0
 lu'zou  1  掳走 4  
 lu'zu'yu  1  路族语 0  
 lu'zuo  1  炉作 0  
+luan  11  峦 0  挛 0  孪 0  滦 0  卵 0  乱 0  脔 0  娈 0  栾 0  鸾 0  銮 0  
 luan'ba  2  乱扒 1  乱拔 0  
 luan'bai  1  卵白 0  
 luan'bao  1  卵胞 1  
@@ -114774,6 +114957,7 @@ luan'zhuang'ye  1  乱状液 0
 luan'zi  2  卵子 126  乱子 15  
 luan'zuo  1  乱作 1  
 luan'zuo'yi'tuan  1  乱作一团 11  
+lue  3  掠 0  略 0  锊 0  
 lue'an  1  略暗 0  
 lue'bai  1  略白 0  
 lue'bei  1  略备 1  
@@ -114877,6 +115061,7 @@ lue'zhi'pi'mao  1  略知皮毛 1
 lue'zhi'yi'er  1  略知一二 18  
 lue'zou  1  掠走 11  
 lue'zuo  1  略作 10  
+lun  8  抡 0  轮 0  伦 0  仑 0  沦 0  纶 0  论 0  囵 0  
 lun'an  1  论案 1  
 lun'ba  1  伦巴 13  
 lun'ba'di  1  伦巴第 13  
@@ -115148,6 +115333,7 @@ lun'zu  2  论组 1  轮组 2
 lun'zui  1  论罪 0  
 lun'zuo  3  轮作 18  伦佐 1  轮座 0  
 lun'zuo'zhi  1  轮作制 0  
+luo  25  萝 0  螺 0  罗 0  逻 0  锣 0  箩 0  骡 0  裸 0  落 0  洛 0  骆 0  络 0  倮 0  蠃 0  荦 0  摞 0  猡 0  泺 0  漯 0  珞 0  椤 0  脶 0  镙 0  瘰 0  雒 0  
 luo'a  1  罗阿 0  
 luo'a'dao  1  罗阿岛 0  
 luo'ai  1  罗艾 0  
@@ -116111,6 +116297,7 @@ luo'zu'ru  1  罗祖儒 2
 luo'zu'yu  1  落足于 0  
 luo'zui  1  锣嘴 0  
 luo'zuo  1  落座 15  
+lv  21  驴 0  吕 0  铝 0  侣 0  旅 0  履 0  屡 0  缕 0  虑 0  氯 0  律 0  率 0  滤 0  绿 0  闾 0  榈 0  膂 0  稆 0  褛 0  偻 0  捋 0  
 lv'ai'fu  1  吕埃夫 0  
 lv'an  3  氯胺 0  绿岸 0  氯铵 0  
 lv'an'tong  1  氯胺酮 35  
@@ -116755,6 +116942,7 @@ lv'zu  1  履足 0
 lv'zu'men  1  旅族们 0  
 lv'zui  1  滤嘴 10  
 lv'zuo  3  率作 1  屡作 0  氯唑 0  
+ma  14  妈 0  麻 0  玛 0  码 0  蚂 0  马 0  骂 0  嘛 0  吗 0  唛 0  犸 0  嬷 0  杩 0  蟆 0  
 ma'a'xie'er  1  马阿谢尔 0  
 ma'ai  2  马艾 1  马埃 0  
 ma'ai'dao  1  马埃岛 0  
@@ -118031,6 +118219,7 @@ ma'zui'yao'pin  1  麻醉药品 241
 ma'zui'zhen  1  麻醉针 2  
 ma'zuo  1  玛作 0  
 ma'zuo'wei'ye'ci'ji  1  马佐维耶茨基 5  
+mai  9  埋 0  买 1  麦 0  卖 0  迈 0  脉 0  劢 0  荬 0  霾 0  
 mai'a'mi  1  迈阿密 194  
 mai'an  1  迈安 0  
 mai'ba'he  1  迈巴赫 0  
@@ -118668,6 +118857,7 @@ mai'zi'la  1  迈兹拉 0
 mai'zi'lin  1  麦滋林 0  
 mai'zui  1  买醉 2  
 mai'zuo  4  卖作 3  卖座 17  买作 0  买座 0  
+man  19  瞒 0  馒 0  蛮 0  满 0  埋 0  蔓 0  曼 0  慢 0  漫 0  谩 0  墁 0  幔 0  缦 0  熳 0  镘 0  颟 0  螨 0  鳗 0  鞔 0  
 man'ai  1  漫爱 0  
 man'bai'xue  1  满白雪 1  
 man'ban  2  慢板 5  慢班 5  
@@ -119149,6 +119339,7 @@ man'zui  1  满嘴 42
 man'zui'dou'shi  1  满嘴都是 3  
 man'zui'du'shi  1  满嘴都是 3  
 man'zuo  1  满座 12  
+mang  10  芒 0  茫 0  盲 0  氓 0  忙 0  莽 0  邙 0  漭 0  硭 0  蟒 0  
 mang'ban  2  盲板 3  盲瓣 1  
 mang'ban'fa  1  盲板阀 1  
 mang'bo  1  盲播 0  
@@ -119296,6 +119487,7 @@ mang'zhong  1  芒种 2
 mang'zhong'chu'cuo  1  忙中出错 1  
 mang'zhuang  1  莽撞 35  
 mang'zi  2  盲字 0  盲自 0  
+mao  25  猫 0  茅 0  锚 0  毛 0  矛 0  铆 0  卯 0  茂 0  冒 0  帽 0  貌 0  贸 0  袤 0  茆 0  峁 0  泖 0  瑁 0  牦 0  耄 0  旄 0  懋 0  瞀 0  蝥 0  蟊 0  髦 0  
 mao'ai  2  毛埃 0  冒嫒 0  
 mao'an  1  毛岸 0  
 mao'bai'yang  1  毛白杨 6  
@@ -119744,6 +119936,8 @@ mao'zi  3  帽子 969  毛子 1  猫子 0
 mao'zi'xi'fa  1  帽子戏法 15  
 mao'zu  2  卯足 2  猫族 0  
 mao'zu'liao'jin  1  卯足了劲 0  
+me  1  么 0  
+mei  27  玫 0  枚 0  梅 0  酶 0  霉 0  煤 0  没 0  眉 0  媒 0  镁 0  每 0  美 0  昧 0  寐 0  妹 0  媚 0  莓 0  嵋 0  猸 0  浼 0  湄 0  楣 0  镅 0  鹛 0  袂 0  篾 0  魅 0  
 mei'a'cha  1  梅阿查 0  
 mei'ai  2  没爱 0  美爱 0  
 mei'ai'gou  1  没爱够 0  
@@ -121173,6 +121367,7 @@ mei'zui  3  美嘴 0  没醉 3  没罪 0
 mei'zun'yong  1  每尊用 0  
 mei'zuo  5  煤作 1  每座 34  没作 6  美作 0  每作 0  
 mei'zuo'sheng  1  没作声 5  
+men  7  门 0  闷 0  们 0  扪 0  焖 0  懑 0  钔 0  
 men'ba  1  门巴 0  
 men'ba'shou  1  门把手 34  
 men'ba'zu  1  门巴族 0  
@@ -121411,6 +121606,7 @@ men'zi  1  门子 3
 men'zu  1  扪族 0  
 men'zuo  1  门座 2  
 men'zuo'shi  1  门座式 0  
+meng  19  萌 0  蒙 0  檬 0  盟 0  锰 0  猛 0  梦 0  孟 0  勐 0  甍 0  瞢 0  懵 0  朦 0  礞 0  虻 0  蜢 0  蠓 0  艋 0  艨 0  
 meng'ai  1  蒙爱 3  
 meng'ba  1  梦八 1  
 meng'ba'dian  1  蒙巴点 1  
@@ -121840,6 +122036,7 @@ meng'zi  3  孟子 33  蒙自 1  蒙兹 0
 meng'zi'yue  1  孟子曰 0  
 meng'zou  1  猛奏 1  
 meng'zu  2  蒙族 4  孟族 0  
+mi  29  眯 0  醚 0  靡 0  糜 0  迷 0  谜 0  弥 0  米 0  秘 0  觅 0  泌 0  蜜 0  密 0  幂 0  芈 0  谧 0  蘼 0  咪 0  嘧 0  猕 0  汨 0  宓 0  弭 0  脒 0  祢 0  敉 0  糸 0  縻 0  麋 0  
 mi'an  3  蜜胺 1  密胺 0  迷案 0  
 mi'ao  2  米奥 6  秘奥 0  
 mi'ba  1  米爸 0  
@@ -122454,6 +122651,7 @@ mi'zuo  2  咪唑 22  迷作 0
 mi'zuo'lei  1  咪唑类 0  
 mi'zuo'ta'ji'si  1  米佐塔基斯 2  
 mi'zuo'you  1  米左右 23  
+mian  14  棉 0  眠 0  绵 0  冕 0  免 0  勉 0  娩 0  缅 0  面 0  沔 0  渑 0  湎 0  腼 0  眄 0  
 mian'ao  1  棉袄 8  
 mian'ban  3  面板 322  免办 1  面版 0  
 mian'ban'hui  1  面版会 0  
@@ -122919,6 +123117,7 @@ mian'zi'you  2  棉籽油 2  棉子油 0
 mian'zu  2  缅族 0  免租 13  
 mian'zui  1  免罪 8  
 mian'zuo  4  面做 0  免做 0  面作 1  棉做 0  
+miao  15  苗 0  描 0  瞄 0  藐 0  秒 0  渺 0  庙 0  妙 0  喵 0  邈 0  缈 0  杪 0  淼 0  眇 0  鹋 0  
 miao'bi  1  妙笔 6  
 miao'bi'sheng'hua  1  妙笔生花 1  
 miao'bian  1  描边 2  
@@ -123081,6 +123280,7 @@ miao'zhuo  3  瞄着 2  妙着 1  描着 0
 miao'zi  3  苗子 1  妙子 1  苗字 1  
 miao'zu  1  苗族 31  
 miao'zuo'you  1  秒左右 1  
+mie  5  蔑 0  灭 0  乜 0  咩 0  蠛 0  
 mie'cha  1  灭茬 0  
 mie'cheng  3  灭成 1  蔑称 6  灭城 1  
 mie'chong  1  灭虫 5  
@@ -123136,6 +123336,7 @@ mie'zao  2  灭蚤 1  灭藻 1
 mie'zhong  2  灭众 1  灭种 6  
 mie'zu  1  灭族 3  
 mie'zui  1  灭罪 9  
+min  16  民 0  抿 0  皿 0  敏 0  悯 0  闽 0  苠 0  岷 0  闵 0  泯 0  缗 0  玟 0  珉 0  愍 0  鳘 0  黾 0  
 min'an  1  民安 4  
 min'bai  1  民摆 1  
 min'ban  1  民办 25  
@@ -123534,6 +123735,7 @@ min'zu'zong'jiao  1  民族宗教 1
 min'zu'zun'yan  1  民族尊严 7  
 min'zui  1  抿嘴 0  
 min'zui'xiao  1  抿嘴笑 0  
+ming  12  明 0  螟 0  鸣 0  铭 0  名 0  命 0  冥 0  茗 0  溟 0  暝 0  瞑 0  酩 0  
 ming'a'ze'li  1  名阿泽里 0  
 ming'ai  3  明爱 25  名隘 0  名爱 0  
 ming'ai'an'lao  1  明爱安老 0  
@@ -124122,6 +124324,7 @@ ming'zu  2  名族 4  名祖 1
 ming'zui  1  名嘴 5  
 ming'zuo  3  名作 24  命作 0  明作 0  
 ming'zuo'jia  1  名作家 14  
+miu  1  谬 0  
 miu'chuan  1  谬传 0  
 miu'er  1  谬尔 0  
 miu'jian  1  谬见 6  
@@ -124132,6 +124335,7 @@ miu'wang  1  谬妄 1
 miu'wu  1  谬误 84  
 miu'xing  1  谬性 0  
 miu'yi'qian'li  1  谬以千里 3  
+mo  31  摸 0  摹 0  蘑 0  模 0  膜 0  磨 0  摩 0  魔 0  抹 0  末 0  莫 0  墨 0  默 0  沫 0  漠 0  寞 0  陌 0  谟 0  茉 0  蓦 0  馍 0  嫫 0  殁 0  镆 0  秣 0  瘼 0  耱 0  貊 0  貘 0  麽 0  脉 0  
 mo'a'bu  1  摩阿布 0  
 mo'ai  3  莫埃 7  默哀 42  摩埃 0  
 mo'ai'er'jin'dun  1  莫艾尔金顿 0  
@@ -125073,6 +125277,7 @@ mo'zu'sun'shi  1  摩阻损失 0
 mo'zui  1  抹嘴 0  
 mo'zui'pi  1  磨嘴皮 0  
 mo'zuo  3  模座 3  魔作 0  末座 1  
+mou  9  谋 0  牟 0  某 0  侔 0  哞 0  眸 0  蛑 0  鍪 0  缪 0  
 mou'bao  1  某报 2  
 mou'ben  1  某本 0  
 mou'bi  1  某笔 1  
@@ -125274,6 +125479,7 @@ mou'zu  1  某组 2
 mou'zui  1  谋罪 0  
 mou'zun  1  某尊 0  
 mou'zuo  1  某座 6  
+mu  23  模 0  拇 0  牡 0  亩 0  姆 0  母 0  墓 0  暮 0  幕 0  募 0  慕 0  木 0  目 0  睦 0  牧 0  穆 0  仫 0  坶 0  苜 0  沐 0  毪 0  钼 0  呒 0  
 mu'a  1  穆阿 6  
 mu'a'ren  1  穆阿仁 0  
 mu'ai  2  母爱 72  暮霭 10  
@@ -126033,6 +126239,7 @@ mu'zi'zhi'qing  1  母子之情 1
 mu'zu  2  模组 42  沐足 0  
 mu'zu'hua  1  模组化 1  
 mu'zuo  4  木作 16  模座 3  木做 1  慕作 0  
+na  11  拿 0  哪 0  呐 0  钠 0  那 0  娜 0  纳 0  捺 0  肭 0  镎 0  衲 0  
 na'ai  1  那爱 0  
 na'ai'mi  1  那艾米 0  
 na'ai'mu  2  纳埃姆 0  那埃姆 0  
@@ -126860,8 +127067,9 @@ na'wu'lu'si'jie  1  纳乌鲁斯节 0
 na'wu'ren  1  那五人 1  
 na'wu'wang  1  那五王 1  
 na'wu'you  1  那无有 2  
-na'xi  8  纳西 24  那西 8  纳希 0  那袭 0  拿西 0  那席 0  纳息 0  那戏 0  
+na'xi  8  纳西 25  那西 8  纳希 0  那袭 0  拿西 0  那席 0  纳息 0  那戏 0  
 na'xi'cai  1  纳希采 0  
+na'xi'da  1  纳西妲 393940  
 na'xi'li  2  纳西里 6  那溪里 2  
 na'xi'li'ye  1  纳西里耶 71  
 na'xi'qie'wan  1  纳希切万 4  
@@ -127035,6 +127243,7 @@ na'zui  1  那罪 9
 na'zun  1  那尊 3  
 na'zuo  3  那座 392  哪座 5  那作 1  
 na'zuo'ge'shan  1  纳佐格山 0  
+nai  9  氖 0  乃 0  奶 0  耐 0  奈 0  鼐 0  艿 0  萘 0  柰 0  
 nai'ai'wen  1  耐矮温 0  
 nai'an  1  萘胺 0  
 nai'ao'zu  1  耐奥祖 3  
@@ -127338,6 +127547,7 @@ nai'zi  3  奶子 6  奶渍 2  乃自 0
 nai'zu  1  乃足 0  
 nai'zui  1  奶嘴 19  
 nai'zuo  1  奶作 0  
+nan  9  南 0  男 0  难 0  喃 0  囡 0  楠 0  腩 0  蝻 0  赧 0  
 nan'ai  1  难挨 2  
 nan'ai'er  1  南艾尔 0  
 nan'ai'er'meng  1  南艾尔蒙 0  
@@ -128077,6 +128287,7 @@ nan'zong'qu  1  南总区 10
 nan'zu  1  男足 8  
 nan'zun'nv'bei  1  男尊女卑 5  
 nan'zuo  4  难作 4  南作 0  南座 0  男作 0  
+nang  5  囊 0  攮 0  囔 0  馕 0  曩 0  
 nang'bao  1  囊胞 0  
 nang'bi  1  囊壁 2  
 nang'cheng  1  囊成 0  
@@ -128111,6 +128322,7 @@ nang'zhong'xiu'se  1  囊中羞涩 11
 nang'zhong'zhi'wu  1  囊中之物 3  
 nang'zhuang  1  囊状 8  
 nang'zhuo  1  囔着 0  
+nao  13  挠 0  脑 0  恼 0  闹 0  淖 0  孬 0  垴 0  呶 0  猱 0  瑙 0  硇 0  铙 0  蛲 0  
 nao'ai  1  脑癌 18  
 nao'an  1  脑安 0  
 nao'bai'jin  1  脑白金 4  
@@ -128319,6 +128531,7 @@ nao'zi  1  脑子 248
 nao'zi'li  1  脑子里 340  
 nao'zu'zhi  1  脑组织 45  
 nao'zu'zhong  1  脑卒中 87  
+ne  2  呢 0  讷 0  
 ne'he  1  讷河 0  
 ne'mao  1  呢帽 8  
 ne'nan  1  呢喃 18  
@@ -128327,6 +128540,7 @@ ne'ne  1  讷讷 0
 ne'rong  1  呢绒 11  
 ne'wei'er  1  讷韦尔 0  
 ne'zi  1  呢子 0  
+nei  2  馁 0  内 0  
 nei'ai  2  内癌 0  内爱 1  
 nei'an  1  内安 0  
 nei'ao  1  内熬 1  
@@ -129003,6 +129217,7 @@ nei'zi'zhui  1  内眦赘 1
 nei'zu  3  内阻 16  内族 0  内租 1  
 nei'zu'dao  1  内租到 0  
 nei'zuo  1  内作 7  
+nen  1  嫩 0  
 nen'bai  1  嫩白 6  
 nen'cao  1  嫩草 8  
 nen'cui  1  嫩脆 0  
@@ -129027,6 +129242,7 @@ nen'xie  1  嫩些 1
 nen'ya  1  嫩芽 23  
 nen'ye  1  嫩叶 12  
 nen'zhi  1  嫩枝 28  
+neng  1  能 0  
 neng'an'mian  1  能安眠 0  
 neng'ban  2  能办 8  能半 0  
 neng'bang  1  能帮 1  
@@ -129388,6 +129604,7 @@ neng'zou'chu  1  能奏出 0
 neng'zu  1  能租 0  
 neng'zuo  2  能作 26  能祚 0  
 neng'zuo'xie  1  能作些 1  
+ni  21  妮 0  霓 0  倪 0  泥 0  尼 0  拟 0  你 1  匿 0  腻 0  逆 0  溺 0  伲 0  坭 0  猊 0  怩 0  昵 0  旎 0  睨 0  铌 0  鲵 0  慝 0  
 ni'ai  2  溺爱 90  尼埃 0  
 ni'ai'xing  1  溺爱型 0  
 ni'an  1  尼安 9  
@@ -129547,7 +129764,7 @@ ni'han  1  尼汉 6
 ni'han'shu  1  逆函数 1  
 ni'han'wei  1  尼汉为 2  
 ni'hang  2  你行 35  逆行 71  
-ni'hao  3  你好 986  拟好 4  尼号 0  
+ni'hao  3  你好 987  拟好 4  尼号 0  
 ni'hao'huai  1  你好坏 2  
 ni'he  4  拟合 147  尼河 0  泥核 0  泥河 0  
 ni'he'bei  1  尼和贝 0  
@@ -130009,6 +130226,7 @@ ni'zu  1  泥足 5
 ni'zu'ju'ren  1  泥足巨人 1  
 ni'zuo  3  拟作 3  你作 35  泥作 0  
 ni'zuo'wei  1  拟作为 2  
+nian  14  蔫 0  拈 0  粘 0  年 0  碾 0  撵 0  捻 0  念 0  埝 0  辇 0  黏 0  鲇 0  鲶 0  廿 0  
 nian'an'wai  1  年岸外 0  
 nian'ba  1  廿八 2  
 nian'ba'ri  1  廿八日 0  
@@ -130433,6 +130651,7 @@ nian'zong'chan  1  年总产 0
 nian'zou  1  撵走 27  
 nian'zu'jin  1  年租金 6  
 nian'zuo  2  年作 4  念作 0  
+niang  2  娘 0  酿 0  
 niang'cheng  1  酿成 66  
 niang'chu  1  酿出 3  
 niang'er'lia  1  娘儿俩 0  
@@ -130467,6 +130686,7 @@ niang'zhi  2  酿制 47  酿至 1
 niang'zhong  1  酿中 0  
 niang'zi  2  酿自 0  娘子 8  
 niang'zi'jun  1  娘子军 1  
+niao  6  鸟 0  尿 0  茑 0  嬲 0  脲 0  袅 0  
 niao'ai  1  鸟爱 2  
 niao'an'suan  1  鸟氨酸 0  
 niao'beng'zheng  1  尿崩症 3  
@@ -130639,6 +130859,7 @@ niao'zi  1  尿渍 0
 niao'zong  1  鸟宗 0  
 niao'zu  1  鸟足 0  
 niao'zui  1  鸟嘴 10  
+nie  13  捏 1  聂 0  孽 0  啮 0  镊 0  镍 0  涅 0  陧 0  蘖 0  嗫 0  颞 0  臬 0  蹑 0  
 nie'bai  1  涅白 0  
 nie'bi  1  镍币 11  
 nie'bu  1  颞部 5  
@@ -130741,6 +130962,7 @@ nie'zi  2  镊子 28  涅兹 0
 nie'zong  1  蹑踪 0  
 nie'zu  1  蹑足 3  
 nie'zu'ni'tuo  1  聂族尼陀 1  
+nin  2  您 0  恁 0  
 nin'di  2  您提 15  恁地 4  
 nin'hao  1  您好 175  
 nin'lao  1  您老 3  
@@ -130748,6 +130970,7 @@ nin'men  1  您们 61
 nin'men'hao  1  您们好 1  
 nin'qiao  1  您瞧 16  
 nin'ti  1  您提 15  
+ning  11  柠 0  狞 0  凝 0  宁 0  拧 0  泞 0  佞 0  咛 0  甯 0  聍 0  苎 0  
 ning'an  1  宁安 1  
 ning'ba  1  宁巴 6  
 ning'bi  1  凝碧 0  
@@ -130937,6 +131160,7 @@ ning'zhong  2  凝重 28  拧种 0
 ning'zhu  3  拧住 1  凝住 0  凝注 0  
 ning'zhuo  1  凝着 1  
 ning'zuo  1  宁做 3  
+niu  8  牛 0  扭 0  钮 0  纽 0  狃 0  忸 0  妞 0  拗 0  
 niu'ai  1  纽埃 12  
 niu'ao  1  纽澳 1  
 niu'ao'liang  1  纽奥良 2  
@@ -131300,6 +131524,7 @@ niu'zi'yi  1  牛仔衣 0
 niu'zi'zhuang  1  牛仔装 2  
 niu'zuo  1  扭作 2  
 niu'zuo'ma  1  牛作马 0  
+nong  6  脓 0  浓 0  农 0  弄 0  侬 0  哝 0  
 nong'an  1  弄暗 2  
 nong'bai  1  农拜 0  
 nong'ban  1  农办 1  
@@ -131670,6 +131895,8 @@ nong'zhuang'yan'mo  1  浓妆艳抹 6
 nong'zi  1  农资 1  
 nong'zuo  2  农作 9  农做 1  
 nong'zuo'wu  1  农作物 348  
+nou  1  耨 0  
+nu  7  奴 0  努 0  怒 0  弩 0  胬 0  孥 0  驽 0  
 nu'ai  1  奴哀 0  
 nu'ai'mi  1  努艾米 0  
 nu'ai'wa  1  努埃瓦 0  
@@ -131855,6 +132082,7 @@ nu'zhou  1  奴州 0
 nu'zhuo  1  努着 1  
 nu'zi'feng  1  努子峰 0  
 nu'zui  1  努嘴 2  
+nuan  1  暖 0  
 nuan'ceng  1  暖层 0  
 nuan'chang  1  暖场 3  
 nuan'chi  1  暖池 0  
@@ -131927,6 +132155,7 @@ nuan'yang'yang  1  暖洋洋 8
 nuan'ye  1  暖夜 2  
 nuan'yi  1  暖意 26  
 nuan'yu  1  暖于 0  
+nue  2  虐 0  疟 0  
 nue'dai  1  虐待 691  
 nue'dai'kuang  1  虐待狂 14  
 nue'dai'lao'ren  1  虐待老人 8  
@@ -131949,6 +132178,7 @@ nue'yuan'chong  1  疟原虫 40
 nue'yuan'chong'shu  1  疟原虫属 0  
 nue'yuan'chong'zhu  1  疟原虫属 0  
 nue'zheng  1  虐政 0  
+nuo  9  娜 0  挪 0  懦 0  糯 0  诺 0  傩 0  搦 0  喏 0  锘 0  
 nuo'a'xin  1  诺阿欣 0  
 nuo'ai  1  诺埃 0  
 nuo'ai'er  2  诺埃尔 13  诺艾尔 5  
@@ -132211,6 +132441,7 @@ nuo'zi  1  诺兹 0
 nuo'zou  1  挪走 4  
 nuo'zuo  1  挪作 0  
 nuo'zuo'ta'yong  1  挪作他用 9  
+nv  4  女 0  恧 0  钕 0  衄 0  
 nv'bai'ling  1  女白领 2  
 nv'ban  1  女伴 29  
 nv'ban'nan'zhuang  1  女扮男装 5  
@@ -132507,8 +132738,10 @@ nv'zong'du  1  女总督 0
 nv'zu  1  女足 16  
 nv'zu'xian  1  女祖先 0  
 nv'zuo'jia  1  女作家 51  
+o  3  哦 0  喔 0  噢 0  
 o'o'jiao  1  喔喔叫 1  
 o'o'o  1  哦哦哦 0  
+ou  10  欧 0  鸥 0  殴 0  藕 0  呕 0  偶 0  沤 0  讴 0  瓯 0  耦 0  
 ou'ai  1  偶爱 0  
 ou'an'hui  1  欧安会 462  
 ou'an'kuai  1  欧安会 462  
@@ -132856,6 +133089,7 @@ ou'zhu  1  欧猪 2
 ou'zi  2  欧兹 0  欧仔 0  
 ou'zi'kan  1  欧兹坎 0  
 ou'zu'lian  1  欧足联 16  
+pa  11  扒 0  耙 0  啪 0  趴 0  爬 0  帕 0  怕 0  琶 0  葩 0  杷 0  筢 0  
 pa'an  2  帕胺 3  帕安 0  
 pa'an'pian  1  帕胺片 0  
 pa'ao'luo'shui  1  帕奥罗说 0  
@@ -133271,6 +133505,7 @@ pa'zhuo  1  趴着 6
 pa'zi  3  帕子 15  耙子 7  帕兹 0  
 pa'zi'gu  1  帕兹谷 0  
 pa'zi'meng  1  帕子蒙 3  
+pai  10  拍 0  排 0  牌 0  迫 0  徘 0  湃 0  派 0  蒎 0  哌 0  俳 0  
 pai'an  2  拍岸 8  拍案 1  
 pai'an'cheng'ji  1  拍案称奇 0  
 pai'an'cheng'qi  1  拍案称奇 0  
@@ -133734,6 +133969,7 @@ pai'zou  1  迫走 3
 pai'zu  2  排组 0  派足 0  
 pai'zuo'qin  1  哌唑嗪 0  
 pai'zuo'wei  1  排座位 24  
+pan  13  攀 0  潘 0  盘 0  磐 0  盼 0  畔 0  判 0  叛 0  泮 0  袢 0  襻 0  蟠 0  蹒 0  
 pan'an  3  潘安 1  磐安 0  判案 7  
 pan'ba  1  潘巴 1  
 pan'bai  1  判败 1  
@@ -134063,6 +134299,7 @@ pan'zi  2  盘子 515  潘姿 0
 pan'zong'guang  1  潘宗光 7  
 pan'zui  1  判罪 38  
 pan'zuo  3  盘坐 0  判作 0  盘作 1  
+pang  9  乓 0  庞 0  旁 0  耪 0  胖 0  滂 0  逄 0  螃 0  磅 0  
 pang'ba  1  庞拔 0  
 pang'ba'di  1  庞巴迪 16  
 pang'ba'wei  1  庞巴维 0  
@@ -134247,6 +134484,7 @@ pang'zhu  2  胖猪 1  旁注 1
 pang'zi  3  胖子 81  庞兹 1  胖仔 0  
 pang'zou  1  胖揍 0  
 pang'zuo  3  旁作 0  旁坐 8  旁座 0  
+pao  12  抛 0  咆 0  刨 0  炮 0  袍 0  跑 0  泡 0  匏 0  狍 0  庖 0  脬 0  疱 0  
 pao'ba  1  泡吧 13  
 pao'bei'cha  1  泡杯茶 1  
 pao'bian  1  跑遍 15  
@@ -134498,6 +134736,7 @@ pao'zhuang  1  泡状 13
 pao'zi  4  袍子 42  刨子 3  泡子 0  抛子 0  
 pao'zu  1  炮组 2  
 pao'zuo  3  炮座 0  跑作 1  刨作 0  
+pei  15  呸 0  胚 0  培 0  裴 0  赔 0  陪 0  配 0  佩 0  沛 0  辔 0  帔 0  旆 0  锫 0  醅 0  霈 0  
 pei'an  1  赔案 0  
 pei'bai  2  佩柏 1  佩伯 0  
 pei'ban  1  陪伴 360  
@@ -134960,6 +135199,7 @@ pei'zi'ti  1  配子体 11
 pei'zu  1  配组 0  
 pei'zui  1  赔罪 8  
 pei'zuo  3  配做 0  配作 0  佩佐 0  
+pen  3  喷 0  盆 0  湓 0  
 pen'an'zai  1  盆安在 0  
 pen'ba'dao  1  喷八到 0  
 pen'bao  1  喷薄 0  
@@ -135164,6 +135404,7 @@ pen'zi  2  盆子 23  喷子 0
 pen'zui  2  喷嘴 159  喷咀 3  
 pen'zui'shi  1  喷嘴式 0  
 pen'zuo  1  盆座 4  
+peng  18  砰 0  抨 0  烹 0  澎 0  彭 0  蓬 0  棚 0  硼 0  篷 0  膨 0  朋 0  鹏 0  捧 0  碰 0  堋 0  嘭 0  怦 0  蟛 0  
 peng'bai  1  澎拜 0  
 peng'bai'dun  2  彭柏顿 0  彭伯顿 1  
 peng'bai'li  1  彭伯利 0  
@@ -135475,6 +135716,7 @@ peng'zhuang'pin'lv  1  碰撞频率 1
 peng'zhuo  1  碰着 11  
 peng'zi  3  棚子 37  篷子 1  蓬子 0  
 peng'zuo'kui  1  彭作奎 0  
+pi  42  坯 0  砒 0  霹 0  批 0  披 0  劈 0  琵 0  毗 0  啤 0  脾 0  疲 0  皮 0  匹 0  痞 0  僻 0  屁 0  譬 0  丕 0  仳 0  陴 0  邳 0  郫 0  圮 0  埤 0  鼙 0  擗 0  噼 0  庀 0  淠 0  媲 0  纰 0  枇 0  甓 0  睥 0  罴 0  铍 0  癖 0  蚍 0  蜱 0  貔 0  疋 0  辟 0  
 pi'ai  2  皮埃 1  皮艾 0  
 pi'ai'er  1  皮埃尔 200  
 pi'ai'fu  1  匹艾夫 0  
@@ -136074,6 +136316,7 @@ pi'zong  1  皮棕 0
 pi'zu  1  批租 9  
 pi'zui  1  琵嘴 0  
 pi'zuo  2  批作 2  辟作 2  
+pian  13  便 0  扁 0  篇 0  偏 0  片 0  骗 0  谝 0  骈 0  犏 0  胼 0  翩 0  蹁 0  爿 0  
 pian'ai  2  偏爱 230  偏隘 5  
 pian'an  2  骗案 12  偏安 0  
 pian'an'yi'yu  1  偏安一隅 1  
@@ -136452,6 +136695,7 @@ pian'zou  1  骗走 28
 pian'zu  2  便足 0  骗租 0  
 pian'zui  1  扁嘴 0  
 pian'zuo  3  偏左 12  便作 2  便座 0  
+piao  13  飘 0  漂 0  瓢 0  票 0  剽 0  朴 0  嘌 0  嫖 0  缥 0  殍 0  瞟 0  螵 0  骠 0  
 piao'bai  2  漂白 113  飘摆 0  
 piao'bai'fen  1  漂白粉 11  
 piao'bai'ji  1  漂白剂 36  
@@ -136683,6 +136927,7 @@ piao'zi  1  票子 25
 piao'zi'mao'si  1  朴兹茅斯 0  
 piao'zou  2  飘走 3  漂走 4  
 piao'zuo  1  票作 1  
+pie  4  撇 0  瞥 0  苤 0  氕 0  
 pie'chu  1  撇除 4  
 pie'chun  1  撇蠢 0  
 pie'diao  1  撇掉 1  
@@ -136710,6 +136955,7 @@ pie'zhuo  1  撇着 0
 pie'zi  1  撇子 7  
 pie'zi'men  1  撇子们 0  
 pie'zui  1  撇嘴 5  
+pin  11  拼 0  频 0  贫 0  品 0  聘 0  姘 0  嫔 0  榀 0  牝 0  颦 0  拚 0  
 pin'ban  2  拼版 3  拼板 8  
 pin'bao'bu  1  品保部 0  
 pin'bi  1  品比 1  
@@ -137044,6 +137290,7 @@ pin'zong  1  频综 0
 pin'zu  1  拼组 0  
 pin'zui  1  贫嘴 1  
 pin'zuo  1  品作 1  
+ping  13  乒 0  坪 0  苹 0  萍 0  平 0  凭 0  瓶 0  评 0  屏 0  娉 0  枰 0  鲆 0  俜 0  
 ping'an  1  平安 535  
 ping'an'bao'xian  1  平安保险 30  
 ping'an'da'jie  1  平安大街 2  
@@ -137655,6 +137902,7 @@ ping'zu  1  平足 2
 ping'zuan  1  平钻 0  
 ping'zuo  1  平座 1  
 ping'zuo'ping  1  平做平 0  
+po  18  坡 0  泼 0  颇 0  婆 0  破 0  魄 0  迫 0  粕 0  叵 0  鄱 0  珀 0  攴 0  钋 0  钷 0  皤 0  笸 0  泊 0  朴 0  
 po'an  3  破案 31  泊岸 0  坡岸 0  
 po'an'lv  1  破案率 4  
 po'bai  2  破败 39  破百 0  
@@ -138019,6 +138267,7 @@ po'zi  1  婆子 27
 po'zi'mao'si  1  朴兹茅斯 0  
 po'zou  1  迫走 3  
 po'zuo'zhu  1  泼佐助 0  
+pou  3  剖 0  裒 0  掊 0  
 pou'bai  1  剖白 2  
 pou'ceng  1  剖层 0  
 pou'cheng  1  剖成 2  
@@ -138048,6 +138297,7 @@ pou'xi  1  剖析 242
 pou'xie  1  剖解 0  
 pou'xiong  1  剖胸 0  
 pou'zhe  1  剖折 0  
+pu  25  扑 0  铺 0  仆 0  莆 0  葡 0  菩 0  蒲 0  埔 0  朴 0  圃 0  普 0  浦 0  谱 0  曝 0  瀑 0  匍 0  噗 0  溥 0  濮 0  璞 0  氆 0  镤 0  镨 0  蹼 0  暴 0  
 pu'a  1  普阿 1  
 pu'ai'bu'la  1  普埃布拉 3  
 pu'ai'er  1  普埃尔 0  
@@ -138796,6 +139046,7 @@ pu'zou  1  暴走 0
 pu'zou'zu  1  暴走族 1  
 pu'zu  1  蹼足 1  
 pu'zuo  1  普佐 0  
+qi  72  期 0  欺 0  栖 0  戚 0  妻 0  七 0  凄 0  漆 0  柒 0  沏 0  蹊 0  其 0  棋 0  奇 0  歧 0  畦 0  崎 0  脐 0  齐 0  旗 0  祈 0  祁 0  骑 0  起 0  岂 0  乞 0  企 0  启 0  契 0  砌 0  器 0  气 0  迄 0  弃 0  汽 0  泣 0  讫 0  亓 0  俟 0  圻 0  芑 0  芪 0  萁 0  萋 0  葺 0  蕲 0  嘁 0  屺 0  岐 0  汔 0  淇 0  骐 0  绮 0  琪 0  琦 0  杞 0  桤 0  槭 0  耆 0  欹 0  祗 0  祺 0  憩 0  碛 0  颀 0  颀 0  蛴 0  蜞 0  綦 0  蹊 0  鳍 0  麒 0  
 qi'ai  3  起爱 0  其爱 0  奇爱 1  
 qi'ai'lan  1  祈蔼岚 0  
 qi'ai'ren  1  七矮人 0  
@@ -140397,6 +140648,7 @@ qi'zui  2  其罪 3  汽嘴 1
 qi'zui'ba'she  1  七嘴八舌 10  
 qi'zuo  8  其作 14  七座 8  齐佐 0  其座 0  起作 1  器座 0  器作 1  期做 0  
 qi'zuo'shi  1  起坐室 0  
+qia  5  掐 0  恰 0  洽 0  葜 0  髂 0  
 qia'bai  1  恰拜 0  
 qia'bai'xi  1  恰拜希 2  
 qia'ban  1  洽办 1  
@@ -140490,6 +140742,7 @@ qia'zhu  1  掐住 12
 qia'zhun  1  掐准 0  
 qia'zhuo  1  掐着 2  
 qia'zu  1  洽租 0  
+qian  43  牵 0  扦 0  钎 0  铅 0  千 0  迁 0  签 0  仟 0  谦 0  乾 0  黔 0  钱 0  钳 0  前 0  潜 0  遣 0  浅 0  谴 0  堑 0  嵌 0  欠 0  歉 0  倩 0  佥 0  阡 0  芊 0  芡 0  茜 0  荨 0  掮 0  岍 0  悭 0  骞 0  搴 0  褰 0  缱 0  椠 0  肷 0  愆 0  钤 0  虔 0  箝 0  纤 0  
 qian'an  3  欠安 3  前案 0  前岸 0  
 qian'an'qiao  1  前鞍桥 0  
 qian'ba  3  前八 0  千把 0  千吧 0  
@@ -141558,6 +141811,7 @@ qian'zu'chong'hui  1  千足虫会 0
 qian'zu'chong'kuai  1  千足虫会 0  
 qian'zui  1  前罪 0  
 qian'zuo  5  前作 20  谦作 0  前座 16  千座 4  钱作 4  
+qiang  20  枪 0  呛 0  腔 0  羌 0  墙 0  蔷 0  强 0  抢 0  戕 0  嫱 0  樯 0  戗 0  炝 0  锖 0  锵 0  镪 0  襁 0  蜣 0  羟 0  跄 0  
 qiang'an  2  抢案 4  羟胺 4  
 qiang'an'zai  1  枪安在 0  
 qiang'ba'xiang  1  强巴向 0  
@@ -141989,6 +142243,7 @@ qiang'zou'liao  1  抢走了 61
 qiang'zu  3  羌族 6  抢足 0  墙足 0  
 qiang'zui  1  强嘴 0  
 qiang'zuo  2  强作 2  抢座 0  
+qiao  27  橇 0  锹 0  敲 0  悄 0  桥 0  瞧 0  乔 0  侨 0  巧 0  鞘 0  撬 0  翘 0  峭 0  俏 0  窍 0  劁 0  诮 0  谯 0  荞 0  愀 0  憔 0  缲 0  樵 0  硗 0  跷 0  鞒 0  壳 0  
 qiao'ai'shang  1  乔爱上 0  
 qiao'an  1  乔安 9  
 qiao'an'bian  1  乔安变 0  
@@ -142479,6 +142734,7 @@ qiao'zou  1  乔走 0
 qiao'zu  1  桥组 0  
 qiao'zui  1  巧嘴 0  
 qiao'zuo  1  乔做 0  
+qie  12  切 0  茄 0  且 0  怯 0  窃 0  郄 0  惬 0  妾 0  挈 0  锲 0  箧 0  慊 0  
 qie'an  1  窃案 10  
 qie'ban  1  切板 0  
 qie'bei'xue'fu  1  切贝雪夫 0  
@@ -142782,6 +143038,7 @@ qie'zhuo  1  切着 3
 qie'zi  1  茄子 53  
 qie'zou  2  窃走 5  切走 0  
 qie'zuo  1  且作 6  
+qin  22  钦 0  侵 0  亲 0  秦 0  琴 0  勤 0  芹 0  擒 0  禽 0  寝 0  沁 0  芩 0  揿 0  吣 0  嗪 0  噙 0  溱 0  檎 0  锓 0  覃 0  螓 0  衾 0  
 qin'ai  2  亲爱 1982  秦爱 1  
 qin'ai'lan  1  秦爱兰 0  
 qin'an  2  秦安 0  侵案 1  
@@ -143197,6 +143454,7 @@ qin'zi'huo'dong  1  亲子活动 2
 qin'zi'jian'ding  1  亲子鉴定 8  
 qin'zu  1  亲族 15  
 qin'zui  1  亲嘴 50  
+qing  24  青 0  轻 0  氢 0  倾 0  卿 0  清 0  擎 0  晴 0  氰 0  情 0  顷 0  请 0  庆 0  苘 0  圊 0  檠 0  磬 0  蜻 0  罄 0  箐 0  綮 0  謦 0  鲭 0  黥 0  
 qing'ai  2  情爱 18  青艾 0  
 qing'an  5  氰铵 4  氢铵 1  请安 10  轻按 6  轻安 1  
 qing'an'hua'gai  1  氰氨化钙 2  
@@ -143298,7 +143556,7 @@ qing'cheng'shan  1  青城山 0
 qing'chi  2  请吃 16  请持 1  
 qing'chong  1  青虫 0  
 qing'chou  1  情仇 4  
-qing'chu  7  清除 972  清楚 4604  清出 3  轻触 14  清初 9  青储 0  倾出 0  
+qing'chu  7  清除 972  清楚 4605  清出 3  轻触 14  清初 9  青储 0  倾出 0  
 qing'chu'ji  1  清除剂 5  
 qing'chu'lv  1  清除率 3  
 qing'chu'qi  1  清除器 0  
@@ -143481,13 +143739,13 @@ qing'hu  4  轻忽 9  请呼 0  轻呼 0  清户 0
 qing'hua  12  清华 37  情话 40  氢化 61  氰化 11  轻化 1  请花 4  清化 3  请画 0  情花 0  倾滑 0  请划 0  青花 2  
 qing'hua'cai  1  青花菜 2  
 qing'hua'ci  1  青花瓷 7  
-qing'hua'da'xue  1  清华大学 81  
+qing'hua'da'xue  1  清华大学 82  
 qing'hua'da'xue'chu'ban'she  1  清华大学出版社 2  
 qing'hua'da'xue'dian'zi'gong'cheng'ji  1  清华大学电子工程系 0  
 qing'hua'da'xue'dian'zi'gong'cheng'xi  1  清华大学电子工程系 0  
 qing'hua'da'xue'jing'ji'guan'li'xue'yuan  1  清华大学经济管理学院 0  
 qing'hua'da'xue'mei'shu'xue'yuan  1  清华大学美术学院 0  
-qing'hua'dai'xue  1  清华大学 81  
+qing'hua'dai'xue  1  清华大学 82  
 qing'hua'dai'xue'chu'ban'she  1  清华大学出版社 2  
 qing'hua'dai'xue'dian'zi'gong'cheng'ji  1  清华大学电子工程系 0  
 qing'hua'dai'xue'dian'zi'gong'cheng'xi  1  清华大学电子工程系 0  
@@ -144198,6 +144456,7 @@ qing'zui'bo'she  1  轻嘴薄舌 0
 qing'zuo  1  情做 1  
 qing'zuo'xia  1  请坐下 4  
 qing'zuo'xia'lai  1  请坐下来 0  
+qiong  9  琼 0  穷 0  邛 0  茕 0  穹 0  蛩 0  筇 0  跫 0  銎 0  
 qiong'an  1  琼安 1  
 qiong'ba'ba  1  穷爸爸 7  
 qiong'bai  1  穷白 0  
@@ -144333,6 +144592,7 @@ qiong'zhui  1  穷追 4
 qiong'zhui'bu'she  1  穷追不舍 13  
 qiong'zhui'meng'da  1  穷追猛打 2  
 qiong'zhuo  1  琼琢 0  
+qiu  22  秋 0  丘 0  邱 0  球 0  求 0  囚 0  酋 0  泅 0  俅 0  巯 0  犰 0  逑 0  遒 0  楸 0  赇 0  虬 0  蚯 0  蝤 0  裘 0  糗 0  鳅 0  鼽 0  
 qiu'a'er  1  丘阿尔 0  
 qiu'ai  1  求爱 43  
 qiu'ai'xin  1  求爱信 1  
@@ -144748,6 +145008,7 @@ qiu'zu  1  囚卒 1
 qiu'zu'zhe  1  求租者 1  
 qiu'zui  1  秋醉 0  
 qiu'zuo  2  球座 7  裘作 0  
+qu  33  趋 0  区 0  蛆 0  曲 0  躯 0  屈 0  驱 0  渠 0  取 0  娶 0  龋 0  趣 0  去 0  诎 0  劬 0  蕖 0  蘧 0  岖 0  衢 0  阒 0  璩 0  觑 0  氍 0  朐 0  磲 0  鸲 0  癯 0  蛐 0  蠼 0  麴 0  瞿 0  黢 0  祛 0  
 qu'an  2  曲安 6  取暗 0  
 qu'an'mu'jie  1  区安睦街 1  
 qu'bai'da'ni  1  去伯大尼 0  
@@ -145343,6 +145604,7 @@ qu'zui  1  取罪 3
 qu'zun  1  屈尊 36  
 qu'zun'fu'jiu  1  屈尊俯就 13  
 qu'zuo  4  去作 31  曲唑 3  渠作 0  区作 0  
+quan  23  圈 0  颧 0  权 0  醛 0  泉 0  全 0  痊 0  拳 0  犬 0  券 0  劝 0  倌 0  诠 0  谖 0  荃 0  悛 0  绻 0  辁 0  畎 0  铨 0  蜷 0  筌 0  鬈 0  
 quan'an  3  全案 3  全暗 0  全安 0  
 quan'ao  1  全澳 0  
 quan'ba  1  全把 0  
@@ -146032,6 +146294,7 @@ quan'zou  1  全揍 0
 quan'zou'guang  1  全走光 1  
 quan'zu  5  劝阻 92  全组 15  全族 2  犬组 0  劝族 0  
 quan'zuo  3  蜷作 1  全作 0  全做 0  
+que  11  缺 0  炔 0  瘸 0  却 0  鹊 0  榷 0  确 0  雀 0  阕 0  阙 0  悫 0  
 que'ao  1  缺傲 0  
 que'bai  1  却败 0  
 que'ban  1  雀斑 56  
@@ -146279,6 +146542,7 @@ que'zhuang  1  却装 0
 que'zi  1  瘸子 24  
 que'zong  1  却宗 0  
 que'zuo  1  却作 2  
+qun  3  裙 0  群 0  逡 0  
 qun'ai'er'meng'de  1  群埃尔蒙德 0  
 qun'bai  1  裙摆 16  
 qun'ban  1  裙板 2  
@@ -146482,6 +146746,7 @@ qun'zhuo  1  群着 0
 qun'zi  2  裙子 561  群子 0  
 qun'zi'lun  1  群子论 0  
 qun'zu  2  群组 136  群族 2  
+ran  7  然 0  燃 0  冉 0  染 0  苒 0  蚺 0  髯 0  
 ran'a'rang  1  冉阿让 259  
 ran'ai  1  然爱 0  
 ran'bai  1  染白 0  
@@ -146657,6 +146922,7 @@ ran'zhong  2  燃中 0  染中 0
 ran'zhu  2  燃烛 0  燃著 0  
 ran'zhuang  1  冉庄 1  
 ran'zhuo  3  燃着 34  染着 0  燃灼 0  
+rang  7  瓤 0  壤 0  攘 0  嚷 0  让 0  禳 0  穰 0  
 rang'bo  1  让播 0  
 rang'bu  1  让步 531  
 rang'cha  1  让茶 4  
@@ -146694,6 +146960,7 @@ rang'ye  1  让业 0
 rang'yong'zhe  1  让泳者 0  
 rang'zhong'liu  1  壤中流 1  
 rang'zuo  1  让座 43  
+rao  6  饶 0  扰 0  绕 0  荛 0  娆 0  桡 0  
 rao'bao  1  绕包 0  
 rao'bian  1  绕遍 1  
 rao'biao  1  绕标 0  
@@ -146809,6 +147076,7 @@ rao'zhuan  1  绕转 0
 rao'zhuang  1  绕桩 0  
 rao'zhuo  2  扰着 0  绕桌 0  
 rao'zu  2  绕组 83  绕阻 0  
+re  2  惹 0  热 0  
 re'ai  1  热爱 714  
 re'ai'gong'zuo  1  热爱工作 10  
 re'ai'ji'ti  1  热爱集体 0  
@@ -147262,6 +147530,7 @@ re'zhuo  1  热着 0
 re'zi  2  热兹 0  热字 0  
 re'zu  1  热阻 14  
 re'zuo  1  热作 3  
+ren  17  壬 0  仁 0  人 0  忍 0  韧 0  任 0  认 0  刃 0  妊 0  纫 0  仞 0  荏 0  葚 0  饪 0  轫 0  稔 0  衽 0  
 ren'a'er  1  人阿珥 4  
 ren'ai  5  仁爱 74  人爱 30  人艾 2  人埃 0  认爱 0  
 ren'ai'du  1  人爱读 0  
@@ -148751,6 +149020,7 @@ ren'zui'tai'duo  1  认罪态度 0
 ren'zuo  4  人作 42  认作 16  认做 3  人座 1  
 ren'zuo'li'ke  1  人佐利克 0  
 ren'zuo'sheng  1  人作声 0  
+reng  2  扔 0  仍 0  
 reng'ai  1  仍爱 0  
 reng'ban  1  仍办 0  
 reng'ban'chen  1  仍半沉 0  
@@ -148876,6 +149146,7 @@ reng'zhun  1  扔准 0
 reng'zi  1  仍自 0  
 reng'zong  1  仍宗 4  
 reng'zuo  1  仍作 2  
+ri  1  日 0  
 ri'ai  1  日霭 0  
 ri'an  1  日安 0  
 ri'ao'ge'ni  1  日奥戈尼 0  
@@ -149364,6 +149635,7 @@ ri'zi  4  日子 2840  日资 10  日自 0  日兹 0
 ri'zi'yue'chang  1  日滋月长 0  
 ri'zu  1  日租 3  
 ri'zuo  2  日作 1  日座 0  
+rong  16  戎 0  茸 0  蓉 0  荣 0  融 0  熔 0  溶 0  容 0  绒 0  冗 0  嵘 0  狨 0  狨 0  榕 0  肜 0  蝾 0  
 rong'bao'shu  1  容宝树 0  
 rong'bei  1  榕北 0  
 rong'bing  2  融冰 14  溶冰 0  
@@ -149705,6 +149977,7 @@ rong'zi'nan  1  融资难 21
 rong'zi'quan  1  融资券 2  
 rong'zong  1  荣总 0  
 rong'zu'er  1  容祖儿 4  
+rou  6  揉 0  柔 0  肉 0  糅 0  蹂 0  鞣 0  
 rou'ai'yan  1  肉爱盐 0  
 rou'ban  2  柔版 4  柔板 0  
 rou'ban'ji  1  柔版及 0  
@@ -149921,6 +150194,7 @@ rou'zhu  1  肉猪 6
 rou'zhui  1  肉赘 1  
 rou'zi  1  肉孜 0  
 rou'zi'shi  1  肉孜是 0  
+ru  20  茹 0  蠕 0  儒 0  孺 0  如 0  辱 0  乳 0  汝 0  入 0  褥 0  蓐 0  薷 0  嚅 0  洳 0  溽 0  濡 0  缛 0  铷 0  襦 0  颥 0  
 ru'a'ga'tuo'yao  1  如阿伽陀药 0  
 ru'a'jia'tuo'yao  1  如阿伽陀药 0  
 ru'a'ling  1  如阿玲 0  
@@ -150663,6 +150937,7 @@ ru'zui'ru'chi  1  如醉如痴 12
 ru'zui'ru'kuang  1  如醉如狂 2  
 ru'zuo  2  入座 30  如作 1  
 ru'zuo'zhen'zhan  1  如坐针毡 10  
+ruan  3  软 0  阮 0  朊 0  
 ruan'bao  1  软包 3  
 ruan'bao'zhuang  1  软包装 6  
 ruan'bi  1  软笔 1  
@@ -150904,6 +151179,7 @@ ruan'zhuo'lu  1  软着陆 29
 ruan'zong'ze'zai  1  阮宗泽在 0  
 ruan'zu'zhi  1  软组织 141  
 ruan'zuo  1  软座 5  
+rui  8  蕊 0  瑞 0  锐 0  芮 0  蕤 0  枘 0  睿 0  蚋 0  
 rui'a'ji  1  瑞阿奇 1  
 rui'a'qi  1  瑞阿奇 1  
 rui'an  1  瑞安 59  
@@ -151132,6 +151408,7 @@ rui'zhe  1  睿哲 0
 rui'zhi  2  睿智 98  锐至 0  
 rui'zi'qu  1  瑞姿区 0  
 rui'zu  1  锐卒 0  
+run  2  闰 0  润 0  
 run'bai  1  润白 0  
 run'ban'ji  1  润版剂 0  
 run'ban'ye  1  润版液 5  
@@ -151181,6 +151458,7 @@ run'zao  1  润燥 0
 run'ze  1  润泽 18  
 run'zhang  1  润胀 0  
 run'zhuang  1  润装 0  
+ruo  4  若 0  弱 0  偌 0  箬 0  
 ruo'ai  1  若爱 0  
 ruo'ang  1  若昂 2  
 ruo'bai  1  若白 0  
@@ -151425,6 +151703,7 @@ ruo'zi  1  若自 0
 ruo'zong  1  若宗 0  
 ruo'zu  1  若组 0  
 ruo'zuo  1  若作 1  
+sa  7  撒 0  洒 0  萨 0  卅 0  仨 0  脎 0  飒 0  
 sa'a'bo  1  萨阿卜 1  
 sa'a'bu  2  萨阿卜 1  萨阿布 1  
 sa'a'de  1  萨阿德 1  
@@ -151955,6 +152234,7 @@ sa'zhuo  2  撒着 1  萨卓 0
 sa'zi  1  撒子 0  
 sa'zuo  1  撒作 0  
 sa'zuo'wang  1  撒作王 0  
+sai  5  腮 0  鳃 0  塞 0  赛 0  噻 0  
 sai'an  1  塞安 0  
 sai'ang  2  塞昂 9  赛昂 111  
 sai'ao'zuo  1  塞奥佐 1  
@@ -152332,6 +152612,7 @@ sai'zhuo  1  塞着 1
 sai'zi  2  塞子 34  腮子 0  
 sai'zu  1  塞族 819  
 sai'zuo  1  噻唑 5  
+san  8  三 0  叁 0  伞 0  散 0  馓 0  毵 0  糁 0  霰 0  
 san'ai'fu  1  三爱富 1  
 san'an  3  三案 0  三胺 3  三安 0  
 san'ba  2  三八 5  三坝 0  
@@ -153325,6 +153606,7 @@ san'zuo'da'shan  1  三座大山 1
 san'zuo'dai'shan  1  三座大山 1  
 san'zuo'men  1  三座门 0  
 san'zuo'tong  1  三唑酮 0  
+sang  6  桑 0  嗓 0  丧 0  搡 0  磉 0  颡 0  
 sang'ba  1  桑巴 14  
 sang'ba'wu  1  桑巴舞 8  
 sang'bai'pi  1  桑白皮 2  
@@ -153523,6 +153805,7 @@ sang'zi  4  嗓子 152  桑兹 2  丧子 10  桑籽 0
 sang'zi'teng  1  嗓子疼 24  
 sang'zi'yan  1  嗓子眼 7  
 sang'zi'yan'er  1  嗓子眼儿 23  
+sao  9  搔 0  骚 0  扫 0  嫂 0  埽 0  缫 0  臊 0  瘙 0  鳋 0  
 sao'ba  1  扫把 16  
 sao'bao  1  搔包 0  
 sao'bu  1  扫捕 0  
@@ -153665,6 +153948,7 @@ sao'zhu  1  扫著 1
 sao'zi  2  嫂子 24  臊子 0  
 sao'zong'xi'er  1  扫宗西珥 0  
 sao'zou  1  扫走 6  
+se  7  瑟 0  色 0  涩 0  啬 0  铯 0  穑 0  塞 0  
 se'an  2  塞安 0  色胺 2  
 se'an'suan  1  色氨酸 29  
 se'ang  1  塞昂 9  
@@ -154061,6 +154345,7 @@ se'zhuang  1  塞装 0
 se'zhuo  1  塞着 1  
 se'zi  2  塞子 34  色子 7  
 se'zu  2  塞族 819  色组 0  
+sen  1  森 0  
 sen'ba  1  森把 0  
 sen'ba'po  1  森把珀 0  
 sen'bao  1  森堡 1  
@@ -154180,6 +154465,7 @@ sen'zheng  1  森正 0
 sen'zheng'hong  1  森政弘 0  
 sen'zhi  2  森只 2  森制 0  
 sen'zhi'shou  1  森之手 0  
+seng  1  僧 0  
 seng'duo'zhou'shao  1  僧多粥少 0  
 seng'ga  1  僧伽 6  
 seng'ga'luo  1  僧伽罗 7  
@@ -154203,6 +154489,7 @@ seng'tuan  1  僧团 0
 seng'yuan  1  僧院 6  
 seng'zhi  1  僧职 0  
 seng'zhong  1  僧众 1  
+sha  18  莎 0  砂 0  杀 0  刹 0  沙 0  纱 0  傻 0  啥 0  煞 0  唼 0  歃 0  铩 0  铩 0  痧 0  裟 0  霎 0  鲨 0  厦 0  
 sha'a  1  沙阿 10  
 sha'a'cheng  1  沙阿称 0  
 sha'a'er  1  沙阿尔 0  
@@ -154793,6 +155080,7 @@ sha'zu  1  沙祖 1
 sha'zu'kang  1  沙祖康 5  
 sha'zui  2  沙咀 6  沙嘴 1  
 sha'zuo  1  砂作 0  
+shai  2  筛 0  晒 0  
 shai'ban  3  晒版 11  筛板 8  晒斑 6  
 shai'ban'ji  1  晒版机 2  
 shai'bei'zi  1  晒被子 0  
@@ -154866,6 +155154,7 @@ shai'zha'liang  1  筛渣量 0
 shai'zhi  1  晒制 1  
 shai'zhuang  2  晒装 0  筛状 0  
 shai'zi  1  筛子 20  
+shan  33  珊 0  苫 0  杉 0  山 0  删 0  煽 0  衫 0  闪 0  陕 0  擅 0  赡 0  膳 0  善 0  汕 0  扇 0  缮 0  剡 0  讪 0  鄯 0  芟 0  潸 0  姗 0  嬗 0  骟 0  膻 0  钐 0  疝 0  蟮 0  舢 0  跚 0  鳝 0  禅 0  单 0  
 shan'ai  1  山隘 1  
 shan'ai'shu  1  山艾树 4  
 shan'an  1  单胺 3  
@@ -155693,6 +155982,7 @@ shan'zu'tiao  1  单足跳 1
 shan'zui  2  山嘴 1  山咀 0  
 shan'zuo  5  单坐 1  单作 2  善作 0  单座 7  擅作 0  
 shan'zuo'shi  1  单座式 1  
+shang  13  墒 0  伤 0  商 0  赏 0  晌 0  上 0  尚 0  裳 0  垧 0  绱 0  殇 0  熵 0  觞 0  
 shang'ai  1  上埃 0  
 shang'an  2  上岸 121  上安 2  
 shang'an'shi  1  上岸时 5  
@@ -156779,6 +157069,7 @@ shang'zuo'ge  1  上作个 0
 shang'zuo'lv  1  上座率 12  
 shang'zuo'wang  1  上作王 0  
 shang'zuo'xie  1  上作些 1  
+shao  17  梢 0  捎 0  稍 0  烧 0  芍 0  勺 0  韶 0  少 0  哨 0  邵 0  绍 0  劭 0  苕 0  潲 0  蛸 0  筲 0  艄 0  
 shao'ai  1  少爱 0  
 shao'an  2  稍安 0  稍暗 0  
 shao'an'wu'zao  1  少安毋躁 1  
@@ -157166,6 +157457,7 @@ shao'zou'wan'lu  1  少走弯路 3
 shao'zu  1  烧足 0  
 shao'zui  1  烧嘴 7  
 shao'zuo  3  稍作 56  少作 0  烧作 0  
+she  19  奢 0  赊 0  蛇 0  舌 0  舍 0  赦 0  摄 0  射 0  慑 0  涉 0  社 0  设 0  厍 0  佘 0  猞 0  滠 0  歙 0  畲 0  麝 0  
 she'ai  1  舌癌 9  
 she'an  2  涉案 41  社安 0  
 she'an'hao  1  社安号 0  
@@ -157789,6 +158081,7 @@ she'zu  4  涉足 152  畲族 4  蛇族 1  社族 2
 she'zu'yu  1  涉足于 0  
 she'zui  1  赦罪 15  
 she'zuo  1  射座 0  
+shei  1  谁 0  
 shei'cuo  1  谁错 1  
 shei'de'che  1  谁的车 0  
 shei'de'xin  1  谁的心 1  
@@ -157818,6 +158111,7 @@ shei'you'kong  1  谁有空 0
 shei'you'neng  1  谁又能 26  
 shei'zhi  1  谁知 54  
 shei'zuo  1  谁作 1  
+shen  26  砷 0  申 0  呻 0  伸 0  身 0  深 0  娠 0  绅 0  神 0  什 0  沈 0  审 0  婶 0  甚 0  肾 0  慎 0  渗 0  诜 0  谂 0  莘 0  哂 0  渖 0  椹 0  胂 0  矧 0  蜃 0  
 shen'ai  3  肾癌 21  深爱 122  神爱 10  
 shen'ai'lu  1  神艾露 0  
 shen'ai'shang  1  神爱上 0  
@@ -158971,6 +159265,7 @@ shen'zui  2  神罪 2  沈醉 0
 shen'zui'yu  1  沈醉于 1  
 shen'zuo  2  神作 4  神座 2  
 shen'zuo'wang  1  神作王 1  
+sheng  15  声 0  生 0  甥 0  牲 0  升 0  绳 0  省 0  盛 0  剩 0  胜 0  圣 0  嵊 0  眚 0  笙 0  晟 0  
 sheng'a'pa'ge  1  生阿帕革 0  
 sheng'ai  4  圣艾 1  圣埃 0  圣爱 0  生癌 1  
 sheng'ai'bo  1  省埃博 0  
@@ -160219,6 +160514,7 @@ sheng'zu'kang  1  声阻抗 3
 sheng'zui  1  生醉 0  
 sheng'zun  1  圣尊 2  
 sheng'zuo  5  剩作 0  绳作 0  声作 0  圣座 1  圣作 0  
+shi  63  师 0  失 0  狮 0  施 0  湿 0  诗 0  尸 0  虱 0  十 0  石 0  拾 0  时 0  什 0  食 0  蚀 0  实 0  识 0  史 0  矢 0  使 0  屎 0  驶 0  始 0  式 0  示 0  士 0  世 0  柿 0  事 0  拭 0  誓 0  逝 0  势 0  是 1  嗜 0  噬 0  适 0  仕 0  侍 0  释 0  饰 0  氏 0  市 0  恃 0  室 0  视 0  试 0  谥 0  埘 0  莳 0  蓍 0  轼 0  贳 0  炻 0  铈 0  螫 0  舐 0  筮 0  豕 0  鲥 0  鲺 0  酾 0  匙 0  
 shi'a'qu  1  时阿屈 0  
 shi'ai  10  嗜爱 3  示爱 25  使艾 1  施爱 2  使爱 1  时爱 1  师爱 0  誓爱 0  逝爱 0  实爱 0  
 shi'ai'li  1  师艾励 0  
@@ -161400,7 +161696,7 @@ shi'jiao'fu  1  时嚼服 0
 shi'jiao'qu  1  市郊区 3  
 shi'jiao'ti  1  史教题 0  
 shi'jiao'wei  1  市教委 0  
-shi'jie  31  世界 23398  时节 151  十届 323  十诫 30  石阶 18  视界 28  使节 23  十戒 3  师姐 6  世杰 0  失节 2  诗杰 2  是杰 1  事界 1  使捷 0  势界 0  士街 1  是洁 1  食街 0  诗节 1  试接 0  识解 1  试解 1  示解 0  时接 0  时结 0  十节 2  市街 0  时界 0  石街 0  时捷 0  
+shi'jie  31  世界 23400  时节 151  十届 323  十诫 30  石阶 18  视界 28  使节 23  十戒 3  师姐 6  世杰 0  失节 2  诗杰 2  是杰 1  事界 1  使捷 0  势界 0  士街 1  是洁 1  食街 0  诗节 1  试接 0  识解 1  试解 1  示解 0  时接 0  时结 0  十节 2  市街 0  时界 0  石街 0  时捷 0  
 shi'jie'ba'quan  1  世界霸权 5  
 shi'jie'bao  1  世界报 11  
 shi'jie'bei  2  世界杯 610  事皆备 0  
@@ -163546,6 +163842,7 @@ shi'zuo  19  视作 248  时作 49  实做 0  实作 18  施作 0  视做 2  诗
 shi'zuo'ming  1  事作溟 0  
 shi'zuo'yi  1  时佐以 0  
 shi'zuo'yong'zhe  1  始作俑者 30  
+shou  13  收 0  手 0  首 0  守 0  寿 0  授 0  售 0  受 0  瘦 0  兽 0  狩 0  绶 0  艏 0  
 shou'ai'lin  1  手埃林 0  
 shou'an  1  受案 4  
 shou'ba  2  手把 47  手拔 0  
@@ -164604,6 +164901,7 @@ shou'zuan  1  手钻 0
 shou'zui  1  受罪 35  
 shou'zuo  3  手作 3  收作 0  首座 13  
 shou'zuo'yan  1  收作眼 0  
+shu  45  蔬 0  枢 0  梳 0  殊 0  抒 0  输 0  叔 0  舒 0  淑 0  疏 0  书 0  赎 0  孰 0  熟 0  薯 0  暑 0  曙 0  署 0  蜀 0  黍 0  鼠 0  属 0  术 0  述 0  树 0  束 0  戍 0  竖 0  墅 0  庶 0  数 0  漱 0  恕 0  倏 0  塾 0  摅 0  沭 0  澍 0  姝 0  纾 0  纾 0  毹 0  腧 0  殳 0  秫 0  
 shu'a'er  1  舒阿尔 2  
 shu'a'fo  1  舒阿佛 0  
 shu'an  5  熟谙 9  舒安 1  叔胺 4  书案 0  赎案 0  
@@ -165759,6 +166057,7 @@ shu'zui'bing'fa  1  数罪并罚 4
 shu'zui'duo  1  数最多 67  
 shu'zui'quan  1  赎罪券 1  
 shu'zuo  5  书作 2  树作 0  数座 4  署作 0  赎作 0  
+shua  3  刷 0  耍 0  唰 0  
 shua'ba'xi  1  耍把戏 6  
 shua'bai  1  刷白 2  
 shua'bao  1  耍宝 2  
@@ -165852,6 +166151,7 @@ shua'za  1  耍杂 0
 shua'zhuang  1  刷状 1  
 shua'zi  1  刷子 98  
 shua'zui'pi'zi  1  耍嘴皮子 7  
+shuai  5  摔 0  衰 0  甩 0  帅 0  蟀 0  
 shuai'ba  1  帅爸 3  
 shuai'bai  1  衰败 108  
 shuai'bian  1  衰变 52  
@@ -165960,6 +166260,7 @@ shuai'zhi  3  摔制 0  衰枝 0  甩脂 0
 shuai'zhou  1  甩洲 1  
 shuai'zi  1  甩子 0  
 shuai'zuo  1  摔作 0  
+shuan  4  栓 0  拴 0  闩 0  涮 0  
 shuan'bei  1  栓臂 0  
 shuan'bi  1  栓臂 0  
 shuan'dao  1  栓道 0  
@@ -165994,6 +166295,7 @@ shuan'zhong  1  栓中 0
 shuan'zhu  3  拴住 21  栓住 3  栓柱 1  
 shuan'zhuo  1  拴着 14  
 shuan'zi  1  栓子 12  
+shuang  4  霜 0  双 0  爽 0  孀 0  
 shuang'ai  1  双癌 0  
 shuang'an  1  双安 3  
 shuang'ao  1  双凹 0  
@@ -166475,6 +166777,7 @@ shuang'zu'fen  2  双组份 3  双组分 16
 shuang'zu'xing  1  双族性 0  
 shuang'zuo  1  双座 14  
 shuang'zuo'tai  1  双唑泰 0  
+shui  5  谁 0  水 0  睡 0  税 0  说 0  
 shui'ai'neng  1  说爱能 0  
 shui'an  1  水岸 2  
 shui'an'di  1  说安迪 0  
@@ -167472,6 +167775,7 @@ shui'zu'xiang  1  水族箱 11
 shui'zuan  1  水钻 3  
 shui'zui  2  水嘴 2  说罪 1  
 shui'zuo  3  谁作 1  水做 0  水作 0  
+shun  4  吮 0  瞬 0  顺 0  舜 0  
 shun'an  1  顺安 0  
 shun'an'cun  1  顺安村 0  
 shun'an'shi  1  顺岸式 0  
@@ -167639,6 +167943,7 @@ shun'zhuo  1  顺着 320
 shun'zi  1  顺子 10  
 shun'zui  1  顺嘴 1  
 shun'zuo  1  顺作 0  
+shuo  8  说 0  硕 0  朔 0  烁 0  蒴 0  搠 0  妁 0  铄 0  
 shuo'ai'neng  1  说爱能 0  
 shuo'an'di  1  说安迪 0  
 shuo'ao  1  说傲 0  
@@ -167938,6 +168243,7 @@ shuo'zhuang  1  蒴状 0
 shuo'zhun  1  说准 3  
 shuo'zou'jiu'zou  1  说走就走 4  
 shuo'zui  1  说罪 1  
+si  32  斯 0  撕 0  嘶 0  思 0  私 0  司 0  丝 0  死 0  肆 0  寺 0  嗣 0  四 0  伺 0  似 0  饲 0  巳 0  厮 0  兕 0  厶 0  咝 0  汜 0  泗 0  澌 0  姒 0  驷 0  缌 0  祀 0  锶 0  鸶 0  耜 0  蛳 0  笥 0  
 si'ai  1  思爱 1  
 si'ai'li'si  1  斯艾利斯 0  
 si'ai'ma  1  斯埃玛 0  
@@ -169598,6 +169904,7 @@ si'zu  3  四足 22  四组 32  死族 2
 si'zui  2  死罪 23  似醉 0  
 si'zuo  2  四座 22  四唑 1  
 si'zuo'lei  1  四唑类 0  
+song  16  松 0  耸 0  怂 0  颂 0  送 0  宋 0  讼 0  诵 0  凇 0  菘 0  崧 0  嵩 0  忪 0  悚 0  淞 0  竦 0  
 song'an  1  讼案 4  
 song'an'di'qu  1  送安迪去 0  
 song'bai  1  松柏 13  
@@ -169978,6 +170285,7 @@ song'zou  1  送走 33
 song'zu'de  1  宋祖德 0  
 song'zu'ying  1  宋祖英 0  
 song'zuo  1  送作 4  
+sou  14  搜 0  艘 0  擞 0  嗽 0  叟 0  薮 0  嗖 0  嗾 0  馊 0  溲 0  飕 0  瞍 0  锼 0  螋 0  
 sou'bian  1  搜遍 15  
 sou'bo  1  搜博 0  
 sou'bu  1  搜捕 56  
@@ -170044,6 +170352,7 @@ sou'zhu  2  搜猪 0  搜住 0
 sou'zhu'yi  1  馊主意 18  
 sou'zhuo  1  搜着 0  
 sou'zou  1  搜走 4  
+su  21  苏 0  酥 0  俗 0  素 0  速 0  粟 0  僳 0  塑 0  溯 0  宿 0  诉 0  肃 0  夙 0  谡 0  蔌 0  嗉 0  愫 0  涑 0  簌 0  觫 0  稣 0  
 su'ai  2  苏埃 0  苏艾 1  
 su'an  1  诉案 0  
 su'an'li  1  苏安里 0  
@@ -170686,6 +170995,7 @@ su'zu  1  苏族 2
 su'zu'liu  1  素组瘤 0  
 su'zui  1  宿醉 66  
 su'zuo  3  速做 0  速作 0  苏做 0  
+suan  4  酸 0  蒜 0  算 0  狻 0  
 suan'an  2  酸铵 0  酸胺 0  
 suan'bai  1  酸败 3  
 suan'ban  1  蒜瓣 2  
@@ -170889,6 +171199,7 @@ suan'zhu  2  算珠 2  酸属 0
 suan'zi  2  算子 110  酸渍 0  
 suan'zong'zhang  1  算总账 0  
 suan'zuo  2  算作 59  酸作 0  
+sui  18  虽 0  隋 0  随 0  绥 0  髓 0  碎 0  岁 0  穗 0  遂 0  隧 0  祟 0  谇 0  荽 0  濉 0  邃 0  燧 0  眭 0  睢 0  
 sui'ba  2  隧巴 0  随靶 1  
 sui'bai  1  虽败 0  
 sui'bai'you'rong  1  虽败犹荣 1  
@@ -171316,6 +171627,7 @@ sui'zuan  1  随钻 0
 sui'zuan'ce'liang  1  随钻测量 1  
 sui'zui  1  随嘴 0  
 sui'zuo  2  随做 0  虽作 0  
+sun  8  孙 0  损 0  笋 0  荪 0  狲 0  飧 0  榫 0  隼 0  
 sun'an'xian  1  孙安先 0  
 sun'bao'hong  1  孙宝宏 0  
 sun'bao'jun  1  孙宝军 0  
@@ -171500,6 +171812,7 @@ sun'zi'bei  1  孙子辈 4
 sun'zi'bing'fa  1  孙子兵法 2  
 sun'zong'xie  1  孙总携 0  
 sun'zuo'long  1  孙作龙 0  
+suo  16  蓑 0  梭 0  唆 0  缩 0  琐 0  索 0  锁 0  所 0  唢 0  嗦 0  嗍 0  娑 0  桫 0  睃 0  羧 0  挲 0  
 suo'ai  2  所爱 112  索爱 1  
 suo'ai'qie  1  所爱且 0  
 suo'ai'ying  1  所爱婴 1  
@@ -172167,6 +172480,7 @@ suo'zou  1  所奏 2
 suo'zu  3  所阻 1  所租 5  所组 0  
 suo'zuo  2  所作 1715  缩作 1  
 suo'zuo'suo'wei  1  所作所为 226  
+ta  15  塌 0  他 0  它 0  她 0  塔 0  獭 0  挞 0  蹋 0  踏 0  闼 0  溻 0  遢 0  榻 0  趿 0  鳎 0  
 ta'an  3  他案 0  他暗 0  他安 0  
 ta'an'jing  1  他安靖 1  
 ta'an'shi  1  他安时 0  
@@ -172853,6 +173167,7 @@ ta'zong'ma  1  他宗马 0
 ta'zu  3  踏足 17  他族 3  他祖 7  
 ta'zui  2  他罪 0  它罪 0  
 ta'zuo  3  他作 63  它作 3  他唑 0  
+tai  16  胎 0  苔 0  抬 0  台 0  泰 0  酞 0  太 0  态 0  汰 0  邰 0  薹 0  肽 0  炱 0  钛 0  跆 0  鲐 0  
 tai'a  2  太阿 0  泰阿 0  
 tai'ai  2  太矮 11  太爱 16  
 tai'ai'jian  1  太爱简 0  
@@ -173643,6 +173958,7 @@ tai'zu  3  太祖 0  泰族 0  台组 0
 tai'zuan  1  台钻 0  
 tai'zui  1  太醉 0  
 tai'zuo  3  泰作 1  台座 2  胎座 0  
+tan  23  坍 0  摊 0  贪 0  瘫 0  滩 0  坛 0  檀 0  痰 0  潭 0  谭 0  谈 0  坦 0  毯 0  袒 0  碳 0  探 0  叹 0  炭 0  郯 0  昙 0  忐 0  钽 0  锬 0  
 tan'ai  2  谈爱 0  贪爱 4  
 tan'an  4  探案 3  滩岸 0  碳铵 2  坦案 0  
 tan'an'de  1  谭安德 0  
@@ -174172,6 +174488,7 @@ tan'zu  2  碳足 0  瘫组 0
 tan'zu'ji  1  坦组及 0  
 tan'zui  1  贪嘴 1  
 tan'zuo  2  坦作 0  瘫坐 1  
+tang  25  汤 0  塘 0  搪 0  堂 0  棠 0  膛 0  唐 0  糖 0  倘 0  躺 0  淌 0  趟 0  烫 0  傥 0  帑 0  饧 0  溏 0  瑭 0  樘 0  铴 0  耥 0  螗 0  螳 0  羰 0  醣 0  
 tang'an  2  塘岸 0  糖胺 0  
 tang'ao  1  堂奥 0  
 tang'ba  1  塘坝 4  
@@ -174596,6 +174913,7 @@ tang'zhuang  1  唐装 10
 tang'zhui'he'wu  1  糖缀合物 0  
 tang'zi'mei  1  堂姊妹 0  
 tang'zun'zhuang  1  堂樽装 0  
+tao  16  掏 0  涛 0  滔 0  绦 0  萄 0  桃 0  逃 0  淘 0  陶 0  讨 0  套 0  鼗 0  啕 0  洮 0  韬 0  饕 0  
 tao'ba  1  陶吧 0  
 tao'bai  1  陶柏 0  
 tao'bai'lai  1  陶伯来 0  
@@ -174950,6 +175268,7 @@ tao'zou  1  逃走 275
 tao'zu  1  套组 0  
 tao'zui  3  陶醉 157  讨罪 1  逃罪 0  
 tao'zuo  2  套作 1  套座 1  
+te  3  特 0  忑 0  铽 0  
 te'ai  1  特爱 1  
 te'an  1  特案 2  
 te'ao  1  特奥 8  
@@ -175582,6 +175901,7 @@ te'zhu  3  特助 1  特珠 0  特属 0
 te'zhun  1  特准 6  
 te'zi  2  特仔 0  特兹 0  
 te'zuo  2  特做 1  特坐 0  
+teng  5  藤 0  腾 0  疼 0  誊 0  滕 0  
 teng'ai  1  疼爱 68  
 teng'ba'ji  1  滕巴奇 1  
 teng'ba'qi  1  滕巴奇 1  
@@ -175697,6 +176017,7 @@ teng'zhou'shi  1  滕州市 3
 teng'zhu  1  藤属 1  
 teng'zi  1  藤子 1  
 teng'zi'jing  1  滕子京 0  
+ti  23  梯 0  剔 0  踢 0  锑 0  提 0  题 0  蹄 0  啼 0  体 0  替 0  嚏 0  惕 0  涕 0  剃 0  屉 0  倜 0  荑 0  悌 0  逖 0  缇 0  鹈 0  裼 0  醍 0  
 ti'a'ma  1  提阿玛 1  
 ti'ai  3  梯埃 9  提矮 6  体癌 2  
 ti'ai'er  1  提哀尔 0  
@@ -176419,6 +176740,7 @@ ti'zui  1  替罪 3
 ti'zui'yang  1  替罪羊 92  
 ti'zui'zhan  1  提醉战 0  
 ti'zuo  2  体作 0  蹄座 0  
+tian  13  天 0  添 0  填 0  田 0  甜 0  恬 0  舔 0  腆 0  掭 0  忝 0  阗 0  殄 0  畋 0  
 tian'an  2  天安 10  天暗 1  
 tian'an'men  1  天安门 31  
 tian'an'men'cheng'lou  1  天安门城楼 2  
@@ -177230,6 +177552,7 @@ tian'zun  1  天尊 0
 tian'zuo  1  天做 0  
 tian'zuo'xie  1  天做些 1  
 tian'zuo'zhi'he  1  天作之合 5  
+tiao  15  调 0  挑 0  条 0  迢 0  眺 0  跳 0  佻 0  祧 0  窕 0  蜩 0  笤 0  粜 0  龆 0  鲦 0  髫 0  
 tiao'ai  1  调矮 1  
 tiao'an  2  调暗 11  条案 5  
 tiao'ba'yan  1  条坝堰 0  
@@ -177782,6 +178105,7 @@ tiao'zu  1  调阻 0
 tiao'zui  1  挑嘴 2  
 tiao'zuo  2  调作 0  条作 1  
 tiao'zuo'xie  1  条作些 0  
+tie  5  贴 0  铁 0  帖 0  萜 0  餮 0  
 tie'an  1  铁安 0  
 tie'ba  1  铁靶 0  
 tie'ban  2  铁板 31  贴板 0  
@@ -178131,6 +178455,7 @@ tie'zhuo  1  贴着 73
 tie'zi  2  帖子 140  贴子 13  
 tie'zu  2  铁族 1  贴足 1  
 tie'zui  1  铁嘴 1  
+ting  16  厅 0  听 0  烃 0  汀 0  廷 0  停 0  亭 0  庭 0  挺 0  艇 0  莛 0  葶 0  婷 0  梃 0  蜓 0  霆 0  
 ting'ai  2  听埃 1  挺爱 0  
 ting'ao  1  听奥 1  
 ting'ba  2  挺拔 35  听罢 1  
@@ -178494,6 +178819,7 @@ ting'zi  2  亭子 20  婷子 0
 ting'zi'jian  1  亭子间 0  
 ting'zu  1  停租 0  
 ting'zui  1  停嘴 1  
+tong  20  通 0  桐 0  酮 0  瞳 0  同 0  铜 0  彤 0  童 0  桶 0  捅 0  筒 0  统 0  痛 0  佟 0  仝 0  茼 0  嗵 0  恸 0  潼 0  砼 0  
 tong'a'er  1  同阿尔 0  
 tong'a'lin'ba  1  同阿林巴 0  
 tong'a'pu  1  统阿普 0  
@@ -179461,6 +179787,7 @@ tong'zu  3  同组 11  同族 11  同祖 0
 tong'zu'ding  1  通租订 0  
 tong'zui  2  同罪 2  同醉 0  
 tong'zuo  4  同座 5  同坐 11  铜作 8  同作 2  
+tou  6  偷 0  投 0  头 0  透 0  钭 0  骰 0  
 tou'an  3  投安 0  投案 4  透暗 0  
 tou'an'zi'shou  1  投案自首 1  
 tou'ao'sen  1  投奥森 0  
@@ -180016,6 +180343,7 @@ tou'zi'zong'e  1  投资总额 52
 tou'zou  1  偷走 265  
 tou'zu  2  头足 8  投足 2  
 tou'zuo  1  头座 0  
+tu  16  凸 0  秃 0  突 0  图 0  徒 0  途 0  涂 0  屠 0  土 0  吐 0  兔 0  堍 0  荼 0  菟 0  钍 0  酴 0  
 tu'a'mo'tu  1  土阿莫土 0  
 tu'ai  1  图埃 0  
 tu'an  1  图案 750  
@@ -180760,6 +181088,7 @@ tu'zuan'fa  1  土钻法 0
 tu'zuo  1  图作 2  
 tu'zuo'jin  1  土佐金 0  
 tu'zuo'ku'he  1  土佐堀河 0  
+tuan  5  湍 0  团 0  抟 0  彖 0  疃 0  
 tuan'an  1  团案 0  
 tuan'bai  1  团拜 3  
 tuan'bian  1  团便 0  
@@ -180900,6 +181229,7 @@ tuan'zhuang  2  团状 5  团装 0
 tuan'zi  1  团子 3  
 tuan'zu  1  团组 8  
 tuan'zu'zhi  1  团组织 2  
+tui  7  推 0  颓 0  腿 0  蜕 0  褪 0  退 0  煺 0  
 tui'bai  1  颓败 1  
 tui'ban  3  推板 1  推版 0  退班 0  
 tui'bao  1  退保 6  
@@ -181282,6 +181612,7 @@ tui'zou  2  退走 4  推走 0
 tui'zou'lu  1  腿走路 3  
 tui'zu  2  退租 5  推阻 0  
 tui'zuo  1  推作 0  
+tun  7  吞 0  屯 0  臀 0  氽 0  饨 0  暾 0  豚 0  
 tun'bao  2  屯堡 2  吞剥 0  
 tun'bing  1  吞并 75  
 tun'bo  1  吞剥 0  
@@ -181374,6 +181705,7 @@ tun'zhong  2  屯中 0  臀中 0
 tun'zhu  1  屯驻 0  
 tun'zhuo  1  屯着 0  
 tun'zi  1  屯子 1  
+tuo  24  拖 0  托 0  脱 0  鸵 0  陀 0  驮 0  驼 0  椭 0  妥 0  拓 0  唾 0  乇 0  佗 0  坨 0  庹 0  沱 0  柝 0  橐 0  砣 0  箨 0  酡 0  跎 0  鼍 0  铊 0  
 tuo'a'kui  1  托阿奎 0  
 tuo'ai'jing  1  托埃京 1  
 tuo'an  2  拓案 1  脱氨 2  
@@ -181902,6 +182234,7 @@ tuo'zhuo  1  托着 32
 tuo'zi  5  拖字 0  坨子 2  驼子 0  驮子 1  托子 1  
 tuo'zou  1  拖走 30  
 tuo'zui  1  脱罪 6  
+wa  10  挖 0  哇 0  蛙 0  洼 0  娃 0  瓦 0  袜 0  佤 0  娲 0  腽 0  
 wa'bang  1  佤邦 2  
 wa'bang'jun  1  佤邦军 0  
 wa'bao  1  挖宝 0  
@@ -182230,6 +182563,7 @@ wa'zi'sheng  1  瓦兹省 1
 wa'zi'xing  1  瓦兹省 1  
 wa'zou  1  挖走 33  
 wa'zu  1  佤族 5  
+wai  2  歪 0  外 0  
 wai'ban  2  外办 18  外板 3  
 wai'ban'gui'guan  1  外半规管 0  
 wai'bang  1  外邦 137  
@@ -182763,6 +183097,7 @@ wai'zu'mu  1  外祖母 35
 wai'zu'ren  1  外族人 5  
 wai'zui  1  歪嘴 2  
 wai'zuo  1  外作 0  
+wan  26  豌 0  弯 0  湾 0  玩 0  顽 0  丸 0  烷 0  完 0  碗 0  挽 0  晚 0  皖 0  惋 0  宛 0  婉 0  万 0  腕 0  剜 0  芄 0  菀 0  纨 0  绾 0  琬 0  脘 0  畹 0  蜿 0  
 wan'ai  4  万爱 0  丸癌 0  万艾 0  完爱 1  
 wan'ai'hou  1  完爱后 0  
 wan'an  4  晚安 180  烷胺 0  完安 0  万安 1  
@@ -183499,6 +183834,7 @@ wan'zu  4  万族 15  腕足 2  万组 0  万阻 0
 wan'zuan  1  完钻 0  
 wan'zuo  1  万座 7  
 wan'zuo'you  1  万左右 8  
+wang  14  汪 0  王 0  亡 0  枉 0  网 0  往 0  旺 0  望 0  忘 0  妄 0  罔 0  惘 0  辋 0  魍 0  
 wang'a  1  王阿 13  
 wang'a'di  1  王阿提 2  
 wang'a'ti  1  王阿提 2  
@@ -184609,6 +184945,7 @@ wang'zuo  4  妄作 2  王座 23  王作 3  网做 0
 wang'zuo'bian  1  往左边 6  
 wang'zuo'kuang'bi  1  网作眶壁 0  
 wang'zuo'liang  1  王佐良 1  
+wei  60  威 0  巍 0  微 0  危 0  韦 0  违 0  桅 0  围 0  唯 0  惟 0  为 0  潍 0  维 0  苇 0  萎 0  委 0  伟 0  伪 0  尾 0  纬 0  未 0  蔚 0  味 0  畏 0  胃 0  喂 0  魏 0  位 0  渭 0  谓 0  尉 0  慰 0  卫 0  偎 0  诿 0  隈 0  圩 0  葳 0  薇 0  帏 0  帷 0  嵬 0  猥 0  猬 0  闱 0  沩 0  洧 0  涠 0  逶 0  娓 0  玮 0  韪 0  軎 0  炜 0  煨 0  痿 0  艉 0  鲔 0  囗 0  崴 0  
 wei'ai  5  维埃 5  胃癌 149  伪霭 0  维艾 0  微癌 0  
 wei'ai'fu'shan  1  微埃夫山 0  
 wei'ai'la  1  维埃拉 19  
@@ -186360,6 +186697,7 @@ wei'zuo  8  未作 46  为作 3  位作 0  围坐 7  伪作 1  尾座 1  围座 
 wei'zuo'dong'qi  1  微作动器 1  
 wei'zuo'jiang  1  为佐酱 0  
 wei'zuo'zai  1  围坐在 39  
+wen  15  瘟 0  温 0  蚊 0  文 0  闻 0  纹 0  吻 0  稳 0  紊 0  问 0  刎 0  阌 0  汶 0  璺 0  雯 0  
 wen'ai  1  问埃 1  
 wen'ai'er'qian  1  问爱尔茜 0  
 wen'ai'ke  1  温艾克 0  
@@ -187346,6 +187684,7 @@ wen'zou  1  文邹 0
 wen'zui  1  问罪 2  
 wen'zuo  4  稳坐 3  文做 1  文作 3  文坐 0  
 wen'zuo'diao'yu'tai  1  稳坐钓鱼台 0  
+weng  5  嗡 0  翁 0  瓮 0  蓊 0  蕹 0  
 weng'an  1  瓮安 3  
 weng'an'xian  1  瓮安县 1  
 weng'ao'cun  1  翁岙村 0  
@@ -187396,6 +187735,7 @@ weng'yuan'xian  1  翁源县 0
 weng'zhong  1  瓮中 0  
 weng'zhong'zhi'bie  1  瓮中之鳖 5  
 weng'zi  1  瓮子 0  
+wo  16  挝 0  蜗 0  涡 0  窝 0  我 1  斡 0  卧 0  握 0  沃 0  倭 0  莴 0  幄 0  渥 0  肟 0  硪 0  龌 0  
 wo'ai  1  我碍 0  
 wo'ai'da  1  我爱大 0  
 wo'ai'dai  1  我爱大 0  
@@ -187523,7 +187863,7 @@ wo'dang'wo'jun  1  我党我军 0
 wo'dao  6  卧倒 12  我道 8  我到 16  我岛 0  握到 0  我刀 0  
 wo'dao'ge  1  我道格 0  
 wo'dao'zai'di  1  卧倒在地 1  
-wo'de  4  我得 39  沃德 21  握得 6  沃得 0  
+wo'de  5  我得 39  沃德 21  握得 6  沃得 0  我的 393940  
 wo'de'an  1  沃德案 0  
 wo'de'cha  1  我得查 2  
 wo'de'chang  1  我得肠 0  
@@ -188316,6 +188656,7 @@ wo'zuo'ci  1  我作此 0
 wo'zuo'ge  1  我作个 0  
 wo'zuo'guo  1  我作国 0  
 wo'zuo'wang  1  我作王 3  
+wu  55  巫 0  呜 0  钨 0  乌 0  污 0  诬 0  屋 0  无 0  芜 0  梧 0  吾 0  吴 0  毋 0  武 0  五 0  捂 0  午 0  舞 0  伍 0  侮 0  坞 0  戊 0  雾 0  晤 0  物 0  勿 0  务 0  悟 0  误 0  兀 0  仵 0  阢 0  邬 0  圬 0  芴 0  唔 0  庑 0  怃 0  忤 0  浯 0  寤 0  迕 0  妩 0  婺 0  骛 0  杌 0  牾 0  於 0  焐 0  鹉 0  鹜 0  痦 0  蜈 0  鋈 0  鼯 0  
 wu'ai  5  无碍 8  雾霭 23  吾爱 10  无爱 6  五爱 0  
 wu'ai'chong  1  无爱宠 0  
 wu'ai'yi  1  吴霭仪 1  
@@ -190483,6 +190824,7 @@ wu'zuo  4  五座 10  物作 2  物做 0  误作 4
 wu'zuo'chun  1  戊唑醇 0  
 wu'zuo'dong  1  吴作栋 5  
 wu'zuo'li'pao  1  无坐力炮 0  
+xi  73  昔 0  熙 0  析 0  西 0  硒 0  栖 0  矽 0  晰 0  嘻 0  吸 0  锡 0  牺 0  稀 0  息 0  希 0  悉 0  膝 0  夕 0  惜 0  熄 0  烯 0  溪 0  蹊 0  汐 0  犀 0  檄 0  袭 0  席 0  习 0  媳 0  喜 0  铣 0  洗 0  系 0  隙 0  戏 0  细 0  僖 0  兮 0  隰 0  郗 0  菥 0  葸 0  蓰 0  奚 0  唏 0  徙 0  饩 0  阋 0  浠 0  淅 0  屣 0  嬉 0  玺 0  樨 0  曦 0  觋 0  欷 0  熹 0  禊 0  禧 0  皙 0  穸 0  蜥 0  螅 0  蟋 0  舄 0  舾 0  羲 0  粞 0  翕 0  醯 0  鼷 0  
 xi'ai  2  喜爱 1302  西埃 0  
 xi'an  7  锡安 122  西岸 287  西安 173  溪岸 0  烯胺 0  希安 1  席安 0  
 xi'an'cheng  1  西安城 0  
@@ -192110,6 +192452,7 @@ xi'zu  5  希族 177  洗族 0  洗足 0  吸足 2  西族 0
 xi'zui  1  吸嘴 2  
 xi'zuo  7  习作 14  西座 13  锡作 0  西佐 2  细作 0  细做 0  席座 0  
 xi'zuo'cai  1  西佐才 0  
+xia  21  瞎 0  虾 0  匣 0  霞 0  辖 0  暇 0  峡 0  侠 0  狭 0  下 0  厦 0  夏 0  吓 0  狎 0  遐 0  瑕 0  柙 0  硖 0  罅 0  黠 0  呷 0  
 xia'ai  1  狭隘 234  
 xia'ai'er  1  夏埃尔 2  
 xia'ai'ni  1  下艾尼 0  
@@ -192923,6 +193266,7 @@ xia'zi'ye  1  下紫叶 0
 xia'zu  3  吓阻 17  下组 2  下足 1  
 xia'zun'en  1  夏尊恩 0  
 xia'zuo  3  下座 0  下作 4  夏作 0  
+xian  45  掀 0  锨 0  先 0  仙 0  鲜 0  纤 0  咸 0  贤 0  衔 0  舷 0  闲 0  涎 0  弦 0  嫌 0  显 0  险 0  现 0  献 0  县 0  腺 0  馅 0  羡 0  宪 0  陷 0  限 0  线 0  冼 0  苋 0  莶 0  藓 0  岘 0  猃 0  暹 0  娴 0  氙 0  燹 0  祆 0  鹇 0  痫 0  蚬 0  筅 0  籼 0  酰 0  跣 0  跹 0  
 xian'ai  4  腺癌 46  先爱 2  线爱 0  献爱 2  
 xian'ai'li  1  仙艾莉 0  
 xian'ai'shang  1  先爱上 0  
@@ -193352,3 +193696,65 @@ xian'liang'ban  1  限量版 36
 xian'liang'gong'ying  1  限量供应 0  
 xian'liao  5  闲聊 143  馅料 16  现了 1  陷料 1  咸了 0  
 xian'lie  4  现列 1  线列 2  先列 2  先烈 5  
+xiang  29  相 0  厢 0  镶 0  香 0  箱 0  襄 0  湘 0  乡 0  翔 0  祥 0  详 0  想 0  响 0  享 0  项 0  巷 0  橡 0  像 0  向 0  象 0  芗 0  葙 0  饷 0  庠 0  骧 0  缃 0  蟓 0  鲞 0  飨 0  
+xiao  29  萧 0  硝 0  霄 0  削 0  哮 0  嚣 0  销 0  消 0  宵 0  淆 0  晓 0  小 0  孝 0  校 0  肖 0  啸 0  笑 0  效 0  哓 0  崤 0  潇 0  逍 0  骁 0  绡 0  枭 0  枵 0  筱 0  箫 0  魈 0  
+xie  38  楔 0  些 0  歇 0  蝎 0  鞋 0  协 0  挟 0  携 0  邪 0  斜 0  胁 0  谐 0  写 0  械 0  卸 0  蟹 0  懈 0  泄 0  泻 0  谢 0  解 0  屑 0  偕 0  亵 0  勰 0  燮 0  薤 0  撷 0  獬 0  廨 0  渫 0  瀣 0  邂 0  绁 0  缬 0  榭 0  榍 0  躞 0  
+xin  15  薪 0  芯 0  锌 0  欣 0  辛 0  新 0  忻 0  心 0  信 0  衅 0  囟 0  馨 0  昕 0  歆 0  鑫 0  
+xing  22  星 0  腥 0  猩 0  惺 0  兴 0  刑 0  型 0  形 0  邢 0  行 0  醒 0  省 0  幸 0  杏 0  性 0  姓 0  陉 0  荇 0  荥 0  擤 0  悻 0  硎 0  
+xiong  8  兄 0  凶 0  胸 0  匈 0  汹 0  雄 0  熊 0  芎 0  
+xiu  19  休 0  修 0  羞 0  朽 0  嗅 0  臭 0  锈 0  秀 0  袖 0  绣 0  咻 0  岫 0  馐 0  庥 0  溴 0  鸺 0  貅 0  髹 0  宿 0  
+xu  31  墟 0  戌 0  需 0  虚 0  嘘 0  须 0  徐 0  许 0  蓄 0  酗 0  叙 0  旭 0  序 0  畜 0  恤 0  絮 0  婿 0  绪 0  续 0  诩 0  勖 0  蓿 0  洫 0  溆 0  顼 0  栩 0  煦 0  盱 0  胥 0  糈 0  醑 0  
+xuan  25  轩 0  喧 0  宣 0  悬 0  旋 0  玄 0  选 0  癣 0  眩 0  绚 0  儇 0  萱 0  揎 0  泫 0  渲 0  漩 0  璇 0  楦 0  暄 0  炫 0  煊 0  碹 0  铉 0  镟 0  痃 0  
+xue  11  削 0  靴 0  薛 0  学 0  穴 0  雪 0  血 0  泶 0  踅 0  鳕 0  谑 0  
+xun  29  勋 0  熏 0  循 0  旬 0  询 0  寻 0  驯 0  巡 0  殉 0  汛 0  训 0  讯 0  逊 0  迅 0  巽 0  埙 0  荀 0  蕈 0  薰 0  峋 0  徇 0  獯 0  恂 0  洵 0  浔 0  曛 0  窨 0  醺 0  鲟 0  
+ya  28  压 0  押 0  鸦 0  鸭 0  呀 0  丫 0  芽 0  牙 0  蚜 0  崖 0  衙 0  涯 0  雅 0  哑 0  亚 0  讶 0  伢 0  垭 0  揠 0  岈 0  迓 0  娅 0  琊 0  桠 0  氩 0  砑 0  睚 0  痖 0  
+yan  61  焉 0  咽 0  阉 0  烟 0  淹 0  盐 0  严 0  研 0  蜒 0  岩 0  延 0  言 0  颜 0  阎 0  炎 0  沿 0  奄 0  掩 0  眼 0  衍 0  演 0  艳 0  堰 0  燕 0  厌 0  砚 0  雁 0  唁 0  彦 0  焰 0  宴 0  谚 0  验 0  厣 0  赝 0  俨 0  偃 0  兖 0  谳 0  郾 0  鄢 0  菸 0  崦 0  恹 0  闫 0  滟 0  妍 0  嫣 0  琰 0  檐 0  晏 0  胭 0  焱 0  罨 0  筵 0  酽 0  魇 0  餍 0  鼹 0  阏 0  埏 0  
+yang  25  殃 0  央 0  鸯 0  秧 0  杨 0  扬 0  佯 0  疡 0  羊 0  洋 0  阳 0  氧 0  仰 0  痒 0  养 0  样 0  漾 0  徉 0  怏 0  泱 0  炀 0  烊 0  恙 0  蛘 0  鞅 0  
+yao  29  邀 0  腰 0  妖 0  瑶 0  摇 0  尧 0  遥 0  窑 0  谣 0  姚 0  咬 0  舀 0  药 0  要 0  耀 0  夭 0  爻 0  吆 0  崾 0  徭 0  幺 0  珧 0  杳 0  轺 0  曜 0  肴 0  鹞 0  窈 0  鳐 0  
+ye  22  椰 0  噎 0  耶 0  爷 0  野 0  冶 0  也 0  页 0  掖 0  业 0  叶 0  曳 0  腋 0  夜 0  液 0  靥 0  谒 0  邺 0  揶 0  晔 0  烨 0  铘 0  
+yi  102  一 0  壹 0  医 0  揖 0  铱 0  依 0  伊 0  衣 0  颐 0  夷 0  遗 0  移 0  仪 0  胰 0  疑 0  沂 0  宜 0  姨 0  彝 0  椅 0  蚁 0  倚 0  已 0  乙 0  矣 0  以 0  艺 0  抑 0  易 0  邑 0  屹 0  亿 0  役 0  臆 0  逸 0  肄 0  疫 0  亦 0  裔 0  意 0  毅 0  忆 0  艾 0  义 0  益 0  溢 0  诣 0  议 0  谊 0  译 0  异 0  翼 0  翌 0  绎 0  刈 0  劓 0  佾 0  诒 0  圯 0  埸 0  懿 0  苡 0  薏 0  弈 0  奕 0  挹 0  弋 0  弋 0  呓 0  咦 0  咿 0  噫 0  峄 0  嶷 0  猗 0  饴 0  怿 0  怡 0  悒 0  漪 0  迤 0  驿 0  缢 0  殪 0  轶 0  贻 0  旖 0  熠 0  眙 0  钇 0  镒 0  镱 0  痍 0  瘗 0  癔 0  翊 0  蜴 0  舣 0  羿 0  翳 0  酏 0  黟 0  
+yin  32  茵 0  荫 0  因 0  殷 0  音 0  阴 0  姻 0  吟 0  银 0  淫 0  寅 0  饮 0  尹 0  引 0  隐 0  印 0  胤 0  鄞 0  垠 0  堙 0  茚 0  吲 0  喑 0  狺 0  夤 0  洇 0  氤 0  铟 0  瘾 0  霪 0  湮 0  蚓 0  
+ying  38  英 0  樱 0  婴 0  鹰 0  应 0  缨 0  莹 0  萤 0  营 0  荧 0  蝇 0  迎 0  赢 0  盈 0  影 0  颖 0  硬 0  映 0  嬴 0  郢 0  茔 0  莺 0  萦 0  蓥 0  撄 0  嘤 0  膺 0  滢 0  潆 0  瀛 0  瑛 0  璎 0  楹 0  媵 0  鹦 0  瘿 0  颍 0  罂 0  
+yo  2  哟 0  唷 0  
+yong  25  拥 0  佣 0  臃 0  痈 0  庸 0  雍 0  踊 0  蛹 0  咏 0  泳 0  涌 0  永 0  恿 0  勇 0  用 0  俑 0  壅 0  墉 0  慵 0  邕 0  镛 0  甬 0  鳙 0  饔 0  喁 0  
+you  42  幽 0  优 0  悠 0  忧 0  尤 0  由 0  邮 0  铀 0  犹 0  油 0  游 0  酉 0  有 0  友 0  右 0  佑 0  釉 0  诱 0  又 0  幼 0  卣 0  攸 0  佝 0  侑 0  莠 0  莜 0  莸 0  呦 0  囿 0  宥 0  柚 0  猷 0  牖 0  铕 0  疣 0  蚰 0  蚴 0  蝣 0  繇 0  鱿 0  黝 0  鼬 0  
+yu  88  迂 0  淤 0  于 0  盂 0  榆 0  虞 0  愚 0  舆 0  余 0  俞 0  逾 0  鱼 0  愉 0  渝 0  渔 0  隅 0  予 0  娱 0  雨 0  与 0  屿 0  禹 0  宇 0  语 0  羽 0  玉 0  域 0  芋 0  郁 0  吁 0  遇 0  喻 0  峪 0  御 0  愈 0  欲 0  狱 0  育 0  誉 0  浴 0  寓 0  裕 0  预 0  豫 0  驭 0  禺 0  毓 0  伛 0  谀 0  谕 0  萸 0  蓣 0  揄 0  圄 0  圉 0  嵛 0  狳 0  饫 0  馀 0  庾 0  阈 0  鬻 0  妪 0  妤 0  纡 0  瑜 0  昱 0  觎 0  腴 0  欤 0  煜 0  燠 0  聿 0  钰 0  鹆 0  鹬 0  瘐 0  瘀 0  窬 0  窳 0  蜮 0  蝓 0  竽 0  臾 0  舁 0  雩 0  龉 0  俣 0  
+yuan  34  鸳 0  渊 0  冤 0  元 0  垣 0  袁 0  原 0  援 0  辕 0  园 0  员 0  圆 0  猿 0  源 0  缘 0  远 0  苑 0  愿 0  怨 0  院 0  垸 0  塬 0  掾 0  沅 0  媛 0  瑗 0  橼 0  爰 0  眢 0  鸢 0  螈 0  箢 0  鼋 0  芫 0  
+yue  15  曰 0  约 0  越 0  跃 0  钥 0  岳 0  粤 0  月 0  悦 0  阅 0  龠 0  瀹 0  樾 0  刖 0  钺 0  
+yun  23  耘 0  云 0  郧 0  匀 0  陨 0  允 0  运 0  蕴 0  酝 0  晕 0  韵 0  孕 0  郓 0  芸 0  狁 0  恽 0  愠 0  纭 0  韫 0  殒 0  昀 0  氲 0  熨 0  
+za  4  匝 0  砸 0  杂 0  咂 0  
+zai  9  栽 0  哉 0  灾 0  宰 0  载 0  再 0  在 0  崽 0  甾 0  
+zan  11  咱 0  攒 0  暂 0  赞 0  瓒 0  昝 0  簪 0  糌 0  趱 0  錾 0  拶 0  
+zang  7  藏 0  赃 0  脏 0  葬 0  奘 0  驵 0  臧 0  
+zao  15  遭 0  糟 0  凿 0  藻 0  枣 0  早 0  澡 0  蚤 0  躁 0  噪 0  造 0  皂 0  灶 0  燥 0  唣 0  
+ze  12  责 0  择 0  则 0  泽 0  仄 0  赜 0  啧 0  帻 0  迮 0  昃 0  箦 0  舴 0  
+zei  1  贼 0  
+zen  2  怎 0  谮 0  
+zeng  8  增 0  憎 0  曾 0  赠 0  缯 0  甑 0  罾 0  锃 0  
+zha  23  扎 0  喳 0  渣 0  札 0  轧 0  铡 0  闸 0  眨 0  栅 0  榨 0  咋 0  乍 0  炸 0  诈 0  揸 0  吒 0  咤 0  哳 0  砟 0  痄 0  蚱 0  齄 0  齄 0  
+zhai  9  摘 0  斋 0  宅 0  窄 0  债 0  寨 0  砦 0  瘵 0  择 0  
+zhan  21  瞻 0  毡 0  詹 0  粘 0  沾 0  盏 0  斩 0  辗 0  崭 0  展 0  蘸 0  栈 0  占 0  战 0  站 0  湛 0  绽 0  谵 0  搌 0  旃 0  颤 0  
+zhang  23  樟 0  章 0  彰 0  漳 0  张 0  掌 0  涨 0  杖 0  丈 0  帐 0  账 0  仗 0  胀 0  瘴 0  障 0  鄣 0  幛 0  嶂 0  獐 0  嫜 0  璋 0  蟑 0  仉 0  
+zhao  16  招 0  昭 0  找 0  沼 0  着 0  赵 0  照 0  罩 0  兆 0  肇 0  召 0  诏 0  啁 0  棹 0  钊 0  笊 0  
+zhe  19  遮 0  折 0  哲 0  蛰 0  辙 0  者 0  锗 0  蔗 0  这 0  浙 0  摺 0  柘 0  辄 0  磔 0  鹧 0  褶 0  蜇 0  赭 0  谪 0  
+zhen  30  珍 0  斟 0  真 0  甄 0  臻 0  贞 0  针 0  侦 0  枕 0  疹 0  诊 0  震 0  振 0  镇 0  阵 0  圳 0  蓁 0  浈 0  缜 0  桢 0  榛 0  轸 0  赈 0  胗 0  朕 0  祯 0  畛 0  稹 0  鸩 0  箴 0  
+zheng  22  蒸 0  挣 0  睁 0  征 0  狰 0  争 0  怔 0  整 0  拯 0  正 0  政 0  帧 0  症 0  郑 0  证 0  诤 0  峥 0  徵 0  钲 0  铮 0  筝 0  徴 0  
+zhi  77  芝 0  枝 0  支 0  吱 0  蜘 0  知 0  肢 0  脂 0  汁 0  之 0  织 0  职 0  直 0  植 0  殖 0  执 0  值 0  侄 0  址 0  指 0  止 0  趾 0  只 0  旨 0  纸 0  志 0  挚 0  掷 0  至 0  致 0  置 0  帜 0  峙 0  制 0  智 0  秩 0  稚 0  质 0  炙 0  痔 0  滞 0  治 0  窒 0  卮 0  陟 0  郅 0  埴 0  芷 0  摭 0  帙 0  忮 0  彘 0  咫 0  骘 0  栉 0  枳 0  栀 0  轵 0  轾 0  贽 0  胝 0  膣 0  膣 0  祉 0  黹 0  雉 0  鸷 0  鸷 0  痣 0  蛭 0  絷 0  酯 0  跖 0  踬 0  踯 0  豸 0  觯 0  
+zhong  16  中 0  盅 0  忠 0  钟 0  衷 0  终 0  种 0  肿 0  重 0  仲 0  众 0  冢 0  锺 0  螽 0  舯 0  踵 0  
+zhou  22  舟 0  周 0  州 0  洲 0  诌 0  粥 0  轴 0  肘 0  帚 0  咒 0  皱 0  宙 0  昼 0  骤 0  荮 0  妯 0  纣 0  绉 0  胄 0  碡 0  籀 0  酎 0  
+zhu  47  珠 0  株 0  蛛 0  朱 0  猪 0  诸 0  诛 0  逐 0  竹 0  烛 0  煮 0  拄 0  瞩 0  嘱 0  属 0  主 0  著 0  柱 0  助 0  蛀 0  贮 0  铸 0  筑 0  住 0  注 0  祝 0  驻 0  伫 0  侏 0  邾 0  茱 0  洙 0  渚 0  潴 0  杼 0  槠 0  橥 0  炷 0  铢 0  疰 0  瘃 0  竺 0  箸 0  舳 0  翥 0  躅 0  麈 0  
+zhua  2  抓 0  爪 0  
+zhuai  1  拽 0  
+zhuan  9  专 0  砖 0  转 0  撰 0  赚 0  篆 0  啭 0  馔 0  颛 0  
+zhuang  9  桩 0  庄 0  装 0  妆 0  撞 0  壮 0  状 0  椎 0  僮 0  
+zhui  7  锥 0  追 0  赘 0  坠 0  缀 0  惴 0  缒 0  
+zhun  4  谆 0  准 0  肫 0  窀 0  
+zhuo  20  捉 0  拙 0  卓 0  桌 0  琢 0  茁 0  酌 0  啄 0  着 0  灼 0  浊 0  倬 0  诼 0  擢 0  浞 0  涿 0  濯 0  禚 0  斫 0  镯 0  
+zi  36  兹 0  咨 0  资 0  姿 0  滋 0  淄 0  孜 0  紫 0  仔 0  籽 0  滓 0  子 0  自 0  渍 0  字 0  谘 0  嵫 0  姊 0  孳 0  缁 0  梓 0  辎 0  赀 0  恣 0  眦 0  锱 0  秭 0  耔 0  粢 0  趑 0  觜 0  訾 0  龇 0  鲻 0  髭 0  笫 0  
+zong  10  鬃 0  棕 0  踪 0  宗 0  综 0  总 0  纵 0  偬 0  腙 0  粽 0  
+zou  9  邹 0  走 0  奏 0  揍 0  诹 0  陬 0  鄹 0  驺 0  鲰 0  
+zu  11  租 0  足 0  卒 0  族 0  祖 0  诅 0  阻 0  组 0  俎 0  菹 0  镞 0  
+zuan  5  钻 0  纂 0  攥 0  缵 0  躜 0  
+zui  6  嘴 0  醉 0  最 0  罪 0  蕞 0  咀 0  
+zun  5  尊 0  遵 0  撙 0  樽 0  鳟 0  
+zuo  15  昨 0  左 0  佐 0  柞 0  做 0  作 0  坐 0  座 0  阼 0  唑 0  怍 0  胙 0  祚 0  笮 0  阝 0  

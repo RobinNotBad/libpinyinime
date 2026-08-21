@@ -1,5 +1,3 @@
-CXX      ?= g++
-CC       ?= gcc
 CXXFLAGS ?= -O2 -std=c++11 -fPIC -Wall -Wextra
 CFLAGS   ?= -O2 -Wall -Wextra
 INCLUDES  = -Iinclude

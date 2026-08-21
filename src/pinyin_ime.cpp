@@ -9,7 +9,7 @@
 #include <string>
 #include <vector>
 
-struct pinyin_ime
+struct pinyin_ime_t
 {
 	std::map<std::string, std::vector<wchar_t>> pinyin;
 	std::map<std::string, std::vector<std::wstring>> pinyin_to_words;
@@ -32,13 +32,13 @@ struct pinyin_ime
 	std::string result_cache;
 	std::vector<std::string> candidate_cache;
 
-	pinyin_ime() : solved_yin(0), jianpin_mode(false), finished(false) {}
+	pinyin_ime_t() : solved_yin(0), jianpin_mode(false), finished(false) {}
 };
 
 namespace
 {
 
-bool load_pinyin_table(pinyin_ime* ime, const std::string& path)
+bool load_pinyin_table(pinyin_ime_t* ime, const std::string& path)
 {
 	std::ifstream fin(path.c_str());
 	if (!fin)
@@ -64,7 +64,7 @@ bool load_pinyin_table(pinyin_ime* ime, const std::string& path)
 	return !ime->pinyin.empty();
 }
 
-bool load_dictionary(pinyin_ime* ime, const std::string& path)
+bool load_dictionary(pinyin_ime_t* ime, const std::string& path)
 {
 	std::ifstream fin(path.c_str());
 	if (!fin)
@@ -91,6 +91,21 @@ bool load_dictionary(pinyin_ime* ime, const std::string& path)
 	return true;
 }
 
+void ensure_single_chars(pinyin_ime_t* ime)
+{
+	for (const auto& e : ime->pinyin)
+	{
+		std::vector<std::wstring>& words = ime->pinyin_to_words[e.first];
+		std::set<std::wstring> existing(words.begin(), words.end());
+		for (wchar_t ch : e.second)
+		{
+			std::wstring w(1, ch);
+			if (existing.find(w) == existing.end())
+				words.push_back(w);
+		}
+	}
+}
+
 std::string join(const std::vector<std::string>& v, size_t from, const std::string& sep)
 {
 	std::string s;
@@ -103,7 +118,7 @@ std::string join(const std::vector<std::string>& v, size_t from, const std::stri
 	return s;
 }
 
-bool words_compare(const pinyin_ime* ime, const std::wstring& a, const std::wstring& b)
+bool words_compare(const pinyin_ime_t* ime, const std::wstring& a, const std::wstring& b)
 {
 	auto da = ime->dictionary.find(a);
 	auto db = ime->dictionary.find(b);
@@ -139,7 +154,27 @@ bool mixed_match(const std::string& input, const std::string& key)
 	return mixed_match_rec(input, 0, key, 0);
 }
 
-void compute_candidates(pinyin_ime* ime)
+bool segment(const pinyin_ime_t* ime, const std::string& s, size_t pos, std::vector<std::string>& out)
+{
+	if (pos >= s.size())
+		return true;
+	if (s[pos] == '\'')
+		return segment(ime, s, pos + 1, out);
+	size_t end = s.find('\'', pos);
+	if (end == std::string::npos)
+		end = s.size();
+	for (size_t len = end - pos; len >= 1; len--)
+	{
+		if (ime->pinyin.count(s.substr(pos, len)) && segment(ime, s, pos + len, out))
+		{
+			out.insert(out.begin(), s.substr(pos, len));
+			return true;
+		}
+	}
+	return false;
+}
+
+void compute_candidates(pinyin_ime_t* ime)
 {
 	ime->candidates.clear();
 	if (ime->finished || ime->solved_yin >= (int)ime->yinjie.size())
@@ -148,18 +183,13 @@ void compute_candidates(pinyin_ime* ime)
 		return;
 	}
 	size_t s = (size_t)ime->solved_yin;
-	std::string cur = ime->yinjie[s];
-
-	// 单字
-	auto itp = ime->pinyin.find(cur);
-	if (itp != ime->pinyin.end())
-		for (wchar_t ch : itp->second)
-			ime->candidates.push_back(std::wstring(1, ch));
-
-	// 多字
-	for (size_t i = 1; s + i < ime->yinjie.size(); i++)
+	std::string cur;
+	for (size_t i = 0; s + i < ime->yinjie.size(); i++)
 	{
-		cur += "'" + ime->yinjie[s + i];
+		if (i == 0)
+			cur = ime->yinjie[s];
+		else
+			cur += "'" + ime->yinjie[s + i];
 		auto it = ime->pinyin_to_words.find(cur);
 		if (it != ime->pinyin_to_words.end())
 			for (const std::wstring& w : it->second)
@@ -170,7 +200,7 @@ void compute_candidates(pinyin_ime* ime)
 		[ime](const std::wstring& a, const std::wstring& b) { return words_compare(ime, a, b); });
 }
 
-void update_caches(pinyin_ime* ime)
+void update_caches(pinyin_ime_t* ime)
 {
 	if (ime->jianpin_mode)
 		ime->segments_cache = ime->finished ? std::string() : ime->raw_pinyin;
@@ -190,13 +220,13 @@ void update_caches(pinyin_ime* ime)
 extern "C"
 {
 
-pinyin_ime* pinyin_ime_init(const char* pinyin_path, const char* dictionary_path)
+pinyin_ime_t* pinyin_ime_init(const char* pinyin_path, const char* dictionary_path)
 {
 	if (!pinyin_path || !dictionary_path)
 		return nullptr;
 	try
 	{
-		pinyin_ime* ime = new (std::nothrow) pinyin_ime();
+		pinyin_ime_t* ime = new (std::nothrow) pinyin_ime_t();
 		if (!ime)
 			return nullptr;
 		ime->pinyin_path = pinyin_path;
@@ -211,6 +241,7 @@ pinyin_ime* pinyin_ime_init(const char* pinyin_path, const char* dictionary_path
 			delete ime;
 			return nullptr;
 		}
+		ensure_single_chars(ime);
 		return ime;
 	}
 	catch (...)
@@ -219,100 +250,40 @@ pinyin_ime* pinyin_ime_init(const char* pinyin_path, const char* dictionary_path
 	}
 }
 
-void pinyin_ime_destroy(pinyin_ime* ime)
+void pinyin_ime_destroy(pinyin_ime_t* ime)
 {
 	delete ime;
 }
 
-int pinyin_ime_input(pinyin_ime* ime, const char* pinyin_utf8)
+int pinyin_ime_input(pinyin_ime_t* ime, const char* pinyin_utf8)
 {
 	if (!ime || !pinyin_utf8)
 		return PINYIN_IME_ERR_INVALID_ARG;
 	try
 	{
 		std::string pinxie = pinyin_utf8;
-		if (pinxie.empty())
-			return PINYIN_IME_ERR_BAD_PINYIN;
-		for (char c : pinxie)
-			if (!((c >= 'a' && c <= 'z') || c == '\''))
-				return PINYIN_IME_ERR_BAD_PINYIN;
-
 		// 清空缓存
 		ime->raw_pinyin = pinxie;
 		ime->yinjie.clear();
 		ime->solved_yin = 0;
 		ime->final_word.clear();
 		ime->candidates.clear();
+		ime->segments_cache.clear();
 		ime->jianpin_mode = false;
 		ime->finished = false;
+		
+		if (pinxie.empty())
+			return PINYIN_IME_ERR_BAD_PINYIN;
+		for (char c : pinxie)
+			if (!((c >= 'a' && c <= 'z') || c == '\''))
+				return PINYIN_IME_ERR_BAD_PINYIN;
 
-		// 正向最长匹配分词
-		bool error_input = false;
-		size_t i = 0;
-		while (i < pinxie.length())
+		// 全拼分词：最长优先 + 回溯；无法完整分词则走简拼/混拼
+		if (segment(ime, pinxie, 0, ime->yinjie))
 		{
-			if (pinxie[i] == '\'')
-			{
-				i++;
-				continue;
-			}
-			size_t dot = pinxie.find('\'', i);
-			size_t end = (dot == std::string::npos) ? pinxie.length() - 1 : dot - 1;
-			size_t match_len = 0;
-			bool found = false;
-			for (size_t len = end - i + 1; len >= 1; len--)
-			{
-				if (ime->pinyin.count(pinxie.substr(i, len)))
-				{
-					match_len = len;
-					found = true;
-					break;
-				}
-			}
-			if (!found)
-			{
-				error_input = true;
-				break;
-			}
-			ime->yinjie.push_back(pinxie.substr(i, match_len));
-			i += match_len;
+			compute_candidates(ime);
 		}
-
-		// 反向最短匹配分词（正向失败时）
-		bool try_jianpin = false;
-		if (error_input)
-		{
-			ime->yinjie.clear();
-			for (int pos = (int)pinxie.length() - 1; pos >= 0;)
-			{
-				if (pinxie[pos] == '\'')
-				{
-					pos--;
-					continue;
-				}
-				size_t dot = pinxie.rfind('\'', pos);
-				int begin = (dot == std::string::npos) ? 0 : (int)dot + 1;
-				bool found = false;
-				while (begin <= pos)
-				{
-					if (ime->pinyin.count(pinxie.substr(begin, pos - begin + 1)))
-					{
-						found = true;
-						break;
-					}
-					begin++;
-				}
-				if (!found)
-				{
-					try_jianpin = true;
-					break;
-				}
-				ime->yinjie.insert(ime->yinjie.begin(), pinxie.substr(begin, pos - begin + 1));
-				pos = begin - 1;
-			}
-		}
-
-		if (try_jianpin)
+		else
 		{
 			// 简拼 / 半简拼半全拼：按“每个音节可用完整拼音或首字母”匹配整词
 			ime->jianpin_mode = true;
@@ -334,10 +305,6 @@ int pinyin_ime_input(pinyin_ime* ime, const char* pinyin_utf8)
 			ime->candidates = words;
 			ime->finished = words.empty();
 		}
-		else
-		{
-			compute_candidates(ime);
-		}
 
 		update_caches(ime);
 		return PINYIN_IME_OK;
@@ -348,7 +315,7 @@ int pinyin_ime_input(pinyin_ime* ime, const char* pinyin_utf8)
 	}
 }
 
-int pinyin_ime_select(pinyin_ime* ime, int index)
+int pinyin_ime_select(pinyin_ime_t* ime, int index)
 {
 	if (!ime)
 		return PINYIN_IME_ERR_INVALID_ARG;
@@ -396,7 +363,7 @@ int pinyin_ime_select(pinyin_ime* ime, int index)
 	}
 }
 
-int pinyin_ime_save(pinyin_ime* ime, const char* dictionary_path)
+int pinyin_ime_save(pinyin_ime_t* ime, const char* dictionary_path)
 {
 	if (!ime)
 		return PINYIN_IME_ERR_INVALID_ARG;
@@ -423,35 +390,35 @@ int pinyin_ime_save(pinyin_ime* ime, const char* dictionary_path)
 	}
 }
 
-const char* pinyin_ime_get_segments(pinyin_ime* ime)
+const char* pinyin_ime_get_segments(pinyin_ime_t* ime)
 {
 	if (!ime)
 		return nullptr;
 	return ime->segments_cache.c_str();
 }
 
-const char* pinyin_ime_get_result(pinyin_ime* ime)
+const char* pinyin_ime_get_result(pinyin_ime_t* ime)
 {
 	if (!ime)
 		return nullptr;
 	return ime->result_cache.c_str();
 }
 
-int pinyin_ime_get_candidate_count(pinyin_ime* ime)
+int pinyin_ime_get_candidate_count(pinyin_ime_t* ime)
 {
 	if (!ime)
 		return 0;
 	return (int)ime->candidates.size();
 }
 
-const char* pinyin_ime_get_candidate(pinyin_ime* ime, int index)
+const char* pinyin_ime_get_candidate(pinyin_ime_t* ime, int index)
 {
 	if (!ime || index < 0 || index >= (int)ime->candidate_cache.size())
 		return nullptr;
 	return ime->candidate_cache[index].c_str();
 }
 
-int pinyin_ime_is_finished(pinyin_ime* ime)
+int pinyin_ime_is_finished(pinyin_ime_t* ime)
 {
 	if (!ime)
 		return 1;
