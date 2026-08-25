@@ -236,11 +236,6 @@ std::vector<std::string> guess_pinyin(const pinyin_ime_t* ime, const std::string
  * 将用户输入的拼音字符串（可能包含 ' 分隔符）切分为音节序列。
  * 采用贪心最长匹配策略，失败时回溯尝试更短的音节。
  *
- * 例如输入 "shulikou"：
- *   - 先尝试最长匹配 "shu" (3 字母) → 剩余 "likou" → 继续递归
- *   - 如果无法完成，则回溯尝试 "sh" (2 字母) → 但 "sh" 不是有效拼音
- *   - 最终得到 ["shu", "li", "kou"]
- *
  * @param ime 输入法实例（用于查询拼音表）
  * @param s   待分词的拼音字符串
  * @param pos 当前处理位置
@@ -294,6 +289,10 @@ bool segment(const pinyin_ime_t* ime, const std::string& s, size_t pos, std::vec
 
 /**
  * @brief 递归查找所有可能匹配的拼音
+ * 
+ * @param ime 输入法实例
+ * @param pos 该音节在segments中的位置
+ * @param pinyin_str_before 该音节前的拼音
  */
 void guess_cand_rec(pinyin_ime_t* ime, size_t pos, const std::string& pinyin_str_before)
 {
