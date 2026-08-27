@@ -47,10 +47,8 @@ struct pinyin_ime_t
 {
 	// K9 -> 拼音列表
 	std::map<int, std::vector<std::string>> k9_to_pinyin;
-	// 拼音 -> 单字列表
-	std::map<std::string, std::vector<wchar_t>> pinyin;
 	// 拼音串 -> 词语列表
-	std::map<std::string, std::vector<std::wstring>> pinyin_to_words;
+	std::map<std::string, std::set<std::wstring>> pinyin_to_words;
 	// 词 -> 累计词频
 	std::map<std::wstring, long long> dictionary;
 
@@ -190,9 +188,10 @@ bool load_pinyin_table(pinyin_ime_t* ime, const std::string& path)
 			// 跳过空白字符
 			if (ch == L' ' || ch == L'\t' || ch == L'\r' || ch == L'\n')
 				continue;
-			ime->pinyin[en].push_back(ch);
+			std::wstring ch_as_str = std::wstring(1, ch);
+			ime->pinyin_to_words[en].insert(ch_as_str);
 			// 初始化单字词频为 0
-			ime->dictionary[std::wstring(1, ch)] = 0;
+			ime->dictionary[ch_as_str] = 0;
 		}
 	}
 	fin.close();
@@ -209,7 +208,7 @@ bool load_pinyin_table(pinyin_ime_t* ime, const std::string& path)
 	}
 	*/
 
-	return !ime->pinyin.empty();
+	return true;
 }
 
 /**
@@ -239,25 +238,13 @@ bool load_dictionary(pinyin_ime_t* ime, const std::string& path)
 			if (!(fin >> word_freq))
 				break;
 			std::wstring word = utf8_to_wstring(word_utf8);
-			ime->pinyin_to_words[pinxie].push_back(word);
+
+			// 使用 set 容器，自身即保证不重复
+			ime->pinyin_to_words[pinxie].insert(word);
 			ime->dictionary[word] = word_freq;
 		}
 	}
 	fin.close();
-
-	// 确保每个拼音下的单字出现在对应的词语列表中
-	for (const auto& e : ime->pinyin)
-	{
-		std::vector<std::wstring>& words = ime->pinyin_to_words[e.first];
-		// 使用 set 快速判断是否已存在
-		std::set<std::wstring> existing(words.begin(), words.end());
-		for (wchar_t ch : e.second)
-		{
-			std::wstring w(1, ch);
-			if (existing.find(w) == existing.end())
-				words.push_back(w);
-		}
-	}
 
 	return true;
 }
@@ -601,7 +588,7 @@ int pinyin_ime_select(pinyin_ime_t* ime, int index)
 			if (ime->dictionary.find(ime->final_word) == ime->dictionary.end())
 			{
 				// 初始词频暂且设为 1
-				ime->pinyin_to_words[segments_string].push_back(ime->final_word);
+				ime->pinyin_to_words[segments_string].insert(ime->final_word);
 				ime->dictionary[ime->final_word] = 1;
 			}
 		}
