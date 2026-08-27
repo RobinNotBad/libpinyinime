@@ -52,7 +52,7 @@ foreach ($line in $lines) {
         $word = $tokens[$i]
         $freq = [long]$tokens[$i + 1]
         $keptWords++
-        if ($freq -le 2 -and $word.Length -gt 1) {
+        if ($freq -le 16 -and $word.Length -gt 1) {
             $removedWords++
         } else {
             $pairs.Add("$word $freq")

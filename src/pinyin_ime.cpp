@@ -2,6 +2,7 @@
 #include "utf8.h"
 
 #include <algorithm>
+#include <cstring>
 #include <fstream>
 #include <iostream>
 #include <map>
@@ -10,6 +11,28 @@
 #include <string>
 #include <vector>
 #include <utility>
+
+static const char * k9_map[] = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+
+// ---- 拼音 Trie 树（前缀索引） ----
+
+struct TrieNode
+{
+	TrieNode* children[26];
+	bool is_word;
+	std::string word;
+
+	TrieNode() : is_word(false)
+	{
+		std::memset(children, 0, sizeof(children));
+	}
+
+	~TrieNode()
+	{
+		for (int i = 0; i < 26; i++)
+			if(children[i]) delete children[i];
+	}
+};
 
 /**
  * @brief 拼音输入法实例（不透明句柄）
@@ -22,7 +45,8 @@
  */
 struct pinyin_ime_t
 {
-
+	// K9 -> 拼音列表
+	std::map<int, std::vector<std::string>> k9_to_pinyin;
 	// 拼音 -> 单字列表
 	std::map<std::string, std::vector<wchar_t>> pinyin;
 	// 拼音串 -> 词语列表
@@ -35,6 +59,9 @@ struct pinyin_ime_t
 	std::string pinyin_path;
 	// 词典文件路径
 	std::string dict_path;
+
+	// 拼音前缀索引（Trie 树）
+	TrieNode* trie_root;
 
 
 	// 用户输入的原始拼音字符串（未过滤分隔符）
@@ -67,11 +94,55 @@ struct pinyin_ime_t
 	std::vector<std::string> candidate_cache;
 
 	// 构造函数：初始化状态变量
-	pinyin_ime_t() : solved_yin(0), finished(false) {}
+	pinyin_ime_t() : solved_yin(0), finished(false), trie_root(nullptr) {}
+	~pinyin_ime_t() { delete trie_root; }
 };
 
 namespace
 {
+
+/** 候选词数量上限，防止模糊拼音输入时组合爆炸 */
+const size_t MAX_CANDIDATES = 200;
+
+void trie_insert(TrieNode* root, const std::string& word)
+{
+	TrieNode* node = root;
+	for (char c : word)
+	{
+		int idx = c - 'a';
+		if (!node->children[idx])
+			node->children[idx] = new TrieNode();
+		node = node->children[idx];
+	}
+	node->is_word = true;
+	node->word = word;
+}
+
+TrieNode* trie_find_prefix(TrieNode* root, const std::string& prefix)
+{
+	TrieNode* node = root;
+	for (char c : prefix)
+	{
+		int idx = c - 'a';
+		if (!node->children[idx])
+			return nullptr;
+		node = node->children[idx];
+	}
+	return node;
+}
+
+void trie_collect_words(TrieNode* node, std::vector<std::string>& result)
+{
+	if (!node)
+		return;
+	if (node->is_word)
+		result.push_back(node->word);
+	for (int i = 0; i < 26; i++)
+	{
+		if (node->children[i])
+			trie_collect_words(node->children[i], result);
+	}
+}
 
 /**
  * @brief 加载拼音表文件
@@ -84,7 +155,10 @@ bool load_pinyin_table(pinyin_ime_t* ime, const std::string& path)
 {
 	std::ifstream fin(path.c_str());
 	if (!fin) return false;
-	
+
+	if (ime->trie_root) delete ime->trie_root;
+	ime->trie_root = new TrieNode();
+
 	std::string line;
 	while (std::getline(fin, line))
 	{
@@ -93,6 +167,23 @@ bool load_pinyin_table(pinyin_ime_t* ime, const std::string& path)
 		if (comma == std::string::npos)
 			continue;
 		std::string en = line.substr(0, comma);
+		trie_insert(ime->trie_root, en);
+
+		int k9_id = 0;
+		for (size_t i = 0; i < comma; i++)
+		{
+			for (size_t digit = 2; digit < 10; digit++)
+			{
+				std::string btn_txt = k9_map[digit];
+				if (btn_txt.find(en[i]) != std::string::npos) 
+				{
+					k9_id = k9_id * 10 + digit;
+					break;
+				}
+			}
+		}
+		ime->k9_to_pinyin[k9_id].push_back(en);
+
 		std::wstring chars = utf8_to_wstring(line.substr(comma + 1));
 		for (wchar_t ch : chars)
 		{
@@ -105,6 +196,19 @@ bool load_pinyin_table(pinyin_ime_t* ime, const std::string& path)
 		}
 	}
 	fin.close();
+
+	/*
+	for (auto &it : ime->k9_to_pinyin)
+	{
+		std::cout<<it.first<<":";
+		for (auto &jt : it.second)
+		{
+			std::cout<<jt<<",";
+		}
+		std::cout<<std::endl;
+	}
+	*/
+
 	return !ime->pinyin.empty();
 }
 
@@ -216,16 +320,9 @@ bool words_compare(const pinyin_ime_t* ime,
 std::vector<std::string> guess_pinyin(const pinyin_ime_t* ime, const std::string& seg_str)
 {
 	std::vector<std::string> result;
-
-	for (auto &it : ime->pinyin)
-	{
-		// 拼音表里不完全匹配该拼音，只要以这个开头就行
-		if (it.first.rfind(seg_str, 0) == 0) 
-		{
-			result.push_back(it.first);
-		}
-	}
-	
+	TrieNode* node = trie_find_prefix(ime->trie_root, seg_str);
+	if (node)
+		trie_collect_words(node, result);
 	return result;
 }
 
@@ -262,16 +359,7 @@ bool segment(const pinyin_ime_t* ime, const std::string& s, size_t pos, std::vec
 	{
 		std::string seg_str = s.substr(pos, len);
 
-		bool valid = false;
-		for (auto &it : ime->pinyin) 
-		{
-			// 拼音表里不完全匹配该拼音
-			if (it.first.rfind(seg_str, 0) == 0) 
-			{
-				valid = true;
-				break;
-			}
-		}
+		bool valid = (trie_find_prefix(ime->trie_root, seg_str) != nullptr);
 
 		// 匹配到后进行后续分词，看是否成功
 		if (valid && segment(ime, s, pos + len, out))
@@ -309,12 +397,10 @@ void guess_cand_rec(pinyin_ime_t* ime, size_t pos, const std::string& pinyin_str
 		auto it = ime->pinyin_to_words.find(pinyin_str);
 		if (it != ime->pinyin_to_words.end())
 		{
-			//std::cout<<pinyin_str;
 			for (const std::wstring& cand : it->second) {
-				//std::cout<<wstring_to_utf8(cand);
 				ime->candidates.push_back(std::make_pair(pinyin_str, cand));
+				//if (ime->candidates.size() >= MAX_CANDIDATES) return;
 			}
-			//std::cout<<std::endl;
 		}
 		
 		guess_cand_rec(ime, pos + 1, pinyin_str);
