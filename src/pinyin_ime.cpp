@@ -244,17 +244,8 @@ bool load_dictionary(pinyin_ime_t* ime, const std::string& path)
 		}
 	}
 	fin.close();
-	return true;
-}
 
-/**
- * @brief 确保每个拼音下的单字出现在对应的词语列表中
- *
- * 遍历拼音表，对于每个拼音，将其对应的单字添加到 pinyin_to_words 中
- * （如果不存在的话）。这样做是为了让单字也作为候选词出现。
- */
-void ensure_single_chars(pinyin_ime_t* ime)
-{
+	// 确保每个拼音下的单字出现在对应的词语列表中
 	for (const auto& e : ime->pinyin)
 	{
 		std::vector<std::wstring>& words = ime->pinyin_to_words[e.first];
@@ -267,6 +258,8 @@ void ensure_single_chars(pinyin_ime_t* ime)
 				words.push_back(w);
 		}
 	}
+
+	return true;
 }
 
 /**
@@ -487,7 +480,6 @@ pinyin_ime_t* pinyin_ime_init(const char* pinyin_path, const char* dictionary_pa
 			delete ime;
 			return nullptr;
 		}
-		ensure_single_chars(ime);
 		return ime;
 	}
 	catch (...)
@@ -576,7 +568,7 @@ int pinyin_ime_input(pinyin_ime_t* ime, const char* pinyin_utf8)
  *   - 简拼/混拼模式：选中后立即完成（一次选择一个整词）。
  *   - 全拼模式：选中后的音节数 = 词的字数（每个汉字对应一个音节），
  *     若还有剩余音节则重新计算候选词；否则标记完成。
- *   - 新词自学习：全拼模式下的新词组合会被自动加入词典，初始词频为 393940。
+ *   - 新词自学习：全拼模式下的新词组合会被自动加入词典。
  *   - 词频更新：每次选中后，对应词的词频 +1。
  *
  * @param ime   输入法实例句柄
@@ -608,9 +600,9 @@ int pinyin_ime_select(pinyin_ime_t* ime, int index)
 			std::string segments_string = join(ime->segments, 0, "'");
 			if (ime->dictionary.find(ime->final_word) == ime->dictionary.end())
 			{
-				// 初始词频设为 393940，高于普通单字，确保新词有较高优先级
+				// 初始词频暂且设为 1
 				ime->pinyin_to_words[segments_string].push_back(ime->final_word);
-				ime->dictionary[ime->final_word] = 393939 + 1;
+				ime->dictionary[ime->final_word] = 1;
 			}
 		}
 		else
