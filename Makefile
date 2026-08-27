@@ -6,7 +6,7 @@ LIB       = libpinyinime.so
 
 .PHONY: all example cli clean
 
-all: $(LIB)
+all: $(LIB) example
 
 $(LIB): $(SRC) include/pinyin_ime.h src/utf8.h
 	$(CXX) $(CXXFLAGS) $(INCLUDES) -shared $(SRC) -o $(LIB)

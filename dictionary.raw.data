@@ -445,7 +445,8 @@ shuang  1  双  0
 zuo'you  1  左右  0  
 jian'she  1  建设  0  
 li'yong  1  利用  0  
-cheng、chen  1  称  0  
+cheng  1  称  0  
+chen  1  称  0  
 zen'yang  1  怎样  0  
 xing'wei  1  行为  0  
 yu'shi  1  于是  0  
@@ -624,7 +625,8 @@ mei  1  没  0
 xia'wu  1  下午  0  
 suan  1  算  0  
 luan  1  乱  0  
-shei、shui  1  谁  0  
+shei  1  谁  0  
+shui  1  谁  0  
 hei  1  黑  0  
 you'qi  1  尤其  0  
 lao'ren  1  老人  0  
@@ -1574,7 +1576,8 @@ gu  1  故  0
 ba'ba  1  爸爸  0  
 gao'ji  1  高级  0  
 dui  1  堆  0  
-xue、xie  1  血  0  
+xue  1  血  0  
+xie  1  血  0  
 shun'li  1  顺利  0  
 fang'xin  1  放心  0  
 cheng  1  乘  0  
@@ -1735,7 +1738,8 @@ jiao'huan  1  交换  0
 ka  1  卡  0  
 ji'dong  1  激动  0  
 shao  1  烧  0  
-shu、shou  1  熟  0  
+shu  1  熟  0  
+shou  1  熟  0  
 fou'ze  1  否则  0  
 bao'xian  1  保险  0  
 dan  1  担  0  
@@ -1867,7 +1871,7 @@ yong'hu  1  用户  0
 ji'lie  1  激烈  0  
 zhi'fa  1  执法  0  
 pin'kun  1  贫困  0  
-di'shang、di'shang  1  地上  0  
+di'shang  1  地上  0  
 shi  1  视  0  
 xi  1  喜  0  
 shi'de  1  使得  0  
@@ -6314,7 +6318,7 @@ cong'rong  1  从容  0
 shan'po  1  山坡  0  
 fen  1  坟  0  
 si'ling'yuan  1  司令员  0  
-ning、ning、ning  1  拧  0  
+ning  1  拧  0  
 tian'ye  1  田野  0  
 ting  1  亭  0  
 man'tang  1  满堂  0  
@@ -6721,7 +6725,7 @@ he'dian'zhan  1  核电站  0
 zu'fu  1  祖父  0  
 xiao'fei'pin  1  消费品  0  
 ting  1  庭  0  
-hua'fei、hua'fei  1  花费  0  
+hua'fei  1  花费  0  
 jing  1  径  0  
 hu'lve  1  忽略  0  
 zeng  1  赠  0  
@@ -7831,7 +7835,7 @@ bao  1  爆  0
 gang  1  缸  0  
 ba'lu'jun  1  八路军  0  
 cai  1  蔡  0  
-long、long  1  笼  0  
+long  1  笼  0  
 te'di  1  特地  0  
 ti'shi  1  提示  0  
 chang'xiao  1  长效  0  
@@ -8494,7 +8498,7 @@ ri'cheng  1  日程  0
 pu'shi  1  朴实  0  
 shou'qi  1  首期  0  
 qi  1  砌  0  
-sha、sha  1  煞  0  
+sha  1  煞  0  
 shu'bao  1  书包  0  
 su'shuo  1  诉说  0  
 tu  1  秃  0  
@@ -9107,7 +9111,7 @@ dan'xiang  1  单项  0
 rao  1  扰  0  
 xian'chu  1  现出  0  
 yue'qu  1  乐曲  0  
-jin'hu、jin'hu  1  近乎  0  
+jin'hu  1  近乎  0  
 jiu'chan  1  纠缠  0  
 tiao'shui  1  跳水  0  
 jiu'yi  1  就医  0  
@@ -11643,7 +11647,8 @@ ceng'chu'bu'qiong  1  层出不穷  0
 hao'hua  1  好话  0  
 mian'zhi  1  免职  0  
 qi'xin'xie'li  1  齐心协力  0  
-zhao、zhua  1  爪  0  
+zhao  1  爪  0  
+zhua  1  爪  0  
 zhen'xi  1  珍稀  0  
 zhu'suo  1  住所  0  
 dian'lan  1  电缆  0  
@@ -14154,7 +14159,7 @@ wai'li  1  歪理  0
 xu  1  嘘  0  
 yan'hua'liao'luan  1  眼花缭乱  0  
 zhi'xiang  1  志向  0  
-beng、beng、beng  1  绷  0  
+beng  1  绷  0  
 biao'bai  1  表白  0  
 chou'chang  1  惆怅  0  
 cuo'wei  1  错位  0  
@@ -18305,7 +18310,7 @@ kao'de'zhu  1  靠得住  0
 lao'zi  1  劳资  0  
 lei'tai'sai  1  擂台赛  0  
 man'fu  1  满腹  0  
-meng、meng  1  蒙  0  
+meng  1  蒙  0  
 niu'ma  1  牛马  0  
 pan'yan  1  攀岩  0  
 qi  1  沏  0  
@@ -21104,7 +21109,6 @@ you'shen  1  幽深  0
 zhen'si  1  真丝  0  
 zhuo'nong  1  捉弄  0  
 zou'xian  1  走险  0  
-a'Q  1  阿Q  0  
 ban'ji  1  班机  0  
 bao'zhang  1  暴涨  0  
 biao'zheng  1  表征  0  
@@ -21550,7 +21554,7 @@ ting'shen  1  挺身  0
 xi'can  1  西餐  0  
 xian'ti  1  舷梯  0  
 xue'ji  1  学籍  0  
-ying'sheng、ying'sheng  1  营生  0  
+ying'sheng  1  营生  0  
 zhai'deng  1  摘登  0  
 zheng'gui  1  正轨  0  
 zhu'ri  1  逐日  0  
@@ -24712,7 +24716,7 @@ shen'geng'ban'ye  1  深更半夜  0
 sheng'wei  1  声威  0  
 shi'shen  1  尸身  0  
 shi'xin  1  实心  0  
-shou'yong、shou'yong  1  受用  0  
+shou'yong  1  受用  0  
 shuai'bian  1  衰变  0  
 shui'huan  1  水患  0  
 si'wu  1  司务  0  
@@ -34626,7 +34630,7 @@ zhong'ji'qiang  1  重机枪  0
 zhuang'xie'gong  1  装卸工  0  
 zou'shen'er  1  走神儿  0  
 zuo'zhen'xian  1  做针线  0  
-ba'da、ba'da  1  吧嗒  0  
+ba'da  1  吧嗒  0  
 bai'hou  1  白喉  0  
 ban'di  1  班底  0  
 ban'shen'bu'sui  1  半身不遂  0  
@@ -43680,7 +43684,6 @@ shui'lun'ji  1  水轮机  0
 dui'jiang  1  对奖  0  
 shui'qun  1  睡裙  0  
 lao'wai'kuai  1  捞外快  0  
-hui nong  1  溃脓  0  
 shuo'bu'lai  1  说不来  0  
 si'guang  1  丝光  0  
 si'yuan  1  私怨  0  
@@ -47983,7 +47986,7 @@ zuo'can  1  佐餐  0
 zuo'ren'qing  1  做人情  0  
 ai'wu'ji'wu  1  爱屋及乌  0  
 ba'bao'fan  1  八宝饭  0  
-ba'ji、ba'ji  1  吧唧  0  
+ba'ji  1  吧唧  0  
 ba'bu  1  拔步  0  
 bai'ban  1  白板  0  
 bang'bi  1  膀臂  0  
@@ -52543,7 +52546,7 @@ gen'liu'jun  1  根瘤菌  0
 gong'gu  1  肱骨  0  
 gong'wai'yun  1  宫外孕  0  
 gu'ji  1  咕叽  0  
-gua'da、gua'da  1  呱嗒  0  
+gua'da  1  呱嗒  0  
 gua'he  1  寡合  0  
 gua'huai  1  挂怀  0  
 gua'xue  1  挂靴  0  

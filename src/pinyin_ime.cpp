@@ -99,9 +99,6 @@ struct pinyin_ime_t
 namespace
 {
 
-/** 候选词数量上限，防止模糊拼音输入时组合爆炸 */
-const size_t MAX_CANDIDATES = 200;
-
 void trie_insert(TrieNode* root, const std::string& word)
 {
 	TrieNode* node = root;
@@ -272,9 +269,10 @@ std::string join(const std::vector<std::string>& v, size_t from, const std::stri
 /**
  * @brief 候选词比较函数（用于排序）
  *
- * 排序规则：
- *   1. 词频高的优先
- *   2. 词频相同时，词长（字数）长的优先
+ * 排序规则（依次）：
+ *   1. 字数多的优先
+ *   2. 拼音长度短的优先（拼音长度短的，匹配度更高）
+ *   3. 频率高的优先
  *
  * 用于 std::sort，配合 lambda 使用。
  *
@@ -305,7 +303,6 @@ std::vector<std::string> guess_pinyin(const pinyin_ime_t* ime, const std::string
 		trie_collect_words(node, result);
 	return result;
 }
-
 
 /**
  * @brief 全拼音节分词（最长优先 + 回溯）
@@ -356,35 +353,49 @@ bool segment(const pinyin_ime_t* ime, const std::string& s, size_t pos, std::vec
 }
 
 /**
- * @brief 递归查找所有可能匹配的拼音
- * 
+ * @brief 遍历 拼音串->词语表，寻找匹配的词语
  * @param ime 输入法实例
- * @param pos 该音节在segments中的位置
- * @param pinyin_str_before 该音节前的拼音
  */
-void guess_cand_rec(pinyin_ime_t* ime, size_t pos, const std::string& pinyin_str_before)
+void guess_cand(pinyin_ime_t* ime)
 {
-	if (pos == ime->segments.size()) return;
+	size_t start = (size_t)ime->solved_yin;
 
-	std::vector<std::string> guessed_pinyin = guess_pinyin(ime, ime->segments[pos]);
-	for (auto &single_yin : guessed_pinyin)
+	for (size_t i = start; i < ime->segments.size(); i++)
 	{
-		std::string pinyin_str = 
-			pinyin_str_before.empty()
-			 ? single_yin
-			 : pinyin_str_before + "\'" + single_yin;
-
-		auto it = ime->pinyin_to_words.find(pinyin_str);
-		if (it != ime->pinyin_to_words.end())
+		for (auto &it : ime->pinyin_to_words)
 		{
-			for (const std::wstring& cand : it->second) {
-				ime->candidates.push_back(std::make_pair(pinyin_str, cand));
-				//if (ime->candidates.size() >= MAX_CANDIDATES) return;
+			// 首字母不对直接跳，避免后续耗时
+			if (it.first[0] != ime->segments[start][0]) continue;
+
+			std::vector<std::string> word_segs;
+			segment(ime, it.first, 0, word_segs);    // 通常必定一次成功，耗时也不会太多
+
+			// 拼音序列的长度不符合，跳
+			if (word_segs.size() != i - start + 1) continue;
+			
+			// 按开头匹配看每单个拼音是否合法
+			bool valid = true;
+			for (size_t j = 0; j < word_segs.size(); j++)
+			{
+				if (word_segs[j].rfind(ime->segments[start + j], 0) != 0) 
+				{
+					valid = false;
+					break;
+				}
 			}
+			if (!valid) continue;
+
+			//std::cout<<it.first<< ":";
+			for (auto &cand : it.second)
+			{
+				//std::cout<<wstring_to_utf8(cand)<< ",";
+				ime->candidates.push_back(std::make_pair(it.first, cand));
+			}
+			//std::cout<<std::endl;
+			
 		}
-		
-		guess_cand_rec(ime, pos + 1, pinyin_str);
 	}
+	
 }
 
 /**
@@ -402,7 +413,8 @@ void compute_candidates(pinyin_ime_t* ime)
 	}
 	size_t s = (size_t)ime->solved_yin;
 
-	guess_cand_rec(ime, s, "");
+	guess_cand(ime);
+	//guess_cand_rec(ime, s, "");
 
 	std::sort(ime->candidates.begin(), ime->candidates.end(),
 		[ime](std::pair<std::string, std::wstring>& a, std::pair<std::string, std::wstring>& b)
