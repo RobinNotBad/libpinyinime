@@ -12117,7 +12117,7 @@ hang'yun  1  航运 0
 hang'zhan  1  航站 0  
 hang'zhan'lou  1  航站楼 0  
 hang'zhou  1  杭州 0  
-hao  14  号 0  嗥 0  嚎 0  壕 0  好 0  毫 0  浩 0  耗 0  薅 0  蚝 0  豪 0  貉 0  郝 0  镐 0  
+hao  14  号 0  嗥 0  嚎 0  壕 0  好 1  毫 0  浩 0  耗 0  薅 0  蚝 0  豪 0  貉 0  郝 0  镐 0  
 hao'ban'tian  1  好半天 0  
 hao'bi  1  好比 0  
 hao'bing  1  号兵 0  
@@ -21960,7 +21960,7 @@ neng'xiao  1  能效 0
 neng'yan'shan'bian  1  能言善辩 0  
 neng'yuan  1  能源 0  
 neng'zhe'duo'lao  1  能者多劳 0  
-ni  12  你 0  倪 0  匿 0  呢 0  妮 0  尼 0  拟 0  泥 0  溺 0  腻 0  逆 0  霓 0  
+ni  12  你 1  倪 0  匿 0  呢 0  妮 0  尼 0  拟 0  泥 0  溺 0  腻 0  逆 0  霓 0  
 ni'ai  1  溺爱 0  
 ni'ba  1  泥巴 0  
 ni'bao  1  匿报 0  
@@ -21981,6 +21981,7 @@ ni'gu  2  尼姑 0  拟古 0
 ni'gu'an  1  尼姑庵 0  
 ni'gu'ding  1  尼古丁 0  
 ni'guang  1  逆光 0  
+ni'hao  1  你好 2  
 ni'hong  1  霓虹 0  
 ni'hong'deng  1  霓虹灯 0  
 ni'ji  1  匿迹 0  

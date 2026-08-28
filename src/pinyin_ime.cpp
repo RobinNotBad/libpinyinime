@@ -50,7 +50,7 @@ struct pinyin_ime_t
 	// 拼音串 -> 词语列表
 	std::map<std::string, std::set<std::wstring>> pinyin_to_words;
 	// 词 -> 累计词频
-	std::map<std::wstring, long long> dictionary;
+	std::map<std::wstring, uint32_t> dictionary;
 
 
 	// 拼音表文件路径
@@ -69,7 +69,7 @@ struct pinyin_ime_t
 	std::vector<std::string> segments;
 
 	// 已确认（已选词）的音节个数，即 segments 中前 solved_yin 个音节已处理
-	int solved_yin;
+	uint32_t solved_yin;
 
 	// 已选中的最终汉字结果
 	std::wstring final_word;
@@ -104,7 +104,7 @@ void trie_insert(TrieNode* root, const std::string& word)
 	TrieNode* node = root;
 	for (char c : word)
 	{
-		int idx = c - 'a';
+		uint32_t idx = c - 'a';
 		if (!node->children[idx])
 			node->children[idx] = new TrieNode();
 		node = node->children[idx];
@@ -118,7 +118,7 @@ TrieNode* trie_find_prefix(TrieNode* root, const std::string& prefix)
 	TrieNode* node = root;
 	for (char c : prefix)
 	{
-		int idx = c - 'a';
+		uint32_t idx = c - 'a';
 		if (!node->children[idx])
 			return nullptr;
 		node = node->children[idx];
@@ -132,7 +132,7 @@ void trie_collect_words(TrieNode* node, std::vector<std::string>& result)
 		return;
 	if (node->is_word)
 		result.push_back(node->word);
-	for (int i = 0; i < 26; i++)
+	for (uint32_t i = 0; i < 26; i++)
 	{
 		if (node->children[i])
 			trie_collect_words(node->children[i], result);
@@ -158,16 +158,16 @@ bool load_pinyin_table(pinyin_ime_t* ime, const std::string& path)
 	while (std::getline(fin, line))
 	{
 		// 查找逗号分隔符（左边是拼音，右边是汉字串）
-		size_t comma = line.find(',');
+		int comma = line.find(',');
 		if (comma == std::string::npos)
 			continue;
 		std::string en = line.substr(0, comma);
 		trie_insert(ime->trie_root, en);
 
-		int k9_id = 0;
-		for (size_t i = 0; i < comma; i++)
+		uint32_t k9_id = 0;
+		for (uint32_t i = 0; i < comma; i++)
 		{
-			for (size_t digit = 2; digit < 10; digit++)
+			for (uint32_t digit = 2; digit < 10; digit++)
 			{
 				std::string btn_txt = k9_map[digit];
 				if (btn_txt.find(en[i]) != std::string::npos) 
@@ -221,14 +221,14 @@ bool load_dictionary(pinyin_ime_t* ime, const std::string& path)
 	if (!fin) return false;
 
 	std::string pinxie;
-	long long word_count;
+	uint32_t word_count;
 	std::string word_utf8;
-	long long word_freq;
+	uint32_t word_freq;
 	while (fin >> pinxie)
 	{
 		if (!(fin >> word_count))
 			break;
-		for (long long i = 0; i < word_count; i++)
+		for (uint32_t i = 0; i < word_count; i++)
 		{
 			if (!(fin >> word_utf8))
 				break;
@@ -254,10 +254,10 @@ bool load_dictionary(pinyin_ime_t* ime, const std::string& path)
  * @param sep  分隔符
  * @return 拼接后的字符串，如 join({"shu","li","kou"}, 1, "'") => "li'kou"
  */
-std::string join(const std::vector<std::string>& v, size_t from, const std::string& sep)
+std::string join(const std::vector<std::string>& v, uint32_t from, const std::string& sep)
 {
 	std::string s;
-	for (size_t i = from; i < v.size(); i++)
+	for (uint32_t i = from; i < v.size(); i++)
 	{
 		if (i > from)
 			s += sep;
@@ -286,8 +286,8 @@ bool words_compare(const pinyin_ime_t* ime,
 {
 	auto da = ime->dictionary.find(a.second);
 	auto db = ime->dictionary.find(b.second);
-	long long fa = (da == ime->dictionary.end()) ? 0 : da->second;
-	long long fb = (db == ime->dictionary.end()) ? 0 : db->second;
+	uint32_t fa = (da == ime->dictionary.end()) ? 0 : da->second;
+	uint32_t fb = (db == ime->dictionary.end()) ? 0 : db->second;
 	if (a.second.length() != b.second.length())
 	    return a.second.length() > b.second.length();
 	if (a.first.length() != b.first.length())
@@ -316,7 +316,7 @@ std::vector<std::string> guess_pinyin(const pinyin_ime_t* ime, const std::string
  * @param out 输出音节列表（递归调用时从后往前插入）
  * @return 分词成功返回 true
  */
-bool segment(const pinyin_ime_t* ime, const std::string& s, size_t pos, std::vector<std::string>& out)
+bool segment(const pinyin_ime_t* ime, const std::string& s, int pos, std::vector<std::string>& out)
 {
 	// 已处理完所有字符，成功
 	if (pos >= s.size())
@@ -327,12 +327,12 @@ bool segment(const pinyin_ime_t* ime, const std::string& s, size_t pos, std::vec
 		return segment(ime, s, pos + 1, out);
 		
 	// 找到下一个显式分隔符或字符串末尾，作为当前音节的最大可能长度
-	size_t end = s.find('\'', pos);
+	int end = s.find('\'', pos);
 	if (end == std::string::npos)
 		end = s.size();
 
 	// 从最长可能音节开始尝试，逐步缩短
-	for (size_t len = end - pos; len >= 1; len--)
+	for (int len = end - pos; len >= 1; len--)
 	{
 		std::string seg_str = s.substr(pos, len);
 
@@ -358,9 +358,9 @@ bool segment(const pinyin_ime_t* ime, const std::string& s, size_t pos, std::vec
  */
 void guess_cand(pinyin_ime_t* ime)
 {
-	size_t start = (size_t)ime->solved_yin;
+	uint32_t start = ime->solved_yin;
 
-	for (size_t i = start; i < ime->segments.size(); i++)
+	for (uint32_t i = start; i < ime->segments.size(); i++)
 	{
 		for (auto &it : ime->pinyin_to_words)
 		{
@@ -375,7 +375,7 @@ void guess_cand(pinyin_ime_t* ime)
 			
 			// 按开头匹配看每单个拼音是否合法
 			bool valid = true;
-			for (size_t j = 0; j < word_segs.size(); j++)
+			for (uint32_t j = 0; j < word_segs.size(); j++)
 			{
 				if (word_segs[j].rfind(ime->segments[start + j], 0) != 0) 
 				{
@@ -411,9 +411,9 @@ void compute_candidates(pinyin_ime_t* ime)
 		ime->finished = true;
 		return;
 	}
-	size_t s = (size_t)ime->solved_yin;
 
 	guess_cand(ime);
+	//uint32_t s = ime->solved_yin;
 	//guess_cand_rec(ime, s, "");
 
 	std::sort(ime->candidates.begin(), ime->candidates.end(),
@@ -432,7 +432,7 @@ void compute_candidates(pinyin_ime_t* ime)
  */
 void update_caches(pinyin_ime_t* ime)
 {
-	ime->segments_cache = join(ime->segments, (size_t)ime->solved_yin, "'");
+	ime->segments_cache = join(ime->segments, ime->solved_yin, "'");
 
 	ime->result_cache = wstring_to_utf8(ime->final_word);
 
@@ -574,7 +574,7 @@ int pinyin_ime_input(pinyin_ime_t* ime, const char* pinyin_utf8)
  * @param index 候选词序号（0-based）
  * @return PINYIN_IME_OK 成功，PINYIN_IME_ERR_INDEX 序号越界
  */
-int pinyin_ime_select(pinyin_ime_t* ime, int index)
+int pinyin_ime_select(pinyin_ime_t* ime, uint32_t index)
 {
 	if (!ime)
 		return PINYIN_IME_ERR_INVALID_ARG;
@@ -709,9 +709,9 @@ int pinyin_ime_get_candidate_count(pinyin_ime_t* ime)
  * @param index 候选词序号（0-based）
  * @return UTF-8 字符串指针（im 生命周期内有效），越界或 im 为 NULL 时返回 NULL
  */
-const char* pinyin_ime_get_candidate(pinyin_ime_t* ime, int index)
+const char* pinyin_ime_get_candidate(pinyin_ime_t* ime, uint32_t index)
 {
-	if (!ime || index < 0 || index >= (int)ime->candidate_cache.size())
+	if (!ime || index >= (int)ime->candidate_cache.size())
 		return nullptr;
 	return ime->candidate_cache[index].c_str();
 }
