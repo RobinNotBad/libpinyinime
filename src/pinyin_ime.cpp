@@ -105,6 +105,7 @@ void trie_insert(TrieNode* root, const std::string& word)
 	for (char c : word)
 	{
 		uint32_t idx = c - 'a';
+		if (idx >= 26) return;
 		if (!node->children[idx])
 			node->children[idx] = new TrieNode();
 		node = node->children[idx];
@@ -119,7 +120,7 @@ TrieNode* trie_find_prefix(TrieNode* root, const std::string& prefix)
 	for (char c : prefix)
 	{
 		uint32_t idx = c - 'a';
-		if (!node->children[idx])
+		if (idx >= 26 || !node->children[idx])
 			return nullptr;
 		node = node->children[idx];
 	}
@@ -338,6 +339,8 @@ bool segment(const pinyin_ime_t* ime, const std::string& s, int pos, std::vector
 
 		bool valid = (trie_find_prefix(ime->trie_root, seg_str) != nullptr);
 
+		//std::cout<<seg_str<<","<<valid<<","<<len<<std::endl;
+
 		// 匹配到后进行后续分词，看是否成功
 		if (valid && segment(ime, s, pos + len, out))
 		{
@@ -364,13 +367,17 @@ void guess_cand_k26(pinyin_ime_t* ime)
 	{
 		for (auto &it : ime->pinyin_to_words)
 		{
+			//std::cout<<std::endl;
+			//std::cout<<it.first<< ":";
+			
 			// 首字母不对直接跳，避免后续耗时
 			if (it.first[0] != ime->segments[start][0]) continue;
 			
 			// 把拼音转换为音节列表，方便计算
 			// 正常情况下必定一次成功，耗时不会多
+			// 不成功的也直接跳，说明词表这一条有问题
 			std::vector<std::string> word_segs;
-			segment(ime, it.first, 0, word_segs);
+			if (!segment(ime, it.first, 0, word_segs)) continue;
 
 			// 音节的数量不符合，跳
 			if (word_segs.size() != i - start + 1) continue;
@@ -387,15 +394,14 @@ void guess_cand_k26(pinyin_ime_t* ime)
 			}
 			if (!valid) continue;
 
-			//std::cout<<it.first<< ":";
 			for (auto &cand : it.second)
 			{
 				//std::cout<<wstring_to_utf8(cand)<< ",";
 				ime->candidates.push_back(std::make_pair(it.first, cand));
 			}
-			//std::cout<<std::endl;
 			
 		}
+		//std::cout<<std::endl;
 	}
 	
 }
