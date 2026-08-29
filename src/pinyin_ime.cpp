@@ -353,10 +353,10 @@ bool segment(const pinyin_ime_t* ime, const std::string& s, int pos, std::vector
 }
 
 /**
- * @brief 遍历 拼音串->词语表，寻找匹配的词语
+ * @brief k26模式下，遍历 拼音串->词语表，寻找匹配的词语
  * @param ime 输入法实例
  */
-void guess_cand(pinyin_ime_t* ime)
+void guess_cand_k26(pinyin_ime_t* ime)
 {
 	uint32_t start = ime->solved_yin;
 
@@ -366,11 +366,13 @@ void guess_cand(pinyin_ime_t* ime)
 		{
 			// 首字母不对直接跳，避免后续耗时
 			if (it.first[0] != ime->segments[start][0]) continue;
-
+			
+			// 把拼音转换为音节列表，方便计算
+			// 正常情况下必定一次成功，耗时不会多
 			std::vector<std::string> word_segs;
-			segment(ime, it.first, 0, word_segs);    // 通常必定一次成功，耗时也不会太多
+			segment(ime, it.first, 0, word_segs);
 
-			// 拼音序列的长度不符合，跳
+			// 音节的数量不符合，跳
 			if (word_segs.size() != i - start + 1) continue;
 			
 			// 按开头匹配看每单个拼音是否合法
@@ -412,9 +414,7 @@ void compute_candidates(pinyin_ime_t* ime)
 		return;
 	}
 
-	guess_cand(ime);
-	//uint32_t s = ime->solved_yin;
-	//guess_cand_rec(ime, s, "");
+	guess_cand_k26(ime);
 
 	std::sort(ime->candidates.begin(), ime->candidates.end(),
 		[ime](std::pair<std::string, std::wstring>& a, std::pair<std::string, std::wstring>& b)
