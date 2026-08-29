@@ -92,7 +92,7 @@ struct pinyin_ime_t
 	std::vector<std::string> candidate_cache;
 
 	// 构造函数：初始化状态变量
-	pinyin_ime_t() : solved_yin(0), finished(false), trie_root(nullptr) {}
+	pinyin_ime_t() : solved_yin(0), finished(true), trie_root(nullptr) {}
 	~pinyin_ime_t() { delete trie_root; }
 };
 
@@ -533,7 +533,7 @@ int pinyin_ime_input(pinyin_ime_t* ime, const char* pinyin_utf8)
 		ime->final_word.clear();
 		ime->candidates.clear();
 		ime->segments_cache.clear();
-		ime->finished = false;
+		ime->finished = true;
 		
 		// 空输入非法
 		if (raw_pinyin.empty())
@@ -547,6 +547,7 @@ int pinyin_ime_input(pinyin_ime_t* ime, const char* pinyin_utf8)
 		if (segment(ime, raw_pinyin, 0, ime->segments))
 		{
 			// 全拼分词成功，计算候选词
+			ime->finished = false;
 			compute_candidates(ime);
 		}
 		else
