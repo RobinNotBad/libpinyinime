@@ -426,12 +426,13 @@ bool match_cand_k9(pinyin_ime_t* ime, uint32_t _k9_idx, std::string k9_str, uint
  */
 void guess_cand_k26(pinyin_ime_t* ime)
 {
-	uint32_t start = ime->solved_yin;
+	uint32_t start_seg = ime->solved_yin;
+	uint32_t seg_cnt = ime->segments.size() - start_seg;
 
 	for (auto &it : ime->pinyin_to_words)
 	{
-		// 如果不满足：9键模式且只有一个数字音节，那么首字母不对直接跳，避免后续耗时
-		if (!(ime->use_k9 && ime->segments.size() == 1) && (it.first[0] != ime->segments[start][0])) continue;
+		// 如果不满足：9键模式且剩余只有一个数字音节，那么首字母不对直接跳，避免后续耗时
+		if (!(ime->use_k9 && seg_cnt == 1) && (it.first[0] != ime->segments[start_seg][0])) continue;
 
 		// 把拼音转换为音节列表，方便计算
 		// 正常情况下必定一次成功，耗时不会多
@@ -441,20 +442,21 @@ void guess_cand_k26(pinyin_ime_t* ime)
 
 		// 26键，只要输入音节数小于该词音节数，直接跳
 		// 9键，到最后的数字音节时，考虑到数字串里不一定有多少音节，需要匹配大于等于音节数的词
-		if ((!ime->use_k9) && (ime->segments.size() - start < word_segs.size())) continue;
+		if ((!ime->use_k9) && (seg_cnt < word_segs.size())) continue;
 
 		// 按开头匹配看每单个拼音是否合法
 		bool valid = true;
 		for (uint32_t j = 0; j < word_segs.size(); j++)
 		{
 			// 9键需要特殊处理最后的数字音节
-			if ((ime->use_k9) && (start + j == ime->segments.size() - 1))
+			if ((ime->use_k9) && (start_seg + j == ime->segments.size() - 1))
 			{
-				valid = match_cand_k9(ime, 0, ime->segments[start + j], j, word_segs);
+				//std::cout<<ime->segments[start_seg + j]<<std::endl;
+				valid = match_cand_k9(ime, 0, ime->segments[start_seg + j], j, word_segs);
 				break;
 			}
 			// 26键，判断是否以当前音节为开头，这样就可以支持模糊拼音
-			if (word_segs[j].rfind(ime->segments[start + j], 0) != 0)
+			if (word_segs[j].rfind(ime->segments[start_seg + j], 0) != 0)
 			{
 				valid = false;
 				break;
@@ -663,14 +665,15 @@ int pinyin_ime_select(pinyin_ime_t* ime, uint32_t index)
 		ime->final_word += chosen;
 		if (ime->use_k9) {
 			// k9 要考虑的就很多了
+			//std::cout<<ime->solved_yin + chosen.length()<<','<<ime->segments.size()<<std::endl;
 			if (ime->solved_yin + chosen.length() >= ime->segments.size()) {
 				std::string k9_numstr = ime->segments.back();  // 只可拷贝，不可引用
 
 				std::vector<std::string> chosen_segs;
 				segmentation(ime, chosen_yin, 0, chosen_segs);
 
-				// 精确拼音的数量：总音节数量 - 1
-				uint32_t exact_seg_count = ime->segments.size() - 1;
+				// 参与此次选词的精确拼音的数量：总音节数 - 已选的音节数 - 最后的1个数字音节
+				uint32_t exact_seg_count = ime->segments.size() - ime->solved_yin - 1;
 				// 从已选词的音节列表里删掉最前面的精确拼音，后面就是 k9 数字串代换的部分
 				if (exact_seg_count != 0)
 					chosen_segs.erase(chosen_segs.begin(), chosen_segs.begin() + exact_seg_count);
@@ -687,10 +690,13 @@ int pinyin_ime_select(pinyin_ime_t* ime, uint32_t index)
 				// 如果 k9 有剩余，再插入剩余的 k9 数字串
 				if (k9_consumed < k9_numstr.length())
 					ime->segments.push_back(k9_numstr.substr(k9_consumed));
+				
 			}
 		}
+		//for (auto &it : ime->segments) std::cout<<it<<',';
 		
 		ime->solved_yin += chosen.length();
+		//std::cout<<ime->solved_yin<<std::endl;
 
 		if (ime->solved_yin >= ime->segments.size())
 		{
