@@ -5247,7 +5247,7 @@ cuo'zhi  1  措置 0
 cuo'zi  2  矬子 0  错字 0  
 cuo'zong  1  错综 0  
 cuo'zong'fu'za  1  错综复杂 0  
-da  10  哒 0  嗒 0  大 0  妲 0  打 0  搭 0  沓 0  答 0  耷 0  达 0  
+da  10  哒 0  嗒 0  大 0  妲 1  打 0  搭 0  沓 0  答 0  耷 0  达 0  
 da'an  2  大案 0  答案 0  
 da'ba  3  大坝 0  大巴 0  打靶 0  
 da'ba'shi  1  打把式 0  
@@ -12117,7 +12117,7 @@ hang'yun  1  航运 0
 hang'zhan  1  航站 0  
 hang'zhan'lou  1  航站楼 0  
 hang'zhou  1  杭州 0  
-hao  14  号 0  嗥 0  嚎 0  壕 0  好 2  毫 0  浩 0  耗 0  薅 0  蚝 0  豪 0  貉 0  郝 0  镐 0  
+hao  14  号 0  嗥 0  嚎 0  壕 0  好 3  毫 0  浩 0  耗 0  薅 0  蚝 0  豪 0  貉 0  郝 0  镐 0  
 hao'ban'tian  1  好半天 0  
 hao'bi  1  好比 0  
 hao'bing  1  号兵 0  
@@ -21553,7 +21553,7 @@ mu'zhong'wu'ren  1  目中无人 0
 mu'zhu  1  牧主 0  
 mu'zhuang  1  木桩 0  
 mu'zi  2  模子 0  母子 0  
-na  8  呐 0  哪 0  娜 0  拿 0  捺 0  纳 0  那 0  钠 0  
+na  8  呐 0  哪 0  娜 0  拿 0  捺 0  纳 1  那 0  钠 0  
 na'ban  2  拿办 0  那般 0  
 na'bian  1  那边 0  
 na'bu'zhun  1  拿不准 0  
@@ -21600,6 +21600,7 @@ na'shou'xi  1  拿手戏 0
 na'shui  1  纳税 0  
 na'shui'ren  1  纳税人 0  
 na'wen  1  拿问 0  
+na'xi'da  1  纳西妲 2  
 na'xi'zu  1  纳西族 0  
 na'xia  1  拿下 0  
 na'xiang  1  纳降 0  
@@ -21960,7 +21961,7 @@ neng'xiao  1  能效 0
 neng'yan'shan'bian  1  能言善辩 0  
 neng'yuan  1  能源 0  
 neng'zhe'duo'lao  1  能者多劳 0  
-ni  12  你 2  倪 0  匿 0  呢 0  妮 0  尼 0  拟 0  泥 0  溺 0  腻 0  逆 0  霓 0  
+ni  12  你 3  倪 0  匿 0  呢 0  妮 0  尼 0  拟 0  泥 0  溺 0  腻 0  逆 0  霓 0  
 ni'ai  1  溺爱 0  
 ni'ba  1  泥巴 0  
 ni'bao  1  匿报 0  
@@ -32600,7 +32601,7 @@ wu'zi'qi  1  五子棋 0
 wu'zu  1  无阻 0  
 wu'zu'qing'zhong  1  无足轻重 0  
 wu'zui  1  无罪 0  
-xi  37  习 0  吸 0  喜 0  嘻 0  夕 0  奚 0  希 0  席 0  息 0  悉 0  惜 0  戏 0  昔 0  晰 0  曦 0  析 0  栖 0  檄 0  汐 0  洗 0  溪 0  烯 0  熄 0  熙 0  牺 0  犀 0  矽 0  硒 0  稀 0  系 0  细 0  膝 0  茜 0  袭 0  西 0  铣 0  锡 0  
+xi  37  习 0  吸 0  喜 0  嘻 0  夕 0  奚 0  希 0  席 0  息 0  悉 0  惜 0  戏 0  昔 0  晰 0  曦 0  析 0  栖 0  檄 0  汐 0  洗 0  溪 0  烯 0  熄 0  熙 0  牺 0  犀 0  矽 0  硒 0  稀 0  系 0  细 0  膝 0  茜 0  袭 0  西 1  铣 0  锡 0  
 xi'ai  1  喜爱 0  
 xi'an  1  西安 0  
 xi'ba'lan  1  稀巴烂 0  

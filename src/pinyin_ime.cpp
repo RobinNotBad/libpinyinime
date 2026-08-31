@@ -428,59 +428,46 @@ void guess_cand_k26(pinyin_ime_t* ime)
 {
 	uint32_t start = ime->solved_yin;
 
-	// 从当前尚未处理的那一项开始
-	for (uint32_t idx_seg = start; idx_seg < ime->segments.size(); idx_seg++)
+	for (auto &it : ime->pinyin_to_words)
 	{
-		for (auto &it : ime->pinyin_to_words)
+		// 如果不满足：9键模式且只有一个数字音节，那么首字母不对直接跳，避免后续耗时
+		if (!(ime->use_k9 && ime->segments.size() == 1) && (it.first[0] != ime->segments[start][0])) continue;
+
+		// 把拼音转换为音节列表，方便计算
+		// 正常情况下必定一次成功，耗时不会多
+		// 不成功的也直接跳，说明词表这一条有问题
+		std::vector<std::string> word_segs;
+		if (!segmentation(ime, it.first, 0, word_segs)) continue;
+
+		// 26键，只要输入音节数小于该词音节数，直接跳
+		// 9键，到最后的数字音节时，考虑到数字串里不一定有多少音节，需要匹配大于等于音节数的词
+		if ((!ime->use_k9) && (ime->segments.size() - start < word_segs.size())) continue;
+
+		// 按开头匹配看每单个拼音是否合法
+		bool valid = true;
+		for (uint32_t j = 0; j < word_segs.size(); j++)
 		{
-			
-			// 首字母不对直接跳，避免后续耗时
-			if ((!ime->use_k9) && (it.first[0] != ime->segments[start][0])) continue;
-			
-			// 把拼音转换为音节列表，方便计算
-			// 正常情况下必定一次成功，耗时不会多
-			// 不成功的也直接跳，说明词表这一条有问题
-			std::vector<std::string> word_segs;
-			if (!segmentation(ime, it.first, 0, word_segs)) continue;
-
-			if (word_segs.size() != idx_seg - start + 1) {
-				// 26键，只要音节的数量不符合，直接跳
-				if (!ime->use_k9) continue;
-				// 9键，到最后的数字音节时，考虑到数字串里不一定有多少音节，需要匹配大于等于音节数的词
-				else if (idx_seg != ime->segments.size() - 1 || word_segs.size() < idx_seg - start + 1) continue;
-			}
-			
-			// 按开头匹配看每单个拼音是否合法
-			bool valid = true;
-			for (uint32_t j = 0; j < word_segs.size(); j++)
+			// 9键需要特殊处理最后的数字音节
+			if ((ime->use_k9) && (start + j == ime->segments.size() - 1))
 			{
-				// 9键需要特殊处理最后的数字音节
-				if ((ime->use_k9) && (start + j == ime->segments.size() - 1))
-				{
-					valid = match_cand_k9(ime, 0, ime->segments[start + j], j, word_segs);
-					break;
-				}
-				// 26键，判断是否以当前音节为开头，这样就可以支持模糊拼音
-				if (word_segs[j].rfind(ime->segments[start + j], 0) != 0) 
-				{
-					valid = false;
-					break;
-				}
+				valid = match_cand_k9(ime, 0, ime->segments[start + j], j, word_segs);
+				break;
 			}
-			if (!valid) continue;
-			//std::cout<<std::endl;
-			//std::cout<<it.first<< ":";
-			//std::cout<<" OK";
-
-			for (auto &cand : it.second)
+			// 26键，判断是否以当前音节为开头，这样就可以支持模糊拼音
+			if (word_segs[j].rfind(ime->segments[start + j], 0) != 0)
 			{
-				ime->candidates.push_back(std::make_pair(it.first, cand));
+				valid = false;
+				break;
 			}
-			
 		}
-		//std::cout<<std::endl;
+		if (!valid) continue;
+
+		for (auto &cand : it.second)
+		{
+			ime->candidates.push_back(std::make_pair(it.first, cand));
+		}
 	}
-	
+
 }
 
 /**
