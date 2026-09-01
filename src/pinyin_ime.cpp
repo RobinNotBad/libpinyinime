@@ -46,7 +46,7 @@ struct TrieNode
 struct pinyin_ime_t
 {
 	// K9 -> 拼音列表
-	std::map<int, std::vector<std::string>> k9_to_pinyin;
+	std::map<std::string, std::vector<std::string>> k9_to_pinyin;
 	// 拼音串 -> 词语列表
 	std::map<std::string, std::set<std::wstring>> pinyin_to_words;
 	// 词 -> 累计词频
@@ -92,6 +92,9 @@ struct pinyin_ime_t
 
 	// 候选词列表的 UTF-8 缓存（按索引对应 candidates）
 	std::vector<std::string> candidate_cache;
+
+	// k9 精确拼音列表
+	std::vector<std::string> k9_exact_cache;
 
 	// 构造函数：初始化状态变量
 	pinyin_ime_t() : solved_yin(0), finished(true), use_k9(false), trie_root(nullptr) {}
@@ -180,7 +183,7 @@ bool load_pinyin_table(pinyin_ime_t* ime, const std::string& path)
 				}
 			}
 		}
-		ime->k9_to_pinyin[k9_id].push_back(en);
+		ime->k9_to_pinyin[std::to_string(k9_id)].push_back(en);
 
 		std::wstring chars = utf8_to_wstring(line.substr(comma + 1));
 		for (wchar_t ch : chars)
@@ -421,10 +424,10 @@ bool match_cand_k9(pinyin_ime_t* ime, uint32_t _k9_idx, std::string k9_str, uint
 }
 
 /**
- * @brief k26模式下，遍历 拼音串->词语表，寻找匹配的词语
+ * @brief 遍历 拼音串->词语表，寻找匹配的词语
  * @param ime 输入法实例
  */
-void guess_cand_k26(pinyin_ime_t* ime)
+void guess_cand(pinyin_ime_t* ime)
 {
 	uint32_t start_seg = ime->solved_yin;
 	uint32_t seg_cnt = ime->segments.size() - start_seg;
@@ -486,11 +489,34 @@ void compute_candidates(pinyin_ime_t* ime)
 		return;
 	}
 
-	guess_cand_k26(ime);
+	guess_cand(ime);
 
 	std::sort(ime->candidates.begin(), ime->candidates.end(),
 		[ime](std::pair<std::string, std::wstring>& a, std::pair<std::string, std::wstring>& b)
 		 { return words_compare(ime, a, b); });
+}
+
+/**
+ * @brief 计算 k9 精确拼音候选
+ */
+void compute_k9_exact(pinyin_ime_t* ime)
+{
+	ime->k9_exact_cache.clear();
+	if (!ime->use_k9) return;
+	std::string k9_str = ime->segments.back();
+	for (auto &it : ime->k9_to_pinyin)
+	{
+		if (k9_str.rfind(it.first, 0) == 0) {
+			for (auto &pinyin : it.second)
+			{
+				ime->k9_exact_cache.push_back(pinyin);
+			}
+		}
+	}
+
+	std::sort(ime->k9_exact_cache.begin(), ime->k9_exact_cache.end(),
+		[ime](std::string& a, std::string& b)
+		 { return (a.length() != b.length()) ? (a.length() > b.length()) : (a > b); });
 }
 
 /**
@@ -512,6 +538,9 @@ void update_caches(pinyin_ime_t* ime)
 	ime->candidate_cache.reserve(ime->candidates.size());
 	for (auto& cand : ime->candidates)
 		ime->candidate_cache.push_back(wstring_to_utf8(cand.second));
+
+	compute_k9_exact(ime);
+
 }
 
 } // namespace
@@ -726,6 +755,53 @@ int pinyin_ime_select(pinyin_ime_t* ime, uint32_t index)
 		return PINYIN_IME_ERR_INVALID_ARG;
 	}
 }
+
+/**
+ * @brief 获取当前 k9 对应的精确拼音数量
+ */
+int pinyin_ime_get_k9_exact_count(pinyin_ime_t* ime)
+{
+	if (!ime)
+		return PINYIN_IME_ERR_INVALID_ARG;
+	return ime->k9_exact_cache.size();
+}
+
+/**
+ * @brief 获取第 index 个 k9 精确拼音，越界返回 NULL
+ */
+const char* pinyin_ime_get_k9_exact(pinyin_ime_t* ime, uint32_t index)
+{
+	if (!ime || index >= ime->k9_exact_cache.size())
+		return NULL;
+	return ime->k9_exact_cache[index].c_str();
+}
+
+/**
+ * @brief 选择第 index 个 k9 精确拼音
+ */
+int pinyin_ime_select_k9_exact(pinyin_ime_t* ime, uint32_t index)
+{
+	if (!ime || index >= ime->k9_exact_cache.size())
+		return PINYIN_IME_ERR_INVALID_ARG;
+
+	std::string& chosen_yin = ime->k9_exact_cache[index];
+	uint32_t k9_consumed = chosen_yin.length();
+
+	std::string k9_numstr = ime->segments.back(); // 只可拷贝，不可引用
+
+	// 删除最后一项，即整个 k9 数字串
+	ime->segments.pop_back();
+	// 重新添加被选择的拼音和截取的数字串
+	ime->segments.push_back(chosen_yin);
+	if (k9_consumed < k9_numstr.length()) ime->segments.push_back(k9_numstr.substr(k9_consumed));
+	else ime->use_k9 = false;
+
+	compute_candidates(ime);
+	update_caches(ime);
+
+	return PINYIN_IME_OK;
+}
+
 
 /**
  * @brief 保存词库到文件
