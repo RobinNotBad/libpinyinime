@@ -11,6 +11,7 @@
 #include <string>
 #include <vector>
 #include <utility>
+#include <chrono>
 
 const char * const k9_map[] = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
 
@@ -104,6 +105,27 @@ struct pinyin_ime_t
 namespace
 {
 
+long long timer = 0;
+
+long long millis() {
+    using namespace std::chrono;
+    auto now = system_clock::now();
+    auto ms = duration_cast<milliseconds>(now.time_since_epoch());
+    return ms.count();
+}
+
+void print_millis(const std::string& name) {
+	std::cout<<"[pinyin_ime] "<<name<<" time="<<millis()<<std::endl;
+}
+
+void timer_set() {
+	timer = millis();
+}
+
+void timer_print(const std::string& name) {
+	std::cout<<"[pinyin_ime] "<<name<<" cost="<<(millis() - timer)<<std::endl;
+}
+
 void trie_insert(TrieNode* root, const std::string& word)
 {
 	TrieNode* node = root;
@@ -145,6 +167,17 @@ void trie_collect_words(TrieNode* node, std::vector<std::string>& result)
 	}
 }
 
+uint32_t letter_to_k9(const char& c) {
+	if ('a' <= c && c <= 'c') return 2;
+	else if ('d' <= c && c <= 'f') return 3;
+	else if ('g' <= c && c <= 'i') return 4;
+	else if ('j' <= c && c <= 'l') return 5;
+	else if ('m' <= c && c <= 'o') return 6;
+	else if ('p' <= c && c <= 's') return 7;
+	else if ('t' <= c && c <= 'v') return 8;
+	else if ('w' <= c && c <= 'z') return 9;
+}
+
 /**
  * @brief 加载拼音表文件
  *
@@ -173,6 +206,9 @@ bool load_pinyin_table(pinyin_ime_t* ime, const std::string& path)
 		uint32_t k9_id = 0;
 		for (uint32_t i = 0; i < comma; i++)
 		{
+			uint32_t digit = letter_to_k9(en[i]);
+			k9_id = k9_id * 10 + digit;
+			/*
 			for (uint32_t digit = 2; digit < 10; digit++)
 			{
 				std::string btn_txt = k9_map[digit];
@@ -182,6 +218,7 @@ bool load_pinyin_table(pinyin_ime_t* ime, const std::string& path)
 					break;
 				}
 			}
+			*/
 		}
 		ime->k9_to_pinyin[std::to_string(k9_id)].push_back(en);
 
@@ -396,9 +433,10 @@ bool match_cand_k9(pinyin_ime_t* ime, uint32_t _k9_idx, std::string k9_str, uint
 	{
 		// 获取该位数字值
 		uint32_t k9_num_curr = k9_str[k9_idx] - '0';
+		uint32_t k9_seg_curr = letter_to_k9(segment_curr[i]);
 
 		// 当前音节中这一位可以与数字匹配
-		if (strchr(k9_map[k9_num_curr], segment_curr[i]) != NULL) {
+		if (k9_num_curr == k9_seg_curr) {
 			// 索引++，下一次循环时判断下一位
 			k9_idx++;
 			// 如果k9数字串消耗完
@@ -436,6 +474,7 @@ void guess_cand(pinyin_ime_t* ime)
 	{
 		// 如果不满足：9键模式且剩余只有一个数字音节，那么首字母不对直接跳，避免后续耗时
 		if (!(ime->use_k9 && seg_cnt == 1) && (it.first[0] != ime->segments[start_seg][0])) continue;
+		if ((ime->use_k9 && seg_cnt == 1) && (letter_to_k9(it.first[0]) != ime->segments.back()[0] - '0')) continue;
 
 		// 把拼音转换为音节列表，方便计算
 		// 正常情况下必定一次成功，耗时不会多
@@ -449,20 +488,33 @@ void guess_cand(pinyin_ime_t* ime)
 
 		// 按开头匹配看每单个拼音是否合法
 		bool valid = true;
-		for (uint32_t j = 0; j < word_segs.size(); j++)
-		{
-			// 9键需要特殊处理最后的数字音节
-			if ((ime->use_k9) && (start_seg + j == ime->segments.size() - 1))
+		if (ime->use_k9) {
+			for (uint32_t j = 0; j < word_segs.size(); j++)
 			{
-				//std::cout<<ime->segments[start_seg + j]<<std::endl;
-				valid = match_cand_k9(ime, 0, ime->segments[start_seg + j], j, word_segs);
-				break;
+				// 9键需要特殊处理最后的数字音节
+				if ((ime->use_k9) && (start_seg + j == ime->segments.size() - 1))
+				{
+					//std::cout<<ime->segments[start_seg + j]<<std::endl;
+					valid = match_cand_k9(ime, 0, ime->segments[start_seg + j], j, word_segs);
+					break;
+				}
+				// 9键不应支持模糊拼音，应当完全匹配
+				if (word_segs[j].compare(ime->segments[start_seg + j]) != 0)
+				{
+					valid = false;
+					break;
+				}
 			}
-			// 26键，判断是否以当前音节为开头，这样就可以支持模糊拼音
-			if (word_segs[j].rfind(ime->segments[start_seg + j], 0) != 0)
+		}
+		else {
+			for (uint32_t j = 0; j < word_segs.size(); j++)
 			{
-				valid = false;
-				break;
+				// 26键，判断是否以当前音节为开头，这样就可以支持模糊拼音
+				if (word_segs[j].rfind(ime->segments[start_seg + j], 0) != 0)
+				{
+					valid = false;
+					break;
+				}
 			}
 		}
 		if (!valid) continue;
@@ -489,11 +541,15 @@ void compute_candidates(pinyin_ime_t* ime)
 		return;
 	}
 
+	timer_set();
 	guess_cand(ime);
+	timer_print("guess_cand");
 
+	timer_set();
 	std::sort(ime->candidates.begin(), ime->candidates.end(),
 		[ime](std::pair<std::string, std::wstring>& a, std::pair<std::string, std::wstring>& b)
 		 { return words_compare(ime, a, b); });
+	timer_print("sort");
 }
 
 /**
@@ -535,9 +591,11 @@ void update_caches(pinyin_ime_t* ime)
 	ime->result_cache = wstring_to_utf8(ime->final_word);
 
 	ime->candidate_cache.clear();
-	ime->candidate_cache.reserve(ime->candidates.size());
+	ime->candidate_cache.resize(ime->candidates.size());
+	/*
 	for (auto& cand : ime->candidates)
 		ime->candidate_cache.push_back(wstring_to_utf8(cand.second));
+	*/
 
 	compute_k9_exact(ime);
 
@@ -561,6 +619,7 @@ extern "C"
  */
 pinyin_ime_t* pinyin_ime_init(const char* pinyin_path, const char* dictionary_path)
 {
+	timer_set();
 	if (!pinyin_path || !dictionary_path)
 		return nullptr;
 	try
@@ -580,6 +639,7 @@ pinyin_ime_t* pinyin_ime_init(const char* pinyin_path, const char* dictionary_pa
 			delete ime;
 			return nullptr;
 		}
+		timer_print("init");
 		return ime;
 	}
 	catch (...)
@@ -616,6 +676,7 @@ void pinyin_ime_destroy(pinyin_ime_t* ime)
  */
 int pinyin_ime_input(pinyin_ime_t* ime, const char* pinyin_utf8)
 {
+	timer_set();
 	if (!ime || !pinyin_utf8)
 		return PINYIN_IME_ERR_INVALID_ARG;
 	try
@@ -628,6 +689,7 @@ int pinyin_ime_input(pinyin_ime_t* ime, const char* pinyin_utf8)
 		ime->final_word.clear();
 		ime->candidates.clear();
 		ime->segments_cache.clear();
+		ime->k9_exact_cache.clear();
 		ime->finished = true;
 		ime->use_k9 = false;
 		
@@ -895,8 +957,10 @@ int pinyin_ime_get_candidate_count(pinyin_ime_t* ime)
  */
 const char* pinyin_ime_get_candidate(pinyin_ime_t* ime, uint32_t index)
 {
-	if (!ime || index >= (int)ime->candidate_cache.size())
+	if (!ime || index >= (int)ime->candidates.size())
 		return nullptr;
+	if (ime->candidate_cache[index].empty())
+		ime->candidate_cache[index] = wstring_to_utf8(ime->candidates[index].second);
 	return ime->candidate_cache[index].c_str();
 }
 
